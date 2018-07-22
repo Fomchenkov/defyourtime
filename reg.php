@@ -1,5 +1,7 @@
 <?php
 
+require_once 'function.php';
+
 session_start();
 
 # Если пользователь авторизован
@@ -19,12 +21,27 @@ if (isset($_POST['nickname'])
     $login = $_POST['login'];
     $password = $_POST['password'];
     $password1 = $_POST['password1'];
-
+    # Проверить совпадение паролей
     if ($password != $password1) {
-        header('Location: reg.php?error=Пароли+не+совпадают'); 
+        header('Location: reg.php?error=Пароли+не+совпадают');
+        exit(0);
     }
-
-    exit;
+    # Проверить уникальность nickname
+    if (!unique_nickname($nickname)) {
+        header('Location: reg.php?error=Такой+nickname+уже+существует');
+        exit(0);
+    }
+    # Проверить уникальность login
+    if (!unique_login($login)) {
+        header('Location: reg.php?error=Такой+логин+уже+существует');
+        exit(0);
+    }
+    # Зарегистрировать новго пользователя
+    register_new_user($nickname, $login, $password);
+    $_SESSION['is_auth'] = true;
+    $_SESSION['login'] = $login;
+    header('Location: success_registration.php');
+    exit(0);
 }
 
 ?>
@@ -126,8 +143,8 @@ if (isset($_POST['nickname'])
     <form action="reg.php" method="POST">
         <p><input type="text" name="nickname" placeholder="Nickname"></p>
         <p><input type="text" name="login" placeholder="E-mail"></p>
-        <p><input type="text" name="password" placeholder="Пароль"></p>
-        <p><input type="text" name="password1" placeholder="Повторите пароль"></p>
+        <p><input type="password" name="password" placeholder="Пароль"></p>
+        <p><input type="password" name="password1" placeholder="Повторите пароль"></p>
         <p><input type="submit" value="Зарегистрироваться"></p>
     </form>
     <p><a href="login.php">Уже есть аккаунт? Войдите!</a></p>

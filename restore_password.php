@@ -5,7 +5,7 @@ session_start();
 # Если пользователь авторизован
 if (isset($_SESSION['is_auth'])) {
     header('Location: lk.php');
-    exit;
+    exit(0);
 }
 
 $title = 'Восстановление пароля';

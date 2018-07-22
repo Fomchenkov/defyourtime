@@ -4,40 +4,23 @@ require_once 'function.php';
 
 session_start();
 
-# Если пользователь авторизован
-if (isset($_SESSION['is_auth'])) {
-    header('Location: lk.php');
+# Если пользователь не авторизован
+if (!isset($_SESSION['is_auth'])) {
+    header('Location: login.php');
     exit(0);
 }
 
-$title = 'Авторизация';
+$title = 'Мои заказы';
 
-# Редирект по кнопкам
-if (isset($_GET['redirect_restore_password'])) {
-    header('Location: restore_password.php');
+$user = get_user_by_login($_SESSION['login']);
+if (!$user) {
+    echo 'Ошибка. Пользователь не существует.';
     exit(0);
 }
-if (isset($_GET['redirect_reg'])) {
-    header('Location: reg.php');
-    exit(0);
-}
-
-# Обработать форму авторизации
-if (isset($_POST['login']) && isset($_POST['password'])) {
-    $login = $_POST['login'];
-    $password = $_POST['password'];
-    # Если пароль не верный
-    if (!login($login, $password)) {
-        header('Location: login.php?error=Неверный+логин+или+пароль');
-        exit(0);
-    }
-    # Пароль верный, начинаем сессию
-    session_start();
-    $_SESSION['is_auth'] = true;
-    $_SESSION['login'] = $login;
-    header('Location: lk.php'); 
-    exit(0);
-}
+$nickname = $user->nickname;
+$login = $user->login;
+$sk = $user->skype_contact;
+$dk = $user->discard_contact;
 
 ?>
 <!DOCTYPE html>
@@ -129,24 +112,17 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
 </div>
 
 <div style="margin-right: 13%;">
-    <p>Авторизация</p>
-    <?php 
-        if (isset($_GET['error'])) {
-            echo "<p>Ошибка: " . $_GET['error'] . "</p>";
-        }
-    ?>
-    <form action="login.php" method="POST">
-        <p><input type="text" name="login" placeholder="E-mail"></p>
-        <p><input type="password" name="password" placeholder="Пароль"></p>
-        <p><a href="restore_password.php">Забыли пароль?</a></p>
-        <p><input type="submit" value="Войти"></p>
+    <h3><?php echo $login ?></h3>
+    <form action="lk.php" method="POST">
+        <p><input type="submit" name="profile" value="Профиль"></p>
     </form>
-    <form action="login.php" method="GET">
-        <p><input type="submit" name="redirect_reg" value="Зарегистрироваться"></p>
+    <form action="lk.php" method="POST">
+        <p><input type="submit" name="my_zakaz" value="Мои заказы"></p>
     </form>
-    <form action="login.php" method="GET">
-        <p><input type="submit" name="redirect_restore_password" value="Восстановить пароль"></p>
+    <form action="lk.php" method="POST">
+        <p><input type="submit" name="logout" value="Выйти"></p>
     </form>
+    <h3>Мои заказы</h3>
 </div>
 
 <div class="footer">
