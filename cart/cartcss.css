@@ -1,0 +1,60 @@
+#wrapper_tovar {
+    width: 430px;
+    float: left;
+    border-radius: 10px;
+  }
+.backtoprice{
+    margin-bottom: 30px;
+}
+#label-place {
+    margin: 10px 0;
+}
+.item_box {
+    margin-bottom: 1px;
+    padding: 1px;
+}
+.item_box::after {
+  content:'';
+  display: table;
+  clear: left;
+}
+.item_box > img {
+  float: right;
+}
+.shopping_list {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.shopping_list td, .shopping_list th {
+    padding: 10px;
+}
+.price_tovar_main{
+  float: left;
+  margin: 5px 0 5px 5px;
+}
+.price_tovar_main_info{
+  float: right;
+  margin: 40px 0 5px 10px;
+}
+.price_tovar{
+  float: left;
+  margin: 10px 0 5px 10px;
+}
+.price_tovar_info{
+  float: right;
+  margin: 10px 0 5px 10px;
+}
+.box_input{
+  margin-top: 5px;
+}
+.box_cena{
+  margin-left: 10px;
+  color: #ffc837;
+  font-size: 20px;
+}
+.box_info{
+  width: 25px;
+  height: 25px;
+  margin-left: 14px;
+}

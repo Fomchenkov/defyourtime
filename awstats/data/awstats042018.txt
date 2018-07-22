@@ -1,0 +1,457 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 201804 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1971                
+POS_TIME 2651                
+POS_VISITOR 9941                
+POS_DAY 12758               
+POS_DOMAIN 3391                
+POS_LOGIN 3737                
+POS_ROBOT 3892                
+POS_WORMS 4327                
+POS_EMAILSENDER 4458                
+POS_EMAILRECEIVER 4601                
+POS_SESSION 13484               
+POS_SIDER 13671               
+POS_FILETYPES 4736                
+POS_DOWNLOADS 4840                
+POS_OS 4888                
+POS_BROWSER 5119                
+POS_SCREENSIZE 5878                
+POS_UNKNOWNREFERER 5952                
+POS_UNKNOWNREFERERBROWSER 6167                
+POS_ORIGIN 6351                
+POS_SEREFERRALS 6489                
+POS_PAGEREFS 6633                
+POS_SEARCHWORDS 6848                
+POS_KEYWORDS 7000                
+POS_MISC 2313                
+POS_ERRORS 7059                
+POS_CLUSTER 3593                
+POS_SIDER_404 7160                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180501001617 44 10922 9541392602210
+FirstTime 20180401004734
+LastTime 20180430213224
+LastUpdate 20180501062919 44 0 43 0 0
+TotalVisits 141                 
+TotalUnique 69                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 69                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 161 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 36914 9 12 71464
+1 7 7 57886 17 23 36162
+2 6 6 51686 21 32 186384
+3 2 2 14618 11 23 89303
+4 4 4 29578 14 17 126991
+5 4 4 29182 5 9 68356
+6 0 0 0 7 14 58643
+7 2 2 14564 4 11 35781
+8 3 3 21900 6 14 72051
+9 9 9 106447 8 23 92733
+10 5 5 69410 3 11 32011
+11 3 3 22071 10 20 93305
+12 6 6 54997 7 16 56347
+13 2 2 20864 10 20 117468
+14 1 1 14471 9 18 54394
+15 33 33 359852 1 16 29221
+16 16 16 195016 4 20 50308
+17 93 93 1186115 7 59 136689
+18 117 117 1564284 6 82 197524
+19 132 132 1702094 7 125 214577
+20 67 67 846487 40 98 314457
+21 45 45 563955 13 66 134018
+22 16 16 197216 7 25 80424
+23 16 16 190268 7 20 77965
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+ru 528 528 6801833
+us 31 31 215780
+de 9 9 66663
+gb 8 8 103817
+ip 7 7 79504
+nl 5 5 36518
+fr 3 3 31142
+id 1 1 0
+ua 1 1 7282
+jp 1 1 7336
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+yandex 82 912961 20180430235241 0
+googlebot 44 336722 20180430193943 0
+no_user_agent 19 111800 20180428201533 0
+bot[\s_+:,\.\;\/\\-] 12 111090 20180425023610 0
+mj12bot 10 117777 20180410180820 0
+[\s_+:,\.\;\/\\-]bot 7 74347 20180404042558 0
+crawl 4 29128 20180410203317 0
+python 1 7336 20180418202852 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 490 6591738 0 0
+html 104 758137 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+winxp 16 16
+macosx 19 19
+win10 384 384
+macosx6 1 1
+win7 11 11
+win8.1 2 2
+linuxandroid 1 1
+winlong 2 2
+Unknown 23 23
+win2000 1 1
+winnt 1 1
+macosx10 2 2
+linux 131 131
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 36
+chrome63.0.3223.8 1 1
+opera52.0.2871.40 13 13
+firefox23.0 2 2
+chrome64.0.3282.137 1 1
+msie6.0 1 1
+firefox34.0 1 1
+chrome58.0.3029.110 1 1
+chrome41.0.2224.3 4 4
+chrome61.0.3163.100 17 17
+firefox55.0 1 1
+chrome67.0.3389.0 2 2
+firefox38.0 1 1
+chrome62.0.3202.94 4 4
+firefox4.0 5 5
+Unknown 16 16
+chrome49.0.2623.112 1 1
+chrome66.0.3359.139 7 7
+firefox35.0 1 1
+firefox50.0 2 2
+chrome63.0.3239.132 11 11
+firefox59.0 197 197
+opera52.0.2871.64 55 55
+chrome60.0.3112.90 2 2
+firefox45.0 1 1
+msie9.0 1 1
+firefox37.0 1 1
+opera9.27 7 7
+chrome65.0.3325.181 224 224
+chrome57.0.2987.133 5 5
+chrome63.0.3239.84 2 2
+chrome54.0.2840.99 1 1
+firefox43.0 1 1
+chrome10.0.648.133 1 1
+firefox54.0 1 1
+opera10.01 2 2
+firefox3.6.3 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Opera/9.27 20180428201531
+acHTTP_component_(AppControls.com) 20180421123030
+\ 20180429160446
+Go_1.1_package_http 20180430192428
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+acHTTP_component_(AppControls.com) 20180421123030
+Go_1.1_package_http 20180430192428
+\ 20180429160446
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 147 147
+From1 1 1
+From2 0 0
+From3 3 3
+From4 443 443
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://hostx.ru 2 2
+http://explorer.ssve.ru/www.defyourtime.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 1 5633
+404 433 93009
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 48
+/administrator.php 2 http://defyourtime.ru/administrator.php
+/apple-app-site-association 3 -
+/gameimg/wow/honor_7_3.jpeg 1 http://defyourtime.ru/gameselect.php
+/cms/admin/ 2 http://defyourtime.ru/cms/admin/
+/users/sign_in 2 http://defyourtime.ru/users/sign_in
+/adminzone 2 http://defyourtime.ru/adminzone
+/gameimg/wow/companiinarg.png 1 http://defyourtime.ru/gameselect.php
+/admin.php 2 http://defyourtime.ru/admin.php
+/gameimg/wow/noch.png 3 http://defyourtime.ru/gameselect.php
+/gameimg/wow/demono.jpeg 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/maunt_1.png 1 http://defyourtime.ru/gameselect.php
+/img/43.png 19 -
+/gameimg/wow/armdeadleg.png 1 http://defyourtime.ru/gameselect.php
+/reviews.php 1 -
+/admin/login.php 2 http://defyourtime.ru/admin/login.php
+/gameimg/wow/koshmar.png 3 http://defyourtime.ru/gameselect.php
+/administrator 2 http://defyourtime.ru/administrator
+/gameimg/wow/idob.png 3 http://defyourtime.ru/gameselect.php
+/gameimg/wow/artefact.png 1 http://defyourtime.ru/gameselect.php
+/admin 2 http://defyourtime.ru/admin
+/robots.txt 154 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 2 -
+/gameimg/wow/hromi.png 1 http://defyourtime.ru/gameselect.php
+/netcat/ 2 http://defyourtime.ru/netcat/
+/cms/ 2 http://defyourtime.ru/cms/
+/gameimg/wow/sargeras.png 3 http://defyourtime.ru/gameselect.php
+/gameimg/wow/koshmarosoz.jpeg 1 http://defyourtime.ru/gameselect.php
+/administrator/index.php 1 http://DEFYOURTIME.RU/administrator/index.php
+/.well-known/apple-app-site-association 3 -
+/gameselect.phpgame_wow=raids 2 http://defyourtime.ru/gameselect.php
+/gameimg/wow/argunit.png 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/honor_7_2.png 1 http://defyourtime.ru/gameselect.php
+/manager 2 http://defyourtime.ru/manager
+/gameimg/wow/maunt_2.png 1 http://defyourtime.ru/gameselect.php
+/wp-login.php 1 http://DEFYOURTIME.RU/wp-login.php
+/user 1 -
+/img/selectgame/apx.png 168 http://defyourtime.ru/gameselect.php
+/user/login 1 http://DEFYOURTIME.RU/user/login
+/infosite.phpinfomode=faq 5 http://defyourtime.ru/
+/gameimg/wow/aprice.jpg 13 http://defyourtime.ru/price.php
+/wp-admin/ 1 https://www.google.com/
+/bitrix/admin/ 1 http://DEFYOURTIME.RU/bitrix/admin/
+/gameimg/wow/oplot_7_2.png 1 http://defyourtime.ru/gameselect.php
+/.well-known/assetlinks.json 6 -
+/404.php 1 -
+/mscms/ 2 http://defyourtime.ru/mscms/
+/gameimg/wow/race.jpeg 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/flyinleg.jpeg 1 http://defyourtime.ru/gameselect.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 69
+2.93.221.65 236 236 3196948 20180430213224
+212.3.130.35 47 47 615261 20180407212526
+212.3.130.208 34 34 496955 20180426161328
+37.144.100.177 29 29 352427 20180403204512
+212.3.130.45 26 26 352445 20180429213227
+46.181.168.73 24 24 293132 20180430201522
+188.226.220.27 20 20 229403 20180424185241
+212.3.130.142 19 19 259000 20180419191813
+46.241.70.102 14 14 148695 20180427154708
+212.3.130.96 12 12 158085 20180415132817
+46.17.200.182 4 4 33827 20180427025031
+82.146.58.161 1 1 7282 20180401004734
+178.62.208.24 5 5 59979 20180424183909
+106.185.52.36 1 1 7336 20180418213539
+128.199.41.247 7 7 96535 20180424194755
+82.146.58.176 2 2 14564 20180410010546
+95.29.133.17 2 2 26417 20180417162030
+2001:67c:2660:425:92e2:baff:fe3d:c6ec 4 4 50935 20180428185139
+77.111.247.7 1 1 16578 20180428185107
+2.95.222.28 1 1 7507 20180425025243
+188.243.58.146 2 2 24661 20180429185857
+88.99.203.210 1 1 7282 20180408211730
+62.109.27.164 1 1 7336 20180421170143
+37.46.128.186 1 1 7336 20180418015400
+82.146.62.80 1 1 7282 20180414162102
+213.251.184.63 1 1 7282 20180412173131
+95.37.251.75 2 2 14843 20180428092247
+109.191.13.57 1 1 7282 20180403131425
+195.154.184.40 1 1 7282 20180411002202
+91.105.237.35 1 1 7336 20180420033113
+212.3.130.34 1 1 18533 20180401125007
+79.104.200.178 1 1 7336 20180421123030
+95.37.205.51 1 1 7282 20180412032726
+222.124.123.64 1 1 0 20180426154519
+88.85.95.125 5 5 36518 20180424082534
+185.156.177.38 2 2 14564 20180411081127
+109.191.18.30 1 1 7336 20180418155211
+46.17.200.184 1 1 10352 20180427025030
+94.154.15.59 1 1 7507 20180427014415
+34.207.157.215 1 1 7282 20180404122943
+185.130.212.72 4 4 29578 20180426002325
+2001:67c:2660:425:92e2:baff:fe0b:6f64 1 1 13555 20180418154731
+217.147.168.38 1 1 7282 20180404075006
+213.202.254.136 2 2 15014 20180428193413
+54.191.253.57 1 1 7507 20180428112119
+18.232.141.183 1 1 7507 20180429041517
+79.137.219.39 2 2 14564 20180412235544
+52.87.86.158 1 1 7282 20180412011251
+54.67.59.131 11 11 80768 20180430180207
+92.63.99.19 1 1 7507 20180424222104
+54.183.165.74 5 5 36743 20180425010250
+46.241.70.5 3 3 39999 20180417095928
+37.46.128.41 3 3 22350 20180430192428
+192.145.239.21 7 7 39284 20180428201531
+185.158.115.13 1 1 7507 20180427192822
+188.233.71.73 1 1 7336 20180422214734
+178.62.4.246 2 2 14789 20180426041958
+64.246.165.50 1 1 7336 20180421165901
+131.153.40.187 1 1 7507 20180425213429
+109.184.14.158 1 1 7282 20180409233858
+34.201.77.53 1 1 7282 20180404122817
+46.241.70.19 3 3 44323 20180403093542
+188.226.226.40 9 9 124331 20180424185912
+62.109.26.168 1 1 7336 20180422230152
+5.101.191.136 1 1 7507 20180428161115
+2001:6d0:ffc8:a0e9:: 2 2 15014 20180429160446
+37.46.133.249 2 2 14564 20180408222057
+188.166.26.63 8 8 103596 20180425224015
+64.246.161.42 1 1 7282 20180403163358
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180401 4 4 51630 4
+20180402 4 4 62856 2
+20180403 70 70 863076 7
+20180404 6 6 51340 6
+20180405 1 1 7282 1
+20180406 21 21 251078 6
+20180407 2 2 14564 1
+20180408 10 10 107426 6
+20180409 1 1 7282 1
+20180410 8 8 81380 6
+20180411 4 4 34949 4
+20180412 4 4 29128 4
+20180413 3 3 21846 2
+20180414 4 4 47281 2
+20180415 3 3 28254 3
+20180416 1 1 7336 1
+20180417 169 169 2436746 4
+20180418 7 7 70009 7
+20180419 10 10 108527 3
+20180420 4 4 51938 4
+20180421 6 6 61667 6
+20180422 4 4 35698 4
+20180423 8 8 100206 4
+20180424 115 115 1389994 10
+20180425 30 30 398188 7
+20180426 8 8 75548 5
+20180427 23 23 229866 7
+20180428 23 23 210281 12
+20180429 28 28 381335 7
+20180430 13 13 133164 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30s-2mn 7
+15mn-30mn 3
+0s-30s 114
+1h+ 9
+5mn-15mn 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/price.php 251 3447420 30 42
+/gameselect.php 142 2407188 16 13
+/ 104 758137 86 74
+/index.php 56 415109 6 8
+/infosite.php 22 248446 2 2
+/Reviews.php 10 56120 1 1
+/php/handler.php 5 795 0 1
+/ecomment.php 4 16660 0 0
+END_SIDER
