@@ -1,37 +1,32 @@
-<?php 
-$infomode = $_GET['infomode'];
-$content = '';
-$title = '';
-switch ($infomode) {
-  case 'CustomEngraving':
-    	$title = "Пользовательское соглашение";
-    	$content = "<center><img src='img/soglas.png' alt=''></center>";
-    	break;
-   case 'konf':
-   		$title = 'Конфиденциальность';
-   		$content = "<center><img src='img/Konf.png' alt=''></center>";
-   	break;
-	case 'discountsAndCoupons':
-		$title = "Скидки и купоны";
-		$content = "";
-		$content .="<center><img src='img/sale.png' alt=''></center>";
-		break;
-	case 'paymentForServices':
-		$title = "Как оплатить ?";
-		$content = "";
-		$content .="<center><img src='img/pay.png' alt=''></center>";
-		break;
-	case 'Workwithus':
-		$title = "Работать с нами";
-		$content = "";
-		$content .= "<center><img src='img/work.png'></center>";
-		break;
-  default:
-		$title = "Наши Гарантии";
-		$content = "";
-		$content .="<center><img src='img/garant.png' alt=''></center>";
-		break;
+<?php
+
+session_start();
+
+# Если пользователь авторизован
+if (isset($_SESSION['is_auth'])) {
+    header('Location: lk.php');
+    exit;
 }
+
+$title = 'Регистрация';
+
+# Обработать форму регистрации
+if (isset($_POST['nickname']) 
+        && isset($_POST['login']) 
+        && isset($_POST['password'])
+        && isset($_POST['password1'])) {
+    $nickname = $_POST['nickname'];
+    $login = $_POST['login'];
+    $password = $_POST['password'];
+    $password1 = $_POST['password1'];
+
+    if ($password != $password1) {
+        header('Location: reg.php?error=Пароли+не+совпадают'); 
+    }
+
+    exit;
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -83,7 +78,7 @@ switch ($infomode) {
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>
 	<div class="lk">
-		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
+	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
 	</div>
 	<div class="popup reg_form">
 		<a class="close" href="#">Close</a>
@@ -120,9 +115,24 @@ switch ($infomode) {
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
+
 <div style="margin-right: 13%;">
-	<?php echo $content; ?>
+    <p>Регистрация</p>
+    <?php 
+        if (isset($_GET['error'])) {
+            echo "<p>Ошибка: " . $_GET['error'] . "</p>";
+        }
+    ?>
+    <form action="reg.php" method="POST">
+        <p><input type="text" name="nickname" placeholder="Nickname"></p>
+        <p><input type="text" name="login" placeholder="E-mail"></p>
+        <p><input type="text" name="password" placeholder="Пароль"></p>
+        <p><input type="text" name="password1" placeholder="Повторите пароль"></p>
+        <p><input type="submit" value="Зарегистрироваться"></p>
+    </form>
+    <p><a href="login.php">Уже есть аккаунт? Войдите!</a></p>
 </div>
+
 <div class="footer">
 	<div class="top">
 		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>

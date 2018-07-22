@@ -1,37 +1,32 @@
-<?php 
-$infomode = $_GET['infomode'];
-$content = '';
-$title = '';
-switch ($infomode) {
-  case 'CustomEngraving':
-    	$title = "Пользовательское соглашение";
-    	$content = "<center><img src='img/soglas.png' alt=''></center>";
-    	break;
-   case 'konf':
-   		$title = 'Конфиденциальность';
-   		$content = "<center><img src='img/Konf.png' alt=''></center>";
-   	break;
-	case 'discountsAndCoupons':
-		$title = "Скидки и купоны";
-		$content = "";
-		$content .="<center><img src='img/sale.png' alt=''></center>";
-		break;
-	case 'paymentForServices':
-		$title = "Как оплатить ?";
-		$content = "";
-		$content .="<center><img src='img/pay.png' alt=''></center>";
-		break;
-	case 'Workwithus':
-		$title = "Работать с нами";
-		$content = "";
-		$content .= "<center><img src='img/work.png'></center>";
-		break;
-  default:
-		$title = "Наши Гарантии";
-		$content = "";
-		$content .="<center><img src='img/garant.png' alt=''></center>";
-		break;
+<?php
+
+session_start();
+
+# Если пользователь авторизован
+if (isset($_SESSION['is_auth'])) {
+    header('Location: lk.php');
+    exit;
 }
+
+$title = 'Авторизация';
+
+# Редирект по кнопкам
+if (isset($_GET['redirect_restore_password'])) {
+    header('Location: restore_password.php');
+}
+if (isset($_GET['redirect_reg'])) {
+    header('Location: reg.php');
+}
+
+# Обработать форму авторизации
+if (isset($_POST['login']) && isset($_POST['password'])) {
+    $login = $_POST['login'];
+    $password = $_POST['password'];
+    # Пробовать авторизоваться
+    echo $login . ' ' . $password;
+    exit;
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -83,7 +78,7 @@ switch ($infomode) {
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>
 	<div class="lk">
-		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
+	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
 	</div>
 	<div class="popup reg_form">
 		<a class="close" href="#">Close</a>
@@ -120,9 +115,28 @@ switch ($infomode) {
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
+
 <div style="margin-right: 13%;">
-	<?php echo $content; ?>
+    <p>Авторизация</p>
+    <?php 
+        if (isset($_GET['error'])) {
+            echo "<p>Ошибка: " . $_GET['error'] . "</p>";
+        }
+    ?>
+    <form action="login.php" method="POST">
+        <p><input type="text" name="login" placeholder="E-mail"></p>
+        <p><input type="text" name="password" placeholder="Пароль"></p>
+        <p><a href="restore_password.php">Забыли пароль?</a></p>
+        <p><input type="submit" value="Войти"></p>
+    </form>
+    <form action="login.php" method="GET">
+        <p><input type="submit" name="redirect_reg" value="Зарегистрироваться"></p>
+    </form>
+    <form action="login.php" method="GET">
+        <p><input type="submit" name="redirect_restore_password" value="Восстановить пароль"></p>
+    </form>
 </div>
+
 <div class="footer">
 	<div class="top">
 		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>

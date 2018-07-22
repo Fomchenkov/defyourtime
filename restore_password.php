@@ -1,37 +1,15 @@
-<?php 
-$infomode = $_GET['infomode'];
-$content = '';
-$title = '';
-switch ($infomode) {
-  case 'CustomEngraving':
-    	$title = "Пользовательское соглашение";
-    	$content = "<center><img src='img/soglas.png' alt=''></center>";
-    	break;
-   case 'konf':
-   		$title = 'Конфиденциальность';
-   		$content = "<center><img src='img/Konf.png' alt=''></center>";
-   	break;
-	case 'discountsAndCoupons':
-		$title = "Скидки и купоны";
-		$content = "";
-		$content .="<center><img src='img/sale.png' alt=''></center>";
-		break;
-	case 'paymentForServices':
-		$title = "Как оплатить ?";
-		$content = "";
-		$content .="<center><img src='img/pay.png' alt=''></center>";
-		break;
-	case 'Workwithus':
-		$title = "Работать с нами";
-		$content = "";
-		$content .= "<center><img src='img/work.png'></center>";
-		break;
-  default:
-		$title = "Наши Гарантии";
-		$content = "";
-		$content .="<center><img src='img/garant.png' alt=''></center>";
-		break;
+<?php
+
+session_start();
+
+# Если пользователь авторизован
+if (isset($_SESSION['is_auth'])) {
+    header('Location: lk.php');
+    exit;
 }
+
+$title = 'Восстановление пароля';
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -83,7 +61,7 @@ switch ($infomode) {
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>
 	<div class="lk">
-		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
+	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
 	</div>
 	<div class="popup reg_form">
 		<a class="close" href="#">Close</a>
@@ -120,9 +98,11 @@ switch ($infomode) {
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
+
 <div style="margin-right: 13%;">
-	<?php echo $content; ?>
+    <p>Восстановление пароля</p>
 </div>
+
 <div class="footer">
 	<div class="top">
 		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
