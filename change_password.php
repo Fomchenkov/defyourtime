@@ -10,7 +10,7 @@ if (!isset($_SESSION['is_auth'])) {
     exit(0);
 }
 
-$title = 'Личный кабинет';
+$title = 'Смена пароля';
 
 if (isset($_POST['profile'])) {
     header('Location: lk.php');
@@ -28,21 +28,23 @@ if (isset($_POST['logout'])) {
     exit(0);
 }
 
-if (isset($_POST['change_profile'])) {
-    change_user_info($_SESSION['login'], $_POST['nickname'], $_POST['sk'], $_POST['dk']);
-    header('Location: lk.php');
+if (isset($_POST['change_pass'])) {
+    $user = get_user_by_login($_SESSION['login']);
+    # Проверить совпадение старого пароля
+    if (md5($_POST['old_password']) != $user->password) {
+        header('Location: change_password.php?error=Ваш+старый+пароль+не+совпадает');
+        exit(0);
+    }
+    # Проверка на длину нового пароля
+	if (strlen($_POST['new_password']) < 6) {
+		header('Location: change_password.php?error=Длина+нового+пароля+короче+6+символов');
+        exit(0);
+	}
+    change_user_password($user->login, $_POST['new_password']);
+    # TODO: уведомить пользователя о смене пароля
+    header('Location: change_password.php?msg=Ваш+пароль+успешно+изменен');
     exit(0);
 }
-
-$user = get_user_by_login($_SESSION['login']);
-if (!$user) {
-    echo 'Ошибка. Пользователь не существует.';
-    exit(0);
-}
-$nickname = $user->nickname;
-$login = $user->login;
-$sk = $user->skype_contact;
-$dk = $user->discard_contact;
 
 ?>
 <!DOCTYPE html>
@@ -134,7 +136,7 @@ $dk = $user->discard_contact;
 </div>
 
 <div style="margin-right: 13%;">
-    <h3><?php echo $login ?></h3>
+    <h3><?php echo $user->login ?></h3>
     <form action="lk.php" method="POST">
         <p><input type="submit" name="profile" value="Профиль"></p>
     </form>
@@ -144,19 +146,21 @@ $dk = $user->discard_contact;
     <form action="lk.php" method="POST">
         <p><input type="submit" name="logout" value="Выйти"></p>
     </form>
-    <h3>Профиль</h3>
-    <form action="lk.php" method="POST">
-        <p>Имя</p>
-        <p><input type="text" name="nickname" value="<?php echo $nickname ?>"></p>
-        <p>Логин</p>
-        <p><input type="text" readonly value="<?php echo $login ?>"></p>
-		<p><a href="change_password.php">Смена пароля</a></p>
-        <h4><p>Контактная информация</p></h4>
-        <p>Skype</p>
-        <p><input type="text" name="sk" value="<?php echo $sk ?>"></p>
-        <p>Discard</p>
-        <p><input type="text" name="dk" value="<?php echo $dk ?>"></p>
-        <p><input type="submit" name="change_profile" value="Сохранить изменения"></p>
+    <h3>Сменить пароль</h3>
+    <?php 
+        if (isset($_GET['error'])) {
+            echo "<p>Ошибка: " . $_GET['error'] . "</p>";
+        }
+        if (isset($_GET['msg'])) {
+            echo "<p>" . $_GET['msg'] . "</p>";
+        }
+    ?>
+    <form action="change_password.php" method="POST">
+        <p>Введите старый пароль</p>
+        <p><input type="password" name="old_password"></p>
+        <p>Введите новый пароль</p>
+        <p><input type="password" name="new_password"></p>
+        <p><input type="submit" name="change_pass" value="Изменить пароль"></p>
     </form>
 </div>
 

@@ -25,7 +25,17 @@ if (isset($_POST['nickname'])
     if ($password != $password1) {
         header('Location: reg.php?error=Пароли+не+совпадают');
         exit(0);
-    }
+	}
+	# Проверка на длину пароля
+	if (strlen($password) < 6) {
+		header('Location: reg.php?error=Длина+пароля+короче+6+символов');
+        exit(0);
+	}
+	# Проверка на правильность введенной почты
+	if (!is_email($login)) {
+		header('Location: reg.php?error=Некорректный+адрес+E-mail');
+        exit(0);
+	}
     # Проверить уникальность nickname
     if (!unique_nickname($nickname)) {
         header('Location: reg.php?error=Такой+nickname+уже+существует');

@@ -146,3 +146,31 @@ function change_user_info($login, $nickname, $sk, $dk) {
     $sql = "UPDATE users SET nickname='$nickname', skype_contact='$sk', discard_contact='$dk' WHERE user_login='$login'";
     $conn->query($sql);
 }
+
+
+/**
+ * Проверить, является ли $email почтовым адресом
+ * Возвращает true если является
+ */
+function is_email($email) {
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        return false;
+    }
+    return true;
+}
+
+/**
+ * Изменить пароль пользователя
+ */
+function change_user_password($login, $new_password) {
+    global $mysql_host;
+    global $mysql_user;
+    global $mysql_password;
+    global $mysql_db;
+
+    $new_password = md5($new_password);
+
+    $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+    $sql = "UPDATE users SET user_password='$new_password' WHERE user_login='$login'";
+    $conn->query($sql);
+}
