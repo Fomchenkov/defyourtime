@@ -174,3 +174,17 @@ function change_user_password($login, $new_password) {
     $sql = "UPDATE users SET user_password='$new_password' WHERE user_login='$login'";
     $conn->query($sql);
 }
+
+/**
+ * Сгенерировать новый пароль
+ * @param $length - длина пароля
+ */
+function generate_new_password($length=10) {
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}

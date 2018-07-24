@@ -28,8 +28,9 @@ if (isset($_POST['logout'])) {
     exit(0);
 }
 
+$user = get_user_by_login($_SESSION['login']);
+
 if (isset($_POST['change_pass'])) {
-    $user = get_user_by_login($_SESSION['login']);
     # Проверить совпадение старого пароля
     if (md5($_POST['old_password']) != $user->password) {
         header('Location: change_password.php?error=Ваш+старый+пароль+не+совпадает');
@@ -41,7 +42,8 @@ if (isset($_POST['change_pass'])) {
         exit(0);
 	}
     change_user_password($user->login, $_POST['new_password']);
-    # TODO: уведомить пользователя о смене пароля
+	# Уведомить пользователя о смене пароля
+	mail($_SESSION['login'], 'Смена пароля DefYourTime', 'Вы успешно сменили пароль на DefYourTime');
     header('Location: change_password.php?msg=Ваш+пароль+успешно+изменен');
     exit(0);
 }

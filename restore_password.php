@@ -1,5 +1,7 @@
 <?php
 
+require_once 'function.php';
+
 session_start();
 
 # Если пользователь авторизован
@@ -9,6 +11,22 @@ if (isset($_SESSION['is_auth'])) {
 }
 
 $title = 'Восстановление пароля';
+
+if (isset($_POST['restore'])) {
+	$user = get_user_by_login($_POST['email']);
+	if (!$user) {
+		header('Location: restore_password.php?error=Данный+Email+ещё+не+зарегистрирован');
+    	exit(0);
+	}
+	$new_password = generate_new_password();
+	change_user_password($user->login, $new_password);
+	$email_text = 'Вы восстановили пароль на сайте DefYourTime. Ваш новый пароль - ';
+	$email_text .= $new_password . ' При желании вы можете сменить его в настройках профиля.';
+	# Уведомить пользователя о восстановлении пароля
+	mail($_POST['email'], 'Восстановление пароля DefYourTime', $email_text);
+	header('Location: restore_password.php?msg=Новый+пароль+выслан+вам+на+Email+');
+    exit(0);
+}
 
 ?>
 <!DOCTYPE html>
@@ -101,6 +119,20 @@ $title = 'Восстановление пароля';
 
 <div style="margin-right: 13%;">
     <p>Восстановление пароля</p>
+	<?php 
+        if (isset($_GET['error'])) {
+            echo "<p>Ошибка: " . $_GET['error'] . "</p>";
+		}
+		if (isset($_GET['msg'])) {
+            echo "<p>" . $_GET['msg'] . "</p>";
+        }
+    ?>
+	<form action="restore_password.php" method="POST">
+		<p>Введите адрес вашей электронной почты</p>
+		<p>Мы вышлем туда пароль</p>
+		<p><input type="text" name="email" placeholder="E-mail"></p>
+        <p><input type="submit" name="restore" value="Подтвердить"></p>
+    </form>
 </div>
 
 <div class="footer">

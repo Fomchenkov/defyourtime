@@ -47,7 +47,9 @@ if (isset($_POST['nickname'])
         exit(0);
     }
     # Зарегистрировать новго пользователя
-    register_new_user($nickname, $login, $password);
+	register_new_user($nickname, $login, $password);
+	# Уведомить о регистрации по E-mail
+	mail($login, 'Регистрация на DefYourTime', 'Вы успешно зарегистрировались на DefYourTime');
     $_SESSION['is_auth'] = true;
     $_SESSION['login'] = $login;
     header('Location: success_registration.php');

@@ -4,6 +4,9 @@
 Установить PHP расширение для MySQL
 sudo apt-get install php-mysql
 
+Установить расширение для отправки email
+sudo apt-get install sendmail
+
 Создать базу данных для сайта
 CREATE DATABASE `site` CHARACTER SET utf8 COLLATE utf8_general_ci;
 */
