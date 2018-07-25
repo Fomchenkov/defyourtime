@@ -4277,7 +4277,7 @@ $info_wow = '';
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>	
 	<div class="lk">
-		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a class="lang show_form" rel="reg_form" href="#LK"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>		
+	  <img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>
 	</div>
 	<div class="popup reg_form">
 		<a class="close" href="#">Close</a>

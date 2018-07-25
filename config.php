@@ -4,7 +4,7 @@
 Установить PHP расширение для MySQL
 sudo apt-get install php-mysql
 
-Установить расширение для отправки email
+Установить расширение для отправки E-mail
 sudo apt-get install sendmail
 
 Создать базу данных для сайта
@@ -16,9 +16,9 @@ $mysql_user = 'root';
 $mysql_password = '123456';
 $mysql_db = 'site';
 
-# Создать необходимые таблицы в базе данных
-$mysqli = mysqli_connect($mysql_host, $mysql_user, $mysql_password, $mysql_db);
-if ($mysqli->connect_error) {
+// Создать необходимые таблицы в базе данных
+$conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 $sql = "CREATE TABLE IF NOT EXISTS users (
@@ -28,6 +28,19 @@ $sql = "CREATE TABLE IF NOT EXISTS users (
 	user_password varchar(255) NOT NULL,
 	skype_contact varchar(255), 
 	discard_contact varchar(255)
-)"; # param BOOLEAN DEFAULT 0,
-$mysqli->query($sql);
-$mysqli->close();
+)";
+$conn->query($sql);
+$sql1 = "CREATE TABLE IF NOT EXISTS orders (
+	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nickname varchar(255) NOT NULL,
+	price int NOT NULL,
+	title varchar(255) NOT NULL,
+	product_id int NOT NULL,
+	count_ int NOT NULL,
+	user_name_ varchar(255),
+	user_phone varchar(255),
+	user_mail varchar(255), 
+	user_comment varchar(255)
+)";
+$conn->query($sql1);
+$conn->close();

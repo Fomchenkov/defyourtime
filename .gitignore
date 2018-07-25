@@ -1,2 +1,5 @@
 *.log
 test.html
+orderlist.txt
+userdata.txt
+cart_data_log.txt

@@ -11,6 +11,28 @@ file_put_contents('cart_data_log.txt', var_export($orderlist, 1) . "\r\n");
 file_put_contents('cart_data_log.txt', var_export($userdata, 1), FILE_APPEND);
 
 
+// Проверить, авторизован ли пользователь
+session_start();
+if (isset($_SESSION['is_auth'])) {
+	$user_login = $_SESSION['login'];
+	require_once '../config.php';
+	// Добавить новый заказ в базу данных
+	$mysqli = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+	if ($mysqli->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
+	foreach($orderlist as $id => $item_data) {
+		$sql = "INSERT INTO orders (nickname, price, title, product_id, 
+		count_, user_name_, user_phone, user_mail, user_comment) VALUES 
+		('$user_login', " . $item_data['price'] . ", '" . $item_data['title'] . "',
+		" . $item_data['id'] . ", " . $item_data['count'] . ", '" . $userdata['user_name'] . "',
+		'" . $userdata['user_phone'] . "', '" . $userdata['user_mail'] . "',
+		'" . $userdata['user_comment'] . "')";
+		$mysqli->query($sql);
+	}
+	$mysqli->close();
+}
+
 // Заголовок письма
 $subject = 'Заказ от '.date('d.m.Y').'г.';
 // ваш Email
