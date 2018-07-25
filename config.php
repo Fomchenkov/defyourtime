@@ -12,8 +12,8 @@ CREATE DATABASE `site` CHARACTER SET utf8 COLLATE utf8_general_ci;
 */
 
 $mysql_host = 'localhost';
-$mysql_user = 'root';
-$mysql_password = '123456';
+$mysql_user = 'cb59644_defyour';
+$mysql_password = 'Vnv2SYMj';
 $mysql_db = 'site';
 
 // Создать необходимые таблицы в базе данных
