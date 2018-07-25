@@ -145,6 +145,43 @@ $dk = $user->discard_contact;
         <p><input type="submit" name="logout" value="Выйти"></p>
     </form>
     <h3>Профиль</h3>
+	<?php
+		$user_amount = get_user_amount($_SESSION['login']);
+		$discount = 0;
+		if ($user_amount > 200) {
+			$discount = 1;
+		}
+		if ($user_amount > 1000) {
+			$discount = 2;
+		}
+		if ($user_amount > 2000) {
+			$discount = 3;
+		}
+		if ($user_amount > 5000) {
+			$discount = 4;
+		}
+		if ($user_amount > 10000) {
+			$discount = 5;
+		}
+		if ($user_amount > 15000) {
+			$discount = 10;
+		}
+		if ($user_amount > 20000) {
+			$discount = 15;
+		}
+		if ($user_amount > 30000) {
+			$discount = 20;
+		}
+		if ($user_amount > 50000) {
+			$discount = 25;
+		}
+		if ($user_amount > 60000) {
+			$discount = 30;
+		}
+		$html = "<p>Моя персональная скидка: $discount %</p>";
+		$html .= "<p><img src=\"img/discounts/" . $discount . ".png\" alt=\"Персональная скидка\"></p>";
+		echo $html;
+	?>
     <form action="lk.php" method="POST">
         <p>Имя</p>
         <p><input type="text" name="nickname" value="<?php echo $nickname ?>"></p>
