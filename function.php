@@ -27,6 +27,43 @@ class User {
     }
 }
 
+class Order {
+    public $id;
+	public $nickname;
+	public $price;
+	public $title;
+	public $product_id;
+	public $count;
+	public $user_name;
+	public $user_phone;
+	public $user_mail;
+    public $user_comment;
+    
+    function __construct(
+        $id,
+        $nickname,
+        $price,
+        $title, 
+        $product_id, 
+        $count,
+        $user_name, 
+        $user_phone, 
+        $user_mail,
+        $user_comment
+    ) {
+        $this->id = $id;
+        $this->nickname = $nickname;
+        $this->price = $price;
+        $this->title = $title;
+        $this->product_id = $product_id;
+        $this->count = $count;
+        $this->user_name = $user_name;
+        $this->user_phone = $user_phone;
+        $this->user_mail = $user_mail;
+        $this->user_comment = $user_comment;
+    }
+}
+
 /**
  * Проверить есть ли в базе данных пользователь
  * с такими логином и паролем
@@ -145,6 +182,7 @@ function change_user_info($login, $nickname, $sk, $dk) {
     $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
     $sql = "UPDATE users SET nickname='$nickname', skype_contact='$sk', discard_contact='$dk' WHERE user_login='$login'";
     $conn->query($sql);
+    $conn->close();
 }
 
 
@@ -173,6 +211,7 @@ function change_user_password($login, $new_password) {
     $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
     $sql = "UPDATE users SET user_password='$new_password' WHERE user_login='$login'";
     $conn->query($sql);
+    $conn->close();
 }
 
 /**
@@ -187,4 +226,60 @@ function generate_new_password($length=10) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
     return $randomString;
+}
+
+/**
+ * Получить сумму покупок пользователя
+ */
+function get_user_amount($login) {
+    global $mysql_host;
+    global $mysql_user;
+    global $mysql_password;
+    global $mysql_db;
+
+    $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+    $sql = "SELECT * FROM orders WHERE nickname='$login'";
+    $amount = 0;
+    if ($result = $conn->query($sql)) {
+        while ($row = $result->fetch_assoc()) {
+            $amount += $row['price'] * $row['count_'];
+        }
+        $result->free();
+    }
+    $conn->close();
+    return $amount;
+}
+
+/**
+ * Получить заказы пользователя
+ */
+function get_user_orders($login) {
+    global $mysql_host;
+    global $mysql_user;
+    global $mysql_password;
+    global $mysql_db;
+
+    $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+    $sql = "SELECT * FROM orders WHERE nickname='$login'";
+    $orders = [];
+    if ($result = $conn->query($sql)) {
+        while ($row = $result->fetch_assoc()) {
+            $new_order = new Order(
+                $row['id'], 
+                $row['nickname'], 
+                $row['price'], 
+                $row['title'], 
+                $row['product_id'], 
+                $row['count_'], 
+                $row['user_name_'], 
+                $row['user_phone'], 
+                $row['user_mail'], 
+                $row['user_comment']
+            );
+            array_push($orders, $new_order);
+        }
+        $result->free();
+    }
+    $conn->close();
+    return $orders;
 }

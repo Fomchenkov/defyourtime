@@ -36,6 +36,7 @@ $dk = $user->discard_contact;
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<link href='js/developer/jqcart.css' rel='stylesheet' type='text/css'>
 	<script>
 		$(document).ready(function() {
 
@@ -122,7 +123,24 @@ $dk = $user->discard_contact;
     <form action="lk.php" method="POST">
         <p><input type="submit" name="logout" value="Выйти"></p>
     </form>
-    <h3>Мои заказы</h3>
+	<h3>Мои заказы</h3>
+	<?php
+		require_once 'function.php';
+		$orders = get_user_orders($_SESSION['login']);
+		$html = '<p class="jqcart-cart-title"><span class="jqcart-print-order"></span></p><div class="jqcart-table-wrapper"><div class="jqcart-manage-order"><div class="jqcart-thead"><div></div><div>Наименование</div><div>Цена</div><div>Кол-во</div><div>Сумма</div><div></div></div>';	
+		for ($i = 0; $i < count($orders); $i++) {	
+			$html .= '<div class="jqcart-tr" data-id="' . $orders[$i]->id . '">';
+			$html .= '<div class="jqcart-small-td jqcart-item-img"></div>';
+			$html .= '<div>' . $orders[$i]->title . '</div>';
+			$html .= '<div class="jqcart-price">' . $orders[$i]->price . '</div>';
+			$html .= '<div><span class="jqcart-incr" data-incr="-1"></span>' . $orders[$i]->count . '<span class="jqcart-incr" data-incr="1"></span></div>';
+			$html .= '<div class="jqcart-sum">' . $orders[$i]->price * $orders[$i]->count . ' p.</div>';
+			$html .= '<div class="jqcart-small-td"></div></div>';
+		}
+		echo $html;
+		$user_amount = get_user_amount($_SESSION['login']);
+		echo "<h3><p>Итого: $user_amount p.</p></h3>";
+	?>
 </div>
 
 <div class="footer">
