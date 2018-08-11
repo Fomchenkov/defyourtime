@@ -16,6 +16,9 @@ $mysql_user = 'root';  # 'cb59644_defyour';
 $mysql_password = '123456';  # 'helloworld';
 $mysql_db = 'site';  # 'cb59644_defyour';
 
+$admin_login = 'admin';
+$admin_password = 'admin';
+
 // Создать необходимые таблицы в базе данных
 $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
 if ($conn->connect_error) {

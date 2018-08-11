@@ -298,7 +298,6 @@ function get_user_orders($login) {
     return $orders;
 }
 
-
 /**
  * Получить ссылки пользователя
  */
@@ -327,7 +326,6 @@ function get_user_links($login) {
     return $links;
 }
 
-
 /**
  * Добавить новую ссылку в базу данных
  */
@@ -341,4 +339,26 @@ function add_new_link($nickname, $twitch, $pic) {
     $sql = "INSERT INTO links (nickname, twitch, pic_url) VALUES ('$nickname', '$twitch', '$pic')";
     $conn->query($sql);
     $conn->close();
+}
+
+/**
+ * Получить все nickname в виде массива
+ */
+function get_all_nicknames() {
+    global $mysql_host;
+    global $mysql_user;
+    global $mysql_password;
+    global $mysql_db;
+
+    $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+    $sql = "SELECT * FROM users";
+    $users = [];
+    if ($result = $conn->query($sql)) {
+        while ($row = $result->fetch_assoc()) {
+            array_push($users, $row['nickname']);
+        }
+        $result->free();
+    }
+    $conn->close();
+    return $users;
 }
