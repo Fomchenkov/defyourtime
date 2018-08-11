@@ -10,7 +10,7 @@ if (isset($_SESSION['is_auth'])) {
     exit(0);
 }
 
-$title = 'Авторизация';
+$title = 'Authorization';
 
 # Редирект по кнопкам
 if (isset($_GET['redirect_restore_password'])) {
@@ -77,45 +77,33 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
 <body>
 <div class="main_menu">
 	<div class="location">
-		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a>
+		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a>
 		<div id="box" style="display: none; position: absolute;">
-			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a></div>
-			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>						
+			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a></div>
+			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>			
 		</div>
 	</div>
 	<div class="ula">
-		<a class="line" href="infosite.php">Гарантии</a>
+		<a class="line" href="infosite.php">Guarantees</a>
 		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Скидки и купоны</a>
 		<a class="line" href="infosite.php?infomode=paymentForServices">Оплата услуг</a>
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>
 	<div class="lk">
-	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
-	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
+		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Personal account</p></a>
 	</div>
 </div>
-
 <div class="callme">
 	<ul style="list-style-type: none; margin-right: 0px;">
-		<li class="s1"><a href="" ></a></li>
-		<li class="s2"><a href="" ></a></li>
-		<li class="s3"><a href="" ></a></li>
-		<li class="s4"><a href="" ></a></li>
-		<li class="s5"><a href="" ></a></li>
-		<li class="s6"><a href="" ></a></li>
-		<li class="s7"><a href="" ></a></li>
-		<li class="s8"><a href="" ></a></li>
-		<li class="s9"><a href="" ></a></li>
+		<a href="skype:defyourtime@gmail.com?chat"><li class="s1"></li></a>
+		<a href="https://discordapp.com/channels/400717982449532929/400717982449532931"><li class="s2"></li></a>
+		<a href="https://t.me/joinchat/AAAAAFJhc9hs8G2RmuOzsg"><li class="s3"></li></a>
+		<a href="https://chat.whatsapp.com/3sYbeaCoVi6Dya4LCxNxdh"><li class="s4"></li></a>
+		<a href="https://www.facebook.com/defyourtime.defyourtime"><li class="s5"></li></a>
+		<a href="https://vk.com/defyourtime"><li class="s6"></li></a>
+		<a href="https://www.youtube.com/channel/UC8KRTXWDf_JKEm8vp3ed9eA/featured?view_as=public"><li class="s7"></li></a>
+		<a href="https://www.instagram.com/defyourtime/"><li class="s8"></li></a>
+		<a href="https://twitter.com/defyourtime"><li class="s9"></li></a>
 	</ul>
 </div>
 <div class="logo">
@@ -127,36 +115,38 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
-
-<div style="margin-right: 13%;">
-    <p>Авторизация</p>
-    <?php 
-        if (isset($_GET['error'])) {
-            echo "<p>Ошибка: " . $_GET['error'] . "</p>";
-        }
-    ?>
-    <form action="login.php" method="POST">
-        <p><input type="text" name="login" placeholder="E-mail"></p>
-        <p><input type="password" name="password" placeholder="Пароль"></p>
-        <p><a href="restore_password.php">Забыли пароль?</a></p>
-        <p><input type="submit" value="Войти"></p>
-    </form>
-    <form action="login.php" method="GET">
-        <p><input type="submit" name="redirect_reg" value="Зарегистрироваться"></p>
-    </form>
-    <form action="login.php" method="GET">
-        <p><input type="submit" name="redirect_restore_password" value="Восстановить пароль"></p>
-    </form>
-</div>
-
-<div class="footer">
-	<div class="top">
-		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
-		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Работать с нами</b></a>
-		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Пользовательское соглашение</b></a>
-		<a href="infosite.php?infomode=konf" class="footer-top"><b>Конфиденциальность</b></a>
+<div class="wrapper-login">
+	<div class="form-login">
+		<div>
+	    <center><h2 class="text-reg-gold">Authorization</h2></center>
+	    <?php 
+	        if (isset($_GET['error'])) {
+	            echo "<p style='color:red'>Error: " . $_GET['error'] . "</p>";
+	        }
+	    ?>
+	    <center>
+	    <form action="login.php" method="POST">
+	        <p><b>E-mail</b><input class="email" type="text" name="login"></p>
+	        <p><b>Password</b><input class="pass" type="password" name="password"></p>
+	        <input class="batton-enter" type="submit" value="Войти">
+	    </form>
+	    </center>
+	    <form  action="login.php" method="GET">
+	        <input class="batton-reg" type="submit" name="redirect_reg" value="Register">
+	    </form>
+	    <form  action="login.php" method="GET">
+	        <input class="batton-restore" type="submit" name="redirect_restore_password" value="Forget your password?">
+	    </form>
+	    </div>
 	</div>
 </div>
-
+<div class="footer">
+	<div class="top">
+		<a href="" class="footer-top" style="margin-left: 20%;"><b>Referal System</b></a>
+		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Work with us</b></a>
+		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Term of service</b></a>
+		<a href="infosite.php?infomode=konf" class="footer-top"><b>Privacy Policy</b></a>
+	</div>
+</div>
 </body>
 </html>

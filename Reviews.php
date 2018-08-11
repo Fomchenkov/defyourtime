@@ -36,30 +36,9 @@ switch ($comm) {
 	<script type="text/javascript" src="mainjs.js"></script>
 	<script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="ecomment.js"></script>
-   	<!-- Put this script tag to the <head> of your page -->
-	<script type="text/javascript" src="//vk.com/js/api/openapi.js?151"></script>	
-	<script type="text/javascript">
-	  VK.init({apiId: 6321241, onlyWidgets: true});
-	</script>
-	<script>
-		$(document).ready(function() {
-
-  			$("body").on("click", "#button-project", function() {
-    			setTimeout(function() {
-      			if ($(".menu-projects").is(":hidden")) {
-        			$('.menu-projects').fadeIn();
-      			}
-    			}, 500);
-  			});
-
-  			$("body").on("click touchmove", function(e) {
-    			if ($(e.target).closest(".menu-projects").length) return;
-    			$(".menu-projects").fadeOut();
-    			e.stopPropagation();
-  			});
-
-			});
-	</script>
+    <!-- TrustBox script -->
+		<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+	<!-- End Trustbox script -->
 	<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -73,82 +52,52 @@ switch ($comm) {
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="main_menu">
 	<div class="location">
-		<a href="#RU" class="lang" id="button-project"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a>
-		<div class="menu-projects">
+		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a>
+		<div id="box" style="display: none; position: absolute;">
 			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a></div>
 			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>						
 		</div>
 	</div>
 	<div class="ula">
-		<a class="line" href="infosite.php">Гарантии</a>
+		<a class="line" href="infosite.php">Guarantees</a>
 		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Скидки и купоны</a>
 		<a class="line" href="infosite.php?infomode=paymentForServices">Оплата услуг</a>
 		<a class="line" href="Reviews.php">Отзывы</a>
-		<a class="line" href="infosite.phpinfomode=faq">FAQ</a>
 	</div>
 	<div class="lk">
-	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>
-	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
+		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>
 	</div>
 </div>
 <div class="logo">
 	<div class="img"><a class="ain" href="index.php"><center><img src="img/logo.png" alt=""></center></a></div>
-	<div id="slider" class="slider_wrap">
-		<img src="img/baner.png" alt="" />
-		<img src="img/baner1.png" alt="" />
-		<img src="img/baner2.png" alt="" />
-		<img src="img/baner3.png" alt="" />
-	</div>	
-</div>
-<div class="game2">
-	<div class="object select">
-	 	<a href="#GAME1"></a>			
-	</div>
-	<div class="object select">
-		<a href="#GAME1"></a>		
-	</div>
-	<div style="margin: 20px; padding-top: 110px;">
-		<a class="ulspisok" href="#GOLD"><p>Золото в WOW</p>
-		<a class="ulspisok" href="#PACH"><p>Пачь 7,3</p></a>
-		<div class="selectmenu">
-			<a href="#RU" id="selectid"><p>ЛУТ РЭЙДЫ ЛЕГИОН</p></a>
-			<div id="box" style="display: none; position: absolute;">
-				<div class="selectop"><a href="#EUR"><p>ПЫЛАЮЩИЙ АНТОРУС</p></a></div>
-				<div class="selectop"><a href="#USA"><p>ГРОБНИЦА САГРЕРОСА</p></a></div>
-				<div class="selectop"><a href="#USA"><p>АНТОРУС ПАРАБАЩЁННЫЙ</p></a></div>
-				<div class="selectop"><a href="#USA"><p>ЦЫТАДЕЛЬ НОЧИ</p></a></div>						
-			</div>
-		</div>
-	</div>	
+	<div class="container_baners">
+		<div id="prev"></div>
+		<ul id="slider-up">
+    		<li><img src="img/baner0.png" alt="" /></li>
+    		<li><img src="img/baner1.png" alt="" /></li>
+    		<li><img src="img/baner2.png" alt="" /></li>
+    		<li><img src="img/baner3.png" alt="" /></li>
+  		</ul>
+  		<ul id="dots">   
+    		<li class="active"></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+  		</ul>
+		<div id="next"></div>	
+  	</div>	
 </div>
 <div class="reviews">
-	<center><h1>ОТЗОВЫ НАШИХ КЛИЕНТОВ</h1></center>
-	<div class="button">
-		<ul class="hr">
-			<li><a href="Reviews.php">На сайте!</a></li>
-			<li><a href="Reviews.php?comm=vk">В контакте!</a></li>
-			<li><a href="Reviews.php?comm=facebook">Facebook!</a></li>
-		</ul>
-	</div>
-	<?php echo $contcomm; ?>
+	<div class="trustpilot-widget" data-locale="ru-RU" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5b6298954a7a1a00011d86c5" data-style-height="24px" data-style-width="100%" data-theme="light">
+	<a href="https://ru.trustpilot.com/review/defyourtime.com" target="_blank">Trustpilot</a>
+</div>
 </div>
 <div class="footer">
 	<div class="top">
-		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
-		<a href="" class="footer-top"><b>Работать с нами</b></a>
-		<a href="" class="footer-top"><b>Пользовательское соглашение</b></a>
-		<a href="" class="footer-top"><b>Конфиденциальность</b></a>
-		<a href="" class="footer-top"><b>Дисклеймер</b></a>
+		<a href="" class="footer-top" style="margin-left: 20%;"><b>Referal System</b></a>
+		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Work with us</b></a>
+		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Term of service</b></a>
+		<a href="infosite.php?infomode=konf" class="footer-top"><b>Privacy Policy</b></a>
 	</div>
 </div>
 </body>

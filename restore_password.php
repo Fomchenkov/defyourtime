@@ -81,17 +81,6 @@ if (isset($_POST['restore'])) {
 	<div class="lk">
 	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
 	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
-	</div>
 </div>
 
 <div class="callme">
@@ -116,9 +105,9 @@ if (isset($_POST['restore'])) {
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
-
-<div style="margin-right: 13%;">
-    <p>Восстановление пароля</p>
+<div class="wrapper-login">
+<div  class="form-login">
+    <center><h2 style="color: #fff">Восстановление пароля</h2></center>
 	<?php 
         if (isset($_GET['error'])) {
             echo "<p>Ошибка: " . $_GET['error'] . "</p>";
@@ -127,14 +116,17 @@ if (isset($_POST['restore'])) {
             echo "<p>" . $_GET['msg'] . "</p>";
         }
     ?>
+    <center>
 	<form action="restore_password.php" method="POST">
-		<p>Введите адрес вашей электронной почты</p>
-		<p>Мы вышлем туда пароль</p>
-		<p><input type="text" name="email" placeholder="E-mail"></p>
-        <p><input type="submit" name="restore" value="Подтвердить"></p>
+		<br>
+		<p><b>Enter your email address</b></p><br>
+		<p><b>We'll send the password</b></p>
+		<p><b>E-mail</b><input class="email" type="text" name="email"></p>
+        <p><input class="batton-enter" type="submit" name="restore" value="Confirm"></p>
     </form>
+    </center>
 </div>
-
+</div>
 <div class="footer">
 	<div class="top">
 		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>

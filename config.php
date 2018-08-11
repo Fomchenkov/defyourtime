@@ -12,9 +12,9 @@ CREATE DATABASE `site` CHARACTER SET utf8 COLLATE utf8_general_ci;
 */
 
 $mysql_host = 'localhost';
-$mysql_user = 'cb59644';
-$mysql_password = 'Vnv2SYMj';
-$mysql_db = 'cb59644_defyour';
+$mysql_user = 'root';  # 'cb59644_defyour';
+$mysql_password = '123456';  # 'helloworld';
+$mysql_db = 'site';  # 'cb59644_defyour';
 
 // Создать необходимые таблицы в базе данных
 $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
@@ -43,4 +43,11 @@ $sql1 = "CREATE TABLE IF NOT EXISTS orders (
 	user_comment varchar(255)
 )";
 $conn->query($sql1);
+$sql2 = "CREATE TABLE IF NOT EXISTS links (
+	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nickname varchar(255) NOT NULL,
+	twitch varchar(255) NOT NULL,
+	pic_url varchar(255) NOT NULL
+)";
+$conn->query($sql2);
 $conn->close();

@@ -10,7 +10,7 @@ if (!isset($_SESSION['is_auth'])) {
     exit(0);
 }
 
-$title = 'Мои заказы';
+$title = 'Orders';
 
 $user = get_user_by_login($_SESSION['login']);
 if (!$user) {
@@ -61,45 +61,33 @@ $dk = $user->discard_contact;
 <body>
 <div class="main_menu">
 	<div class="location">
-		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a>
+		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a>
 		<div id="box" style="display: none; position: absolute;">
-			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a></div>
-			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>						
+			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a></div>
+			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>			
 		</div>
 	</div>
 	<div class="ula">
-		<a class="line" href="infosite.php">Гарантии</a>
+		<a class="line" href="infosite.php">Guarantees</a>
 		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Скидки и купоны</a>
 		<a class="line" href="infosite.php?infomode=paymentForServices">Оплата услуг</a>
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>
 	<div class="lk">
-	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
-	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
+		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Personal account</p></a>
 	</div>
 </div>
-
 <div class="callme">
 	<ul style="list-style-type: none; margin-right: 0px;">
-		<li class="s1"><a href="" ></a></li>
-		<li class="s2"><a href="" ></a></li>
-		<li class="s3"><a href="" ></a></li>
-		<li class="s4"><a href="" ></a></li>
-		<li class="s5"><a href="" ></a></li>
-		<li class="s6"><a href="" ></a></li>
-		<li class="s7"><a href="" ></a></li>
-		<li class="s8"><a href="" ></a></li>
-		<li class="s9"><a href="" ></a></li>
+		<a href="skype:defyourtime@gmail.com?chat"><li class="s1"></li></a>
+		<a href="https://discordapp.com/channels/400717982449532929/400717982449532931"><li class="s2"></li></a>
+		<a href="https://t.me/joinchat/AAAAAFJhc9hs8G2RmuOzsg"><li class="s3"></li></a>
+		<a href="https://chat.whatsapp.com/3sYbeaCoVi6Dya4LCxNxdh"><li class="s4"></li></a>
+		<a href="https://www.facebook.com/defyourtime.defyourtime"><li class="s5"></li></a>
+		<a href="https://vk.com/defyourtime"><li class="s6"></li></a>
+		<a href="https://www.youtube.com/channel/UC8KRTXWDf_JKEm8vp3ed9eA/featured?view_as=public"><li class="s7"></li></a>
+		<a href="https://www.instagram.com/defyourtime/"><li class="s8"></li></a>
+		<a href="https://twitter.com/defyourtime"><li class="s9"></li></a>
 	</ul>
 </div>
 <div class="logo">
@@ -111,46 +99,44 @@ $dk = $user->discard_contact;
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
-
-<div style="margin-right: 13%;">
-    <h3><?php echo $login ?></h3>
-    <form action="lk.php" method="POST">
-        <p><input type="submit" name="profile" value="Профиль"></p>
-    </form>
-    <form action="lk.php" method="POST">
-        <p><input type="submit" name="my_zakaz" value="Мои заказы"></p>
-    </form>
-    <form action="lk.php" method="POST">
-        <p><input type="submit" name="logout" value="Выйти"></p>
-    </form>
-	<h3>Мои заказы</h3>
-	<?php
-		require_once 'function.php';
-		$orders = get_user_orders($_SESSION['login']);
-		$html = '<p class="jqcart-cart-title"><span class="jqcart-print-order"></span></p><div class="jqcart-table-wrapper"><div class="jqcart-manage-order"><div class="jqcart-thead"><div></div><div>Наименование</div><div>Цена</div><div>Кол-во</div><div>Сумма</div><div></div></div>';	
-		for ($i = 0; $i < count($orders); $i++) {	
-			$html .= '<div class="jqcart-tr" data-id="' . $orders[$i]->id . '">';
-			$html .= '<div class="jqcart-small-td jqcart-item-img"></div>';
-			$html .= '<div>' . $orders[$i]->title . '</div>';
-			$html .= '<div class="jqcart-price">' . $orders[$i]->price . '</div>';
-			$html .= '<div><span class="jqcart-incr" data-incr="-1"></span>' . $orders[$i]->count . '<span class="jqcart-incr" data-incr="1"></span></div>';
-			$html .= '<div class="jqcart-sum">' . $orders[$i]->price * $orders[$i]->count . ' p.</div>';
-			$html .= '<div class="jqcart-small-td"></div></div>';
-		}
-		echo $html;
-		$user_amount = get_user_amount($_SESSION['login']);
-		echo "<h3><p>Итого: $user_amount p.</p></h3>";
-	?>
-</div>
-
-<div class="footer">
-	<div class="top">
-		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
-		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Работать с нами</b></a>
-		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Пользовательское соглашение</b></a>
-		<a href="infosite.php?infomode=konf" class="footer-top"><b>Конфиденциальность</b></a>
+<div class="wrapper-login">
+	<div class="form-orders">    
+	    <center><h3 class="text-reg-gold"><?php echo $login ?></h3></center>
+	    <div class="form-center">
+	    <form class="change" action="lk.php" method="POST">
+	        <p><input class="profile" type="submit" name="profile" value="Profile"></p>
+	    </form>
+	    <form class="change" action="lk.php" method="POST">
+	        <p><input class="my-zakaz" type="submit" name="my_zakaz" value="My order"></p>
+	    </form>
+		<form action="lk.php" method="POST">
+	        <p><input class="" type="submit" name="my_links" value="My Links"></p>
+	    </form>
+	    <form class="change" action="lk.php" method="POST">
+	        <p><input class="logout" type="submit" name="logout" value="Exit"></p>
+	    </form>
+	    </div>
+	    <div class="table">
+			<h3>My order</h3>
+			<?php
+				require_once 'function.php';
+				$orders = get_user_orders($_SESSION['login']);
+				$html = '<p class="jqcart-cart-title"><span class="jqcart-print-order"></span></p><div class="jqcart-table-wrapper"><div class="jqcart-manage-order"><div class="jqcart-thead"><div></div><div>Наименование</div><div>Цена</div><div>Кол-во</div><div>Сумма</div><div></div></div>';	
+				for ($i = 0; $i < count($orders); $i++) {	
+					$html .= '<div class="jqcart-tr" data-id="' . $orders[$i]->id . '">';
+					$html .= '<div class="jqcart-small-td jqcart-item-img"></div>';
+					$html .= '<div>' . $orders[$i]->title . '</div>';
+					$html .= '<div class="jqcart-price">' . $orders[$i]->price . '</div>';
+					$html .= '<div><span class="jqcart-incr" data-incr="-1"></span>' . $orders[$i]->count . '<span class="jqcart-incr" data-incr="1"></span></div>';
+					$html .= '<div class="jqcart-sum">' . $orders[$i]->price * $orders[$i]->count . ' p.</div>';
+					$html .= '<div class="jqcart-small-td"></div></div>';
+				}
+				echo $html;
+				$user_amount = get_user_amount($_SESSION['login']);
+				echo "<div style='float: right'><h3 style='margin-top: 50px;'><p>Total: $user_amount p.</p></h3></div>";
+			?>
+		</div>
 	</div>
 </div>
-
 </body>
 </html>

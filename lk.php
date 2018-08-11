@@ -10,7 +10,7 @@ if (!isset($_SESSION['is_auth'])) {
     exit(0);
 }
 
-$title = 'Личный кабинет';
+$title = 'Personal account';
 
 if (isset($_POST['profile'])) {
     header('Location: lk.php');
@@ -19,6 +19,11 @@ if (isset($_POST['profile'])) {
 
 if (isset($_POST['my_zakaz'])) {
     header('Location: orders.php');
+    exit(0);
+}
+
+if (isset($_POST['my_links'])) {
+    header('Location: user_links.php');
     exit(0);
 }
 
@@ -36,7 +41,7 @@ if (isset($_POST['change_profile'])) {
 
 $user = get_user_by_login($_SESSION['login']);
 if (!$user) {
-    echo 'Ошибка. Пользователь не существует.';
+    echo 'Error. User does not exist.';
     exit(0);
 }
 $nickname = $user->nickname;
@@ -82,45 +87,33 @@ $dk = $user->discard_contact;
 <body>
 <div class="main_menu">
 	<div class="location">
-		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a>
+		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a>
 		<div id="box" style="display: none; position: absolute;">
-			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a></div>
-			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>						
+			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a></div>
+			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>			
 		</div>
 	</div>
 	<div class="ula">
-		<a class="line" href="infosite.php">Гарантии</a>
+		<a class="line" href="infosite.php">Guarantees</a>
 		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Скидки и купоны</a>
 		<a class="line" href="infosite.php?infomode=paymentForServices">Оплата услуг</a>
 		<a class="line" href="Reviews.php">Отзывы</a>
 	</div>
 	<div class="lk">
-	<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>	
-	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
+		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Personal account</p></a>
 	</div>
 </div>
-
 <div class="callme">
 	<ul style="list-style-type: none; margin-right: 0px;">
-		<li class="s1"><a href="" ></a></li>
-		<li class="s2"><a href="" ></a></li>
-		<li class="s3"><a href="" ></a></li>
-		<li class="s4"><a href="" ></a></li>
-		<li class="s5"><a href="" ></a></li>
-		<li class="s6"><a href="" ></a></li>
-		<li class="s7"><a href="" ></a></li>
-		<li class="s8"><a href="" ></a></li>
-		<li class="s9"><a href="" ></a></li>
+		<a href="skype:defyourtime@gmail.com?chat"><li class="s1"></li></a>
+		<a href="https://discordapp.com/channels/400717982449532929/400717982449532931"><li class="s2"></li></a>
+		<a href="https://t.me/joinchat/AAAAAFJhc9hs8G2RmuOzsg"><li class="s3"></li></a>
+		<a href="https://chat.whatsapp.com/3sYbeaCoVi6Dya4LCxNxdh"><li class="s4"></li></a>
+		<a href="https://www.facebook.com/defyourtime.defyourtime"><li class="s5"></li></a>
+		<a href="https://vk.com/defyourtime"><li class="s6"></li></a>
+		<a href="https://www.youtube.com/channel/UC8KRTXWDf_JKEm8vp3ed9eA/featured?view_as=public"><li class="s7"></li></a>
+		<a href="https://www.instagram.com/defyourtime/"><li class="s8"></li></a>
+		<a href="https://twitter.com/defyourtime"><li class="s9"></li></a>
 	</ul>
 </div>
 <div class="logo">
@@ -132,19 +125,22 @@ $dk = $user->discard_contact;
 		<img src="img/baner3.png" alt="" />
 	</div>	
 </div>
-
-<div style="margin-right: 13%;">
-    <h3><?php echo $login ?></h3>
-    <form action="lk.php" method="POST">
-        <p><input type="submit" name="profile" value="Профиль"></p>
-    </form>
-    <form action="lk.php" method="POST">
-        <p><input type="submit" name="my_zakaz" value="Мои заказы"></p>
-    </form>
-    <form action="lk.php" method="POST">
-        <p><input type="submit" name="logout" value="Выйти"></p>
-    </form>
-    <h3>Профиль</h3>
+<center><h3 class="user-text"><?php echo $login ?></h3></center>
+<div class="wrapper-login">
+<div class="form-lk" >
+    <div class="button">
+	    <form action="lk.php" method="POST">
+	        <p><input class="profile" type="submit" name="profile" value="Profile"></p>
+	    </form>
+	    <form action="lk.php" method="POST">
+	        <p><input class="my-zakaz" type="submit" name="my_zakaz" value="My order"></p>
+	    </form>
+		<form action="lk.php" method="POST">
+	        <p><input class="" type="submit" name="my_links" value="My Links"></p>
+	    </form>
+	    <form action="lk.php" method="POST">
+	        <p><input class="logout" type="submit" name="logout" value="Exit"></p>
+	    </form>
 	<?php
 		$user_amount = get_user_amount($_SESSION['login']);
 		$discount = 0;
@@ -178,33 +174,34 @@ $dk = $user->discard_contact;
 		if ($user_amount > 60000) {
 			$discount = 30;
 		}
-		$html = "<p>Моя персональная скидка: $discount %</p>";
+		$html = "<p style='color: #fff; text-align:center;'>Моя персональная<br> скидка: $discount %</p>";
 		$html .= "<p><img src=\"img/discounts/" . $discount . ".png\" alt=\"Персональная скидка\"></p>";
 		echo $html;
 	?>
-    <form action="lk.php" method="POST">
-        <p>Имя</p>
-        <p><input type="text" name="nickname" value="<?php echo $nickname ?>"></p>
-        <p>Логин</p>
-        <p><input type="text" readonly value="<?php echo $login ?>"></p>
-		<p><a href="change_password.php">Смена пароля</a></p>
-        <h4><p>Контактная информация</p></h4>
-        <p>Skype</p>
-        <p><input type="text" name="sk" value="<?php echo $sk ?>"></p>
-        <p>Discard</p>
-        <p><input type="text" name="dk" value="<?php echo $dk ?>"></p>
-        <p><input type="submit" name="change_profile" value="Сохранить изменения"></p>
-    </form>
+	</div>
+	<div class="user-info">
+		<div>
+	    <form action="lk.php" method="POST">
+	    	<h3 class="profile-text">Profile</h3>
+	        <p><span>Nickname</span><input type="text" class="nick-lk" readonly name="nickname" value="<?php echo $nickname ?>"></p>
+	        <p><span>E-mail</span><input type="text" size="10" class="email-lk" value="<?php echo $login ?>"></p>
+			<span><a href="change_password.php" style="color: #000">Password change</a></span>
+	        <h5 class="text-ki"><p>Contact information</p></h5>       	
+	        	<p><span>Skype</span><input class="sk-dis" type="text" name="sk" value="<?php echo $sk ?>"></p>        	
+	        <p><span>Discord</span><input class="sk-dis" type="text" name="dk" value="<?php echo $dk ?>"></p>  	
+	        <p><input type="submit" class="batton-enter" name="change_profile" value="Save the changes"></p>
+	    </form>
+	   	</div>	
+    </div>
 </div>
-
+</div>
 <div class="footer">
 	<div class="top">
-		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
-		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Работать с нами</b></a>
-		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Пользовательское соглашение</b></a>
-		<a href="infosite.php?infomode=konf" class="footer-top"><b>Конфиденциальность</b></a>
+		<a href="" class="footer-top" style="margin-left: 20%;"><b>Referal System</b></a>
+		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Work with us</b></a>
+		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Term of service</b></a>
+		<a href="infosite.php?infomode=konf" class="footer-top"><b>Privacy Policy</b></a>
 	</div>
 </div>
-
 </body>
 </html>

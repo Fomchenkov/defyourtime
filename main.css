@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	outline: none;
 }
 img, iframe{
 	max-width: 100%;
@@ -35,21 +36,25 @@ body{
 	float: left;
 }
 p, h2, li, a, h1, span{
-	font-family: Akrobat-Regular;
+	font-family: 'Roboto', sans-serif;
 	text-decoration-line: none;
 }
-
+.main-text{
+	color: #edde5d;
+}
 a.line{
 	text-decoration: none;
 	color: #C0C0C0;
 	margin: 100px;
-	font-size: 24px;
+	font-size: 20px;
 }
 a.line:hover{
 	color: #FFD700;
 }
 .reviews{
+	margin-top: 10%;
 	width: 500px;
+	height: 100vh;
 }
 /* Меню */
 .main_menu{
@@ -78,7 +83,7 @@ img.langi{
 p.langt{
 	margin-top: 13px;
 	float: right;
-	margin-right: 18px;
+	margin-right: 15px;
 }
 p.langtna{
 	margin-top: 13px;
@@ -88,7 +93,7 @@ p.langtna{
 p.langtru{
 	margin-top: 10px;
 	float: right;
-	margin-right: 15px;
+	margin-right: 50px;
 }
 .ula{
 	float: left;
@@ -97,7 +102,7 @@ p.langtru{
 .location{
 	padding-top: 10px;
 	float: left;
-	width: 100px;
+	width: 150px;
 	padding-left: 10px;
 	background: #232526;
 	background: linear-gradient(to bottom, #232526, #414345);
@@ -311,7 +316,7 @@ a.lang:hover{
 	width: 30vw;
 	margin-top: 5%;
 	margin-left: 7%;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	color: #D3D3D3;
 }
 .videoframe{
@@ -329,8 +334,7 @@ a.lang:hover{
 }
 .game{
 	padding: 40px;
-	float: left;
-	
+	float: left;	
 }
 .shadowimg{
 	box-shadow: 0 0 20px #232526;
@@ -414,60 +418,75 @@ a.lang:hover{
 	margin: 70px 0px 10px 10px;
 }
 .game3{
-	background: url("img/gameico/backicon.png") center;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-radius: 10px;
+	border-left: 4px solid;
+	height: 70px;
+	max-height: 100%;
 	text-align: center;
 	float: left;
-	color: #fff;
 	text-align: center;
-}
-.game-opt{
-	width: 59%;
-	height: 70px;
-	margin: 20px 0px 10px 26%;
-	text-align: center;
-}
-.menu_style_gold, .menu_style_pach, .menu_style_raid, .menu_style_uslugi, .menu_style_prochie{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #fff;
-	height: 50px;
+}
+.game3:first-child{
+	border-left: none;
+	border-radius: 10px 0 0 10px;
+}
+.game3:last-child{
+	border-radius: 0px 10px 10px 0;
+}
+.game3:hover{
+	background-color: #ccc;
+}
+.game-opt{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	border: solid 4px;
+	border-radius: 10px;
+	width: 82%;
+	height: 40px;
+	margin: 50px 0px 10px 10%;
+	text-align: center;
+}
+.menu_style_gold, .menu_style_pach, .menu_style_raid, .menu_style_uslugi, .menu_style_prochie{
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
 }
 .menu_style_gold{
-	width: 89px;	
+	width: 150px;	
 }
 .menu_style_gold:hover{
 	color: #ffc837;
 }
 .menu_style_pach{
-	width: 50px;
+	width: 150px;
 }
 .menu_style_pach:hover{
 	color: #ffc837;
 }
 .menu_style_raid{
-	width: 89px;
+	width: 150px;
 }
 .menu_style_raid:hover{
 	color: #ffc837;
 }
 .menu_style_uslugi{
-	width: 89px;
+	width: 150px;
 }
 .menu_style_uslugi:hover{
 	color: #ffc837;
 }
 .menu_style_prochie{
-	width: 89px;
+	width: 150px;
 }
 .menu_style_prochie:hover{
 	color: #ffc837;
 }
 .menu_style_sp{
-	width: 135px;
+	width: 150px;
 }
 .menu_style_sp:hover{
 	color: #ffc837;
@@ -564,7 +583,7 @@ p.headers{
 .ulinfosite_price{
 	padding-left: 35px;
 	font-size: 22px;
-	color: #F0E68C;
+	color: #FFF;
 }
 .borerinfosite{
 	height: 100px;
@@ -579,13 +598,17 @@ p.headers{
 /*Выбор игры*/
 .blockslider{
 	width: 100vw;
-	height: 40vh;
 	background: #081214;
+	margin-top: 150px;
 }
 .textmain{
-	margin-top: 100px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	font-size: 40px;
 	text-align: center;
+}
+.acv{
+	background-color: #ccc;
 }
 .mainframegame{
 	width: 350px;
@@ -593,7 +616,6 @@ p.headers{
 	float: left;
 	margin: 50px;
 	transition: 1s linear;
-
 }
 .mainframegame:hover {
   -webkit-transform: scale(1.02);
@@ -614,116 +636,278 @@ p.headers{
 	float: left;
 }
 .anchor{
-	width: 90vw;
-	height: 100px;
+	width: 80vw;
+	height: 80px;
 	float: left;
-	margin-left: 33%;
-	margin-top: 10px;
+	margin-left: 5%;
+	margin-top: 20px;
+	color: #000;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	align-content: space-around;
 }
 .anchor_many{
 	width: 90vw;
-	height: 100px;
+	height: 80px;
 	float: left;
 	margin-left: 10%;
 	margin-top: 10px;
+	display: flex;
+	
 }
 .selectanchor{
 	float: left;
 	margin: 10px;
 	font-size: 28px;
 }
+.selectanchor a{
+	color: #000;
+}
+.selectanchor a:hover{
+	text-decoration: underline;
+}
 /*--------------------------------------*/
 /* Личный кабинет */
-.popup {
-	position:fixed;
-	top:40%;
-	left:50%;
-	display:none;
-	overflow:hidden;
-	height: 300px;
-	background: #081214;
-	z-index:100;
-	behavior: url(PIE.htc);
+.form-lk{
+	margin-left: 24%;
+	margin-top: 1%;
+	width: 50vw;
+	display: flex;
+	align-content: flex-start;
+	background: linear-gradient(to bottom, #232526, #414345);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 20px;
 }
-.reg_form {
-	margin-left:-200px;
-	width:460px;
+.form-login{
+	margin-top: 1%;
+	position: absolute;
+	width: 40vw;
+	left: 35%;
+	background: linear-gradient(to bottom, #232526, #414345);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 20px;
 }
-.reg_form form { 
-	margin-top:10px;
-	margin-left: 20px;
-	color: #D3D3D3;
+.form-change{
+	margin-top: 1%;
+	position: absolute;
+	width: 32vw;
+	left: 35%;
+	background: linear-gradient(to bottom, #232526, #414345);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 20px;
 }
-h2.text{
-	color: #D3D3D3;
-	margin-top: 20px;
+.form-orders{
+	margin-top: 1%;
+	position: absolute;
+	width: 60vw;
+	height: 100vh;
+	max-height: 100%;
+	left: 25%;
+	background: linear-gradient(to bottom, #232526, #414345);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 20px;
+	color: #fff;
+}
+.table{
+	max-height: 100%;
+	height: 100vh;
+	width: 98%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 1%;
+}
+.form-center{
+	margin-left: 10%;
+}
+.change{
+	float: left;
+	margin-left: 18px;
+}
+.form-change span{
+	color: #fff;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.form-login p{
+	margin-left: 10px;
+	color: #fff;
+}
+.email, .pass, .nick{
+	text-align: center;
+}
+.email{
+	content: 'E-mail';
+	font-size: 28px;
+	border-radius: 20px;
+	margin: 50px 0px 50px 35px;
+	background-color: transparent;
+	border: solid #edde5d;
+	color: #fff;
+}
+.pass{
+	content: 'Password';
+	font-size: 28px;
+	border-radius: 20px;
+	margin: 20px 0px 20px 10px;
+	background-color: transparent;
+	border: solid #edde5d;
+	color: #fff;
+}
+.nick{
+	font-size: 28px;
+	border-radius: 20px;
+	margin: 20px 0px 20px 10px;
+	background-color: transparent;
+	border: solid #edde5d;
+	color: #fff;
+}
+.nick-lk{
+	font-size: 32px;
+	border-radius: 20px;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	text-align: center;
+	margin-left: 10px;
+}
+.email-lk{
+	content: 'E-mail';
+	font-size:28px;
+	width: 300px;
+	border-radius: 20px;
+	margin: 50px 0px 30px 35px;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+}
+.sk-dis{
+	font-size: 32px;
+	border-radius: 20px;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	border: solid #edde5d;
+	color: #fff;
+}
+.pd-reg{
+	margin-left: 65px;
+}
+.pd-reg-mail{
+	margin-left: 90px;
+}
+.button{
+	float: left;
+	margin-left: 50px;
+}
+.user-info{
+	float: left;
+	flex-basis: 80%;
 	margin-left: 30px;
 }
-.reg_form label {
-	width:150px;
-	height:26px;
-	font:bold 12px/26px;
-	margin-left: 15px;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+.user-text{
+	margin-top: 20px;
 }
-.reg_form input[type=text], .reg_form input[type=password] {
-	margin-bottom:10px;
-	margin-left: 15px;
-	padding: 0 3px;
-	width:294px;
-	height:22px;
-	font:bold 12px/26px Arial, san-serif;
-	border:1px solid #ccc;
+.profile, .my-zakaz, .logout{
+	height: 50px;
+	width: 180px;
+	border: none;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: #000;
+	font-weight: 600;
+	cursor: pointer;
+	background: linear-gradient(to bottom, #edde5d, #f09819);
 }
-.reg_form input[type=submit] {
-	margin:5px 25% 0 20px;
-	padding:3px 10px;
-	float:right;
-	background:url("img/loginbatton.png") no-repeat;
-	width: 190px;
-	height: 35px;
-	border:0;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	border-radius:3px;
-	font:bold 10px Arial, san-serif;
-	text-transform:uppercase;
-	position:relative;
-	color: #000;ursor:pointer;
-	behavior: url(PIE.htc);
+.profile:hover{
+	background: linear-gradient(to bottom, #f09819, #edde5d);
 }
-.reg_form input[type=submit]:hover {
-	color:#fff;
+.my-zakaz:hover{
+	background: linear-gradient(to bottom, #f09819, #edde5d);
 }
-.popup a.close {
-	width:16px;
-	height:16px;
-	display:block;
-	text-indent:-9999px;
-	position:absolute;
-	top:30px;
-	right:20px;
-	background:url(img/close.png) no-repeat;
+.logout:hover{
+	background: linear-gradient(to bottom, #f09819, #edde5d);
 }
-#overlay {
-	width:100%;
-	height:100%;
-	position:fixed;
-	top:0;
-	left:0;
-	display:none;
-	background:#000;
-	opacity:.8;
+.text-reg-gold{
+	color: #edde5d;
+	font-size: 24px;
+	font-weight: 600;
+}
+.user-info p{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.user-info span{
+	color: #fff;
+}
+.text-ki{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.user-info span{
+	text-align: left;
+}
+.profile-text{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: #fff;
+}
+.user-info input{
+	font-size: 20px;
+	background-color: transparent;
+	width: 240px;
+}
+.batton-enter, .batton-reg, .batton-restore{
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+}
+.batton-enter{
+	margin-left: 10px;
+	color: #000;
+	background: linear-gradient(to bottom, #edde5d, #f09819);
+}
+.batton-reg{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+.batton-restore{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+.batton-enter:hover{
+	background: linear-gradient(85deg, #f09819, #edde5d);
+}
+.wrapper-login{
+	height: 100vh;
 }
 /*------------------------------------------------------------------------------------------------*/
 /* Прайс */
 .priceblock{
 	background: url("gameimg/wow/back.jpg") no-repeat;
 	background-size: cover;
-  	width: 99.9%;
+  	width: 100%;
+  	max-width: 100%;
   	height: 100%;
   	margin: 0;
   	padding: 0;
@@ -738,9 +922,14 @@ h2.text{
 	box-shadow: 0 0 0.8em #ffc837;
 	background: linear-gradient(to bottom, #232526, #414345) center;
 }
+.spisok h1{
+	color: #ffc837;
+}
+.spisok h2{
+	color: #ffc837;
+}
 .infotovar{
-	width: 1200px;
-	color: #fff;
+	width: 700px;
 	margin-top: 2%;
 	margin-right: 10%;
 	float: right;
@@ -812,10 +1001,7 @@ input[type=number]::-webkit-outer-spin-button {
 margin: 0;
 }
 /*-----------------------------------------------*/
-@font-face{
-	font-family: Akrobat-Regular;
-	src: url("font/Akrobat-Regular.ttf");
-}
+
 @media screen and (width: 1680px){
 	.videotext{
 		font-size: 1.4em;

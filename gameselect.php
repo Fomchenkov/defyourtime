@@ -4,41 +4,50 @@ $content_wow = '';
 switch ($game_wow) {
 	case 'raids':
 		$content_wow = '<div class="game-opt">
-							<div class="game3">
-							  <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_prochie" href="">Ресурсы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="">Питомцы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_raid" href="">Прочее</a>
-							</div>
+						  <div class="game3">
+						    <a class="menu_style_gold" href="price.php?price_wow=gold">Wow GOLD</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Patch 8.0.1</a>
+						  </div>
+						  <div class="game3 acv">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Powerleveling</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Achievements</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_prochie" href="">Currency</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Mounts</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="">Pets</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_raid" href="">Other</a>
+						  </div>
 						</div>';
-		$content_wow .= "<p class='textmain'><b>НАШИ ПРЕДЛОЖЕНИЯ<br>Пве услуги</b></p>
-		<div class='anchor'><a href='#reid'><p class='selectanchor'>Рейды</p></a><a href='#dungeons'><p class='selectanchor'>| Подземелья |</p></a><a href='#achiv'><p class='selectanchor'>Достижения | </p></a><a href='#learn'><p class='selectanchor'>Обучение | </p></a><a href='#maunt'><p class='selectanchor'>Маунты |</p></a><a href='#package'><p class='selectanchor'>Пакеты услуг</p></a></div>
+		$content_wow .= "<p class='textmain'><b><br>PVE</b></p>
+						<center>
+						<div class='anchor'>
+							<div class='selectanchor'><a href='#reid'><p>Raids</p></a></div>
+							<div class='selectanchor'><a href='#dungeons'><p>Dungeons</p></a></div>
+							<div class='selectanchor'><a href='#achiv'><p>Achievements</p></a></div>
+							<div class='selectanchor'><a href='#learn'><p>Coaching</p></a></div>
+							<div class='selectanchor'><a href='#maunt'><p>Mounts</p></a></div>
+							<div class='selectanchor'><a href='#package'><p>Packages</p></a></div>
+						</div>
+						</center>
 						<div class='popular'>
-							<div class='raids'><h1><a id='reid'>Рейды</a></h1>
+							<div class='raids'><h1><a id='reid'>Raids</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -52,14 +61,14 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
 							<div class='raids'>
-							<h1><a id='dungeons'>Подземелья</a></h1>
+							<h1><a id='dungeons'>Dungeons</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=Dangeon-WPARI'><img width='588' src='gameimg/wow/Tovar/dang/Dang1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=Dangeon-EP'><img width='588' src='gameimg/wow/Tovar/dang/Dang2.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=Dangeon-EPP'><img width='588' src='gameimg/wow/Tovar/dang/Dang3.png' alt=''></a></div>
 							</div>
 							<div class='raids'>
-							<h1><a id='achiv'>Достижения</a></h1>
+							<h1><a id='achiv'>Dungeons</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php'><img width='588' src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img width='588' src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -73,7 +82,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php'><img width='588' src='gameimg/wow/koshmar.png' alt=''></a></div>
 							</div>
 							<div class='raids'>
-							<h1><a id='learn'>Обучение</a></h1>
+							<h1><a id='learn'>Coaching</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -87,7 +96,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
 							<div class='raids'>
-							<h1><a id='maunt'>Маунты</a></h1>
+							<h1><a id='maunt'>Mounts</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-BR'><img src='gameimg/wow/Tovar/mounts/mount1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-SD'><img src='gameimg/wow/Tovar/mounts/mount23.png' alt=''></a></div>
@@ -101,7 +110,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-PL'><img src='gameimg/wow/Tovar/mounts/mount20.png' alt=''></a></div>
 							</div>
 							<div class='raids'>
-							<h1><a id='package'>Пакеты услуг</a></h1>
+							<h1><a id='package'>Packages</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/pak1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/pak2.png' alt=''></a></div>
@@ -110,66 +119,60 @@ switch ($game_wow) {
 						</div>";
 		break;
 	case 'dungeons':
-		$content_wow = '<div class="game-opt">
-							<div class="game3">
-							  <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_prochie" href="">Ресурсы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="">Питомцы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_raid" href="">Прочее</a>
-							</div>
+				$content_wow = '<div class="game-opt">
+						  <div class="game3">
+						    <a class="menu_style_gold" href="price.php?price_wow=gold">Wow GOLD</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Patch 8.0.1</a>
+						  </div>
+						  <div class="game3 acv">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Powerleveling</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Achievements</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_prochie" href="">Currency</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Mounts</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="">Pets</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_raid" href="">Other</a>
+						  </div>
 						</div>';
-		$content_wow .= "<p class='textmain'><b>НАШИ ПРЕДЛОЖЕНИЯ<br>ПВП услуги</b></p>
-		<div class='anchor'><a href='arena'><p class='selectanchor'>Арена</p></a><a href='#rbg'><p class='selectanchor'>| РБГ |</p></a><a href='#teach'><p class='selectanchor'>Обучение |</p></a><a href='#maunt'><p class='selectanchor'>Маунты |</p</a><a href='#achiv'><p class='selectanchor'>Достижения |</p></a><a href='#package'><p class='selectanchor'>Пакеты услуг</p></a></div>
+ $content_wow .= "<p class='textmain'><b><br>PVP</b></p>
+						<div class='anchor'>
+							<div class='selectanchor'><a href='#arena'><p>Arena</p></a></div>
+							<div class='selectanchor'><a href='#rbg'><p>RBG	</p></a></div>
+							<div class='selectanchor'><a href='#teach'><p>Coaching</p></a></div>
+							<div class='selectanchor'><a href='#maunt'><p>Mounts</p</a></div>
+							<div class='selectanchor'><a href='#achiv'><p>Achievements</p></a></div>
+							<div class='selectanchor'><a href='#package'><p>Packages</p></a></div>
+						</div>
 						<div class='popular'>
-							<div class='raids'><h1><a id='arena'>Арена</a></h1>
+							<div class='raids'><h1><a id='arena'>Arena</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=PVP-ARENA-PAP'><img src='gameimg/wow/Tovar/pvp/3.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/pvp/5.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=PVP-ARENA-GLAD'><img src='gameimg/wow/Tovar/pvp/5.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='rbg'>РБГ</a></h1>
+							<div class='raids'><h1><a id='rbg'>RBG	</a></h1>
 							<hr>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/pvp/1.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/pvp/2.png' alt=''></a></div>
-                            <div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/pvp/4.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=PVP-RBG-LVLUPHONOR'><img src='gameimg/wow/Tovar/pvp/1.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=PVP_RBG-WIN'><img src='gameimg/wow/Tovar/pvp/2.png' alt=''></a></div>
+                            <div class='mainframegame'><a href='price.php?price_wow=PVP-RBG-PRPB'><img src='gameimg/wow/Tovar/pvp/4.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='teach'>Обучение</a></h1>
-							<hr>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/noch.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/idob.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/koshmar.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							</div>
-							<div class='raids'><h1><a id='maunt'>Маунты</a></h1>
+							<div class='raids'><h1><a id='teach'>Coaching</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -182,7 +185,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='achiv'>Достижения</a></h1>
+							<div class='raids'><h1><a id='maunt'>Mounts</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -195,7 +198,20 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='package'>Пакеты услуг</a></h1>
+							<div class='raids'><h1><a id='achiv'>Achievements</a></h1>
+							<hr>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/noch.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/idob.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/koshmar.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							</div>
+							<div class='raids'><h1><a id='package'>Packages</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/pak1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/pak2.png' alt=''></a></div>
@@ -205,276 +221,170 @@ switch ($game_wow) {
 		break;
 	case 'pach':
 		$content_wow = '<div class="game-opt">
-							<div class="game3">
-							  <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_prochie" href="">Ресурсы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="">Питомцы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_raid" href="">Прочее</a>
-							</div>
+						  						 						  <div class="game3">
+						    <a class="menu_style_gold" href="price.php?price_wow=gold">Wow GOLD</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Patch 8.0.1</a>
+						  </div>
+						  <div class="game3 acv">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Powerleveling</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Achievements</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_prochie" href="">Currency</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Mounts</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="">Pets</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_raid" href="">Other</a>
+						  </div>
 						</div>';
-		$content_wow .= "<p class='textmain'><b>НАШИ ПРЕДЛОЖЕНИЯ - Обновление 7,3</b></p>
+ $content_wow .= "<p class='textmain'><b><br>Patch 8.0.1</b></p>
+						 					<div class='anchor'>
+							<div class='selectanchor'><a href='#Pwlvl'><p>Powerleveling</p></a></div>
+							<div class='selectanchor'><a href='#package'><p>Packages</p></a></div>
+      <div class='selectanchor'><a href='#maunt'><p>Mounts</p</a></div> 
+</div>
 						<div class='popular'>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/race.jpeg' alt=''>
-									<h2><center><b>Ранний доступ к союзным расам</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
+							<div class='raids'><h1><a id='Pwlvl'>Powerleveling</a></h1>
+							<hr>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/lvl1.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/Equip1.png' alt=''></a></div>
+<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/race.png' alt=''></a></div> 
+                             </div>
+						<div class='raids'><h1><a id='teach'>Coaching</a></h1>
+							<hr>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/noch.png' alt=''></a></div>
 							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/artefact.png' alt=''>
-									<h2><center><b>Фарм силы артефакта Обновлено под 7.3</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/flyinleg.jpeg' alt=''>
-									<h2><center><b>Полеты в Легионе</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/hromi.png' alt=''>
-									<h2><center><b>Смерти Хроми</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/oplot_7_2.png' alt=''>
-									<h2><center><b>Кампания оплота 7.2</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/maunt_1.png' alt=''>
-									<h2><center><b>Мозговой червь любителя загадок</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/companiinarg.png' alt=''>
-									<h2><center><b>Кампания на Аргусе 7.3</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/honor_7_2.png' alt=''>
-									<h2><center><b>Репутация Идеала</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/honor_7_3.jpeg' alt=''>
-									<h2><center><b>Репутации 7.3 Армия Света и Защитники Аргуса</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/armdeadleg.png' alt=''>
-									<h2><center><b>Армия погибели Легиона</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/demono.jpeg' alt=''>
-									<h2><center><b>Демонобоец</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/koshmarosoz.jpeg' alt=''>
-									<h2><center><b>Осознанный кошмар</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/argunit.png' alt=''>
-									<h2><center><b>Дымчатый Аргунит</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							<div class='mainframegame'>
-								<a href='price.php'>
-									<img width='428' height='270' src='gameimg/wow/maunt_2.png' alt=''>
-									<h2><center><b>Белоногий аргусский скиталец</b></center></h2>
-									<h3><p>краткое описание:</p></h3>
-									<ul class='selectinfo'>
-										<li>Срок выполнения: 4-5 часов</li>
-										<li>Требование к персонажу: 110 уровень</li>
-									</ul>
-								</a>
-							</div>
-							</div>
-						</div>";
-		break;
-	case 'leveling':
-	$content_wow = '<div class="game-opt">
-							<div class="game3">
-							  <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_prochie" href="">Ресурсы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="">Питомцы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_raid" href="">Прочее</a>
-							</div>
+							<div class='raids'><h1><a id='maunt'>Mounts</a></h1>
+							<hr>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/1.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/mountsBFA/2.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/mountsBFA/3.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/mountsBFA/4.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/mountsBFA/5.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/6.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/7.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/8.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/9.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/10.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/11.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/12.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/13.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/14.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/15.png' alt=''></a></div> 
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/16.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/17.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/18.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/19.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/20.png' alt=''></a></div> 
+<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/30.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/21.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/22.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/23.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/24.png' alt=''></a></div>
+<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/25.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/26.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/27.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/28.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/29.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/31.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/32.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/33.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/34.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/35.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/36.png' alt=''></a></div> 
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/37.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/38.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/39.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/40.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/41.png' alt=''></a></div> 
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/42.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/43.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/mountsBFA/44.png' alt=''></a></div> 
+</div>
+						</div>";				
+		break;	case 'leveling':
+					$content_wow = '<div class="game-opt">
+						  <div class="game3">
+						    <a class="menu_style_gold" href="price.php?price_wow=gold">Wow GOLD</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Patch 8.0.1</a>
+						  </div>
+						  <div class="game3 acv">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Powerleveling</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Achievements</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_prochie" href="">Currency</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Mounts</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="">Pets</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_raid" href="">Other</a>
+						  </div>
 						</div>';
-		$content_wow .= "<p class='textmain'><b>НАШИ ПРЕДЛОЖЕНИЯ<br>Прокачка</b></p>
-		<div class='anchor_many'><a href='#pers'><p class='selectanchor'>Персонаж</p></a><a href='#proff'><p class='selectanchor'>| Профессии |</p></a><a href='#artf'><p class='selectanchor'>Артефакт | </p></a><a href='#reput'><p class='selectanchor'>Репутации | </p></a><a href='#quest'><p class='selectanchor'>Задания |</p></a><a href='#transmog'><p class='selectanchor'>Наборы трансмогрификации |</p></a><a href='#pets'><p class='selectanchor'>Питомцы |</p</a><a href='#legendw'><p class='selectanchor'>Легендарное оружие |</p></a><a href='#package'><p class='selectanchor'>Пакеты услуг</p></a></div>
-							<div class='raids'><h1><a id='pers'>Персонаж</a></h1>
+ $content_wow .= "<p class='textmain'><b><br>Powerleveling</b></p> 
+<div class='anchor'>
+								<div class='selectanchor'><a href='#pers'><p>Character</p></a></div>
+								<div class='selectanchor'><a href='#proff'><p>Professions</p></a></div>
+								<div class='selectanchor'><a href='#artf'><p>Artifact</p></a></div>
+								<div class='selectanchor'><a href='#reput'><p>Reputation</p></a></div>
+								<div class='selectanchor'><a href='#quest'><p>Quests</p></a></div>
+								<div class='selectanchor'><a href='#transmog'><p>Transmogrification gear</p></a></div>
+								<div class='selectanchor'><a href='#pets'><p>Pets</p</a></div>
+								<div class='selectanchor'><a href='#legendw'><p>Legendary weapon</p></a></div>
+								<div class='selectanchor'><a href='#package'><p>Packages</p></a></div>
+							</div>
+							<div class='raids'><h1><a id='pers'>Character</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-PP'><img src='gameimg/wow/Tovar/achiv/1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-IABM'><img src='gameimg/wow/Tovar/achiv/3.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-FAP'><img src='gameimg/wow/Tovar/achiv/6.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-AFGA'><img src='gameimg/wow/Tovar/achiv/11.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/Equip1.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-PA'><img src='gameimg/wow/Tovar/Equip1.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='proff'>Профессии</a></h1>
+							<div class='raids'><h1><a id='proff'>Professions</a></h1>
 							<hr>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/prof/1.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/prof/2.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/prof/3.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/prof/4.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-VQP'><img src='gameimg/wow/Tovar/prof/1.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-SP'><img src='gameimg/wow/Tovar/prof/2.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-KP'><img src='gameimg/wow/Tovar/prof/3.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-VP'><img src='gameimg/wow/Tovar/prof/4.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='artf'>Артефакт</a></h1>
+							<div class='raids'><h1><a id='artf'>Artifact</a></h1>
 							<hr>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/3.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/6.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-FAP'><img src='gameimg/wow/Tovar/achiv/3.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-IABM'><img src='gameimg/wow/Tovar/achiv/6.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='reput'>Репутация</a></h1>
-							<hr>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/noch.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/idob.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/koshmar.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							</div>
-							<div class='raids'><h1><a id='quest'>Задания</a></h1>
-							<hr>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/2.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/5.png' alt=''></a></div>
-                            <div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/7.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/8.png' alt=''></a></div>
-                            <div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/9.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/10.png' alt=''></a></div>
-                            <div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/13.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/achiv/12.png' alt=''></a></div>
-							</div>
-							<div class='raids'><h1><a id='transmog'>Набор трансмогрификации</a></h1>
+							<div class='raids'><h1><a id='reput'>Reputation	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -487,7 +397,18 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='pets'>Питомцы</a></h1>
+							<div class='raids'><h1><a id='quest'>Quests</a></h1>
+							<hr>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-PVL'><img src='gameimg/wow/Tovar/achiv/2.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-DS'><img src='gameimg/wow/Tovar/achiv/5.png' alt=''></a></div>
+                            <div class='mainframegame'><a href='price.php?price_wow=LVLUP-SH'><img src='gameimg/wow/Tovar/achiv/7.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-D'><img src='gameimg/wow/Tovar/achiv/8.png' alt=''></a></div>
+                            <div class='mainframegame'><a href='price.php?price_wow=LVLUP-KO'><img src='gameimg/wow/Tovar/achiv/9.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-BS'><img src='gameimg/wow/Tovar/achiv/10.png' alt=''></a></div>
+                            <div class='mainframegame'><a href='price.php?price_wow=LVLUP-I'><img src='gameimg/wow/Tovar/achiv/13.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=LVLUP-LQ'><img src='gameimg/wow/Tovar/achiv/12.png' alt=''></a></div>
+							</div>
+							<div class='raids'><h1><a id='transmog'>Transmogrification gear	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -500,7 +421,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='legendw'>Легендарное оружие</a></h1>
+							<div class='raids'><h1><a id='pets'>Pets</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -513,7 +434,20 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='package'>Пакеты услуг</a></h1>
+							<div class='raids'><h1><a id='legendw'>Legendary weapon</a></h1>
+							<hr>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/noch.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/idob.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/koshmar.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+							</div>
+							<div class='raids'><h1><a id='package'>Packages</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/pak1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/pak2.png' alt=''></a></div>
@@ -524,41 +458,55 @@ switch ($game_wow) {
 		break;
 	case 'achivement':
 		$content_wow = '<div class="game-opt">
-							<div class="game3">
-							  <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_prochie" href="">Ресурсы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="">Питомцы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_raid" href="">Прочее</a>
-							</div>
-						</div>';
-		$content_wow .= "<p class='textmain'><b>НАШИ ПРЕДЛОЖЕНИЯ<br>Достижения</b></p>
-		<div class='anchor_many'><a href='#pvp'><p class='selectanchor'>ПВП</p></a><a href='#scout'><p class='selectanchor'>| Исследования |</p></a><a href='#garni'><p class='selectanchor'>Гарнизон | </p></a><a href='#quest'><p class='selectanchor'>Задания | </p></a><a href='#scenario'><p class='selectanchor'>Сценарии |</p></a><a href='#pocemonmaster'><p class='selectanchor'>Битвы питомцев |</p></a><a href='#oplot'><p class='selectanchor'>Оплот класса |</p</a><a href='#koll'><p class='selectanchor'>Коллекции |</p></a><a href='#worldq'><p class='selectanchor'>Мировые события |</p></a><a href='#rep'><p class='selectanchor'>Реупутация |</p></a><a href='#proff'><p class='selectanchor'>Профессии |</p></a><a href='#raidanddangeon'><p class='selectanchor'>Подземелья и Рейды |</p></a><a href='#great'><p class='selectanchor'>Великие подвиги</p></a></div>
+						 						  <div class="game3">
+						    <a class="menu_style_gold" href="price.php?price_wow=gold">Wow GOLD</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Patch 8.0.1</a>
+						  </div>
+						  <div class="game3 acv">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Powerleveling</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Achievements</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_prochie" href="">Currency</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Mounts</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="">Pets</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_raid" href="">Other</a>
+						  </div>
+						</div>'; 
+$content_wow .= "<p class='textmain'><b><br>Achievements</b></p>
+						<div class='anchor'>
+							<div class='selectanchor'><a href='#pvp'><p>PVP</p></a></div>
+							<div class='selectanchor'><a href='#scout'><p>Exploration</p></a></div>
+							<div class='selectanchor'><a href='#garni'><p>Garrison</p></a></div>
+							<div class='selectanchor'><a href='#quest'><p>Questing</p></a></div>
+							<div class='selectanchor'><a href='#scenario'><p>Scenarios</p></a></div>
+							<div class='selectanchor'><a href='#pocemonmaster'><p>Pet battles</p></a></div>
+							<div class='selectanchor'><a href='#oplot'><p>Class Hall</p</a></div>
+							<div class='selectanchor'><a href='#koll'><p>Collections</p></a></div>
+							<div class='selectanchor'><a href='#worldq'><p>World Events</p></a></div>
+							<div class='selectanchor'><a href='#rep'><p>Reputation</p></a></div>
+							<div class='selectanchor'><a href='#proff'><p>Professions</p></a></div>
+							<div class='selectanchor'><a href='#raidanddangeon'><p>Dungeons and raids</p></a></div>
+							<div class='selectanchor'><a href='#great'><p>Feats of strength</p></a></div>
+						</div>
 						<div class='popular'>
-							<div class='raids'><h1><a id='pvp'>ПВП</a></h1>
+							<div class='raids'><h1><a id='pvp'>PVP</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -571,7 +519,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='scout'>Исследование</a></h1>
+							<div class='raids'><h1><a id='scout'>Exploration</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -584,7 +532,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='garni'>Гарнизон</a></h1>
+							<div class='raids'><h1><a id='garni'>Garrison	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -597,7 +545,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='quest'>Задания</a></h1>
+							<div class='raids'><h1><a id='quest'>	Questing</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -610,7 +558,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='scenario'>Сценарий</a></h1>
+							<div class='raids'><h1><a id='scenario'>Scenarios</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -623,7 +571,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='pocemonmaster'>Битвы питомцев</a></h1>
+							<div class='raids'><h1><a id='pocemonmaster'>Pet battles</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -636,7 +584,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='oplot'>Оплот класса</a></h1>
+							<div class='raids'><h1><a id='oplot'>Class Hall	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -649,7 +597,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='koll'>Коллекции</a></h1>
+							<div class='raids'><h1><a id='koll'>Collections	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -662,7 +610,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='worldq'>Мировые события</a></h1>
+							<div class='raids'><h1><a id='worldq'>World Events	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -675,7 +623,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='rep'>Репутация</a></h1>
+							<div class='raids'><h1><a id='rep'>Reputation</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -688,7 +636,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='proff'>Профессии</a></h1>
+							<div class='raids'><h1><a id='proff'>Professions</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -701,7 +649,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='raidanddangeon'>Подземелья и Рейды</a></h1>
+							<div class='raids'><h1><a id='raidanddangeon'>Dungeons and raids</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -714,7 +662,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='great'>Великие подвиги</a></h1>
+							<div class='raids'><h1><a id='great'>Feats of strength</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -731,41 +679,52 @@ switch ($game_wow) {
 		break;
 	case 'maunts':
 		$content_wow = '<div class="game-opt">
-							<div class="game3">
-							  <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-							</div>
-							<div class="game3">
-							  <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-							</div>
-							<div class="game3">
-									<a class="menu_style_prochie" href="">Ресурсы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_prochie" href="">Питомцы</a>
-							</div>
-							<div class="game3">
-							    <a class="menu_style_raid" href="">Прочее</a>
-							</div>
-						</div>';
-		$content_wow .= "<p class='textmain'><b>НАШИ ПРЕДЛОЖЕНИЯ<br>Средтсва передвижения</b></p>
-		<div class='anchor_many'><a href='#wolddrop'><p class='selectanchor'>Мировая добыча</p></a><a href='#pvp'><p class='selectanchor'>| ПВП |</p></a><a href='#proff'><p class='selectanchor'>Профессии | </p></a><a href='#slava'><p class='selectanchor'>Слава | </p></a><a href='#quest'><p class='selectanchor'>Задания |</p></a><a href='#raidd'><p class='selectanchor'>Рейдовая добыча |</p></a><a href='#reput'><p class='selectanchor'>Репутация |</p</a><a href='#other'><p class='selectanchor'>Другое |</p></a><a href='#blackmarket'><p class='selectanchor'>Черный рынок |</p></a><a href='#package'><p class='selectanchor'>Пакеты услуг</p></a></div>
+						  						 						  <div class="game3">
+						    <a class="menu_style_gold" href="price.php?price_wow=gold">Wow GOLD</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Patch 8.0.1</a>
+						  </div>
+						  <div class="game3 acv">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP</a>
+						  </div>
+						  <div class="game3">
+						    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Powerleveling</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Achievements</a>
+						  </div>
+						  <div class="game3">
+						  		<a class="menu_style_prochie" href="">Currency</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Mounts</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_prochie" href="">Pets</a>
+						  </div>
+						  <div class="game3">
+						      <a class="menu_style_raid" href="">Other</a>
+						  </div>
+						</div>'; 
+ $content_wow .= "<p class='textmain'><b><br>Mounts</b></p>
+						<div class='anchor'>
+							<div class='selectanchor'><a href='#wolddrop'><p>World drop</p></a></div>
+							<div class='selectanchor'><a href='#pvp'><p>PVP</p></a></div>
+							<div class='selectanchor'><a href='#proff'><p>Professions</p></a></div>
+							<div class='selectanchor'><a href='#slava'><p>Glory</p></a></div>
+							<div class='selectanchor'><a href='#quest'><p>Quest</p></a></div>
+							<div class='selectanchor'><a href='#raidd'><p>Raid drop</p></a></div>
+							<div class='selectanchor'><a href='#reput'><p>Reputation</p</a></div>
+							<div class='selectanchor'><a href='#other'><p>Other</p></a></div>
+							<div class='selectanchor'><a href='#blackmarket'><p>Black market</p></a></div>
+							<div class='selectanchor'><a href='#package'><p>Packages</p></a></div>
+						</div>
 						<div class='popular'>
-							<div class='raids'><h1><a id='wolddrop'>Мировая добыча</a></h1>
+							<div class='raids'><h1><a id='wolddrop'>World drop</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-BR'><img src='gameimg/wow/Tovar/mounts/mount1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-BHK'><img src='gameimg/wow/Tovar/mounts/mount2.png' alt=''></a></div>
@@ -798,7 +757,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-CDJ'><img src='gameimg/wow/Tovar/mounts/mount29.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-woldDrop-JDD'><img src='gameimg/wow/Tovar/mounts/mount30.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='pvp'>ПВП</a></h1>
+							<div class='raids'><h1><a id='pvp'>PVP</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-PVP-CBT'><img src='gameimg/wow/Tovar/mountspvp/mount1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'price_wow=Maunt-PVP-CBA'><img src='gameimg/wow/Tovar/mountspvp/mount2.png' alt=''></a></div>
@@ -840,7 +799,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-PVP-JBKS'><img src='gameimg/wow/Tovar/mountspvp/mount38.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=Maunt-PVP-CBM'><img src='gameimg/wow/Tovar/mountspvp/mount39.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='proff'>Профессии</a></h1>
+							<div class='raids'><h1><a id='proff'>Professions</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -873,7 +832,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='slava'>Слава</a></h1>
+							<div class='raids'><h1><a id='slava'>Glory</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -906,7 +865,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='quest'>Задания</a></h1>
+							<div class='raids'><h1><a id='quest'>Quest	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -939,7 +898,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='raidd'>Рейдовая добыча</a></h1>
+							<div class='raids'><h1><a id='raidd'>Raid drop	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -972,7 +931,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='reput'>Репутация</a></h1>
+							<div class='raids'><h1><a id='reput'>Reputation	</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -1005,7 +964,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='other'>Другое</a></h1>
+							<div class='raids'><h1><a id='other'>Other</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/Tovar/raid/mount1.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/raid/mount2.png' alt=''></a></div>
@@ -1013,7 +972,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/raid/mount4.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/Tovar/raid/mount5.png' alt=''></a></div>
 					        </div>
-							<div class='raids'><h1><a id='blackmarket'>Черный рынок</a></h1>
+							<div class='raids'><h1><a id='blackmarket'>Black market</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -1046,7 +1005,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							</div>
-							<div class='raids'><h1><a id='package'>Пакеты услугк</a></h1>
+							<div class='raids'><h1><a id='package'>Packages</a></h1>
 							<hr>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php'><img src='gameimg/wow/sargeras.png' alt=''></a></div>
@@ -1058,26 +1017,7 @@ switch ($game_wow) {
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
 							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
-							<div class='mainframegame'><a href='price.php?price_wow=antorRaid'><img src='gameimg/wow/antorus.png' alt=''></a></div>
+
 							</div>
 						</div>";
 		break;
@@ -1126,24 +1066,13 @@ switch ($game_wow) {
 		</div>
 	</div>
 	<div class="ula">
-		<a class="line" href="infosite.php">Гарантии</a>
-		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Скидки и купоны</a>
-		<a class="line" href="infosite.php?infomode=paymentForServices">Оплата услуг</a>
-		<a class="line" href="Reviews.php">Отзывы</a>
+		<a class="line" href="infosite.php">Guarantees	</a>
+		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Discounts and coupons</a>
+		<a class="line" href="infosite.php?infomode=paymentForServices">How to pay</a>
+		<a class="line" href="Reviews.php">Review</a>
 	</div>
 	<div class="lk">
-		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a class="lang show_form" rel="reg_form" href="#LK"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>		
-	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
+		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Login</p></a>		
 	</div>
 </div>
 <div class="logo">
@@ -1165,78 +1094,38 @@ switch ($game_wow) {
   		<div id="next"></div>
   	</div>	
 </div>
-<div class="game2">
-	<div class="selectwrapper">
-		<div class="select ">
-		 	<a class="icon" href="gameselect.php?game_wow=raids"><img class="active-img" src="img/gameico/wow.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#CS"><img class="none-active-img" src="img/gameico/CS.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#D3"><img class="none-active-img" src="img/gameico/D3.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#DE"><img class="none-active-img" src="img/gameico/DE.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#dota"><img class="none-active-img" src="img/gameico/dota.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#HS"><img class="none-active-img" src="img/gameico/HS.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#OVW"><img class="none-active-img" src="img/gameico/OVW.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#wot"><img class="none-active-img" src="img/gameico/wot.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#AA"><img class="none-active-img" src="img/gameico/hots.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#AA"><img class="none-active-img" src="img/gameico/rev.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#AA"><img class="none-active-img" src="img/gameico/stc2.png" alt=""></a>
-		</div>
-		<div class="select">
-			<a href="#AA"><img class="none-active-img" src="img/gameico/lol.png" alt=""></a>
-		</div>
-	</div>
-</div>
 <div class='blockslider'>
-<center><p style='font-size: 36px; color: #fff;'>Популярное</p></center>
-	<div class='slider'>
-		<div class='slide-list'>
-		<div class='slide-wrap'>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/cs.png' alt='Contra' /></a><span class='slide-title'>Первый слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/destoni.png' alt='Destoni' /></a><span class='slide-title'>Ну просто очень длинное название второго слайда</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/diablo3.png' alt='Diablo 3' /></a><span class='slide-title'>Третий слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/dota2.png' alt='Dota 2' /></a><span class='slide-title'>Четвертый слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/heastone.png' alt='Hearstone' /></a><span class='slide-title'>Пятый слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/overwach.png' alt='Overwach' /></a><span class='slide-title'>Первый слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/wow.png' alt='Wold Of Warcraft' /></a><span class='slide-title'>Первый слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/wt.png' alt='Wold of Tanks' /></a><span class='slide-title'>Первый слайд</span></div>
-			<div class='slide-item'><a href=''><img width='330' height='197' src='img/selectgame/apx.png' alt='Ark Age' /></a><span class='slide-title'>Первый слайд</span></div>
-			</div>
-			<div class='clear'></div>
-		</div>
-		<div class='navy prev-slide'></div>
-		<div class='navy next-slide'></div>
-		<!--<div class='auto play'></div>-->
-	</div>
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
-	<script src='slidergame.js'></script>
+<center><p style='font-size: 36px; color: #fff;'>Popular</p></center>
+  <div class='slider'>
+    <div class='slide-list'>
+    <div class='slide-wrap'>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/gold.png' alt='Gold' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/prof/3.png' alt='Proffesion' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/raid/mount3.png' alt='Mount' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/raid/mount4.png' alt='Mount' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/Equip1.png' alt='Equip' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/mountspvp/mount38.png' alt='Mount PVP' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/mounts/mount13.png' alt='Mount' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/achiv/8.png' alt='Achiv' /></a></div>
+      <div class='slide-item'><a href=''><img src='gameimg/wow/Tovar/achiv/3.png' alt='Achiv' /></a></div>
+      </div>
+      <div class='clear'></div>
+    </div>
+    <div class='navy prev-slide'></div>
+    <div class='navy next-slide'></div>
+    <!--<div class='auto play'></div>-->
+  </div>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+  <script src='slidergame.js'></script>
 </div>
 <?php echo $content_wow; ?>
 <div id="toTop"><img src="img/arrow.png" alt=""></div>
 <div class="footer">
 	<div class="top">
-		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
-		<a href="" class="footer-top"><b>Работать с нами</b></a>
-		<a href="" class="footer-top"><b>Пользовательское соглашение</b></a>
-		<a href="" class="footer-top"><b>Конфиденциальность</b></a>
+		<a href="" class="footer-top" style="margin-left: 20%;"><b>Referal System</b></a>
+		<a href="" class="footer-top"><b>Work with us</b></a>
+		<a href="" class="footer-top"><b>Term of service</b></a>
+		<a href="" class="footer-top"><b>Privacy Policy</b></a>
 	</div>
 </div>
 </body>

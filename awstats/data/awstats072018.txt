@@ -1,40 +1,40 @@
 AWSTATS DATA FILE 7.4 (build 20150714)
 # If you remove this file, all statistics for date 201807 will be lost/reset.
-# Last config file used to build this data file was ./awstats.conf.
+# Last config file used to build this data file was /home/c/cb59644/defyourtime/public_html/awstats/awstats.conf.
 
 # Position (offset in bytes) in this file for beginning of each section for
 # direct I/O access. If you made changes somewhere in this file, you should
 # also remove completely the MAP section (AWStats will rewrite it at next
 # update).
 BEGIN_MAP 28
-POS_GENERAL 1971                
-POS_TIME 2651                
-POS_VISITOR 11072               
-POS_DAY 13347               
-POS_DOMAIN 3400                
-POS_LOGIN 3725                
-POS_ROBOT 3880                
-POS_WORMS 4389                
-POS_EMAILSENDER 4520                
-POS_EMAILRECEIVER 4663                
-POS_SESSION 13857               
-POS_SIDER 14064               
-POS_FILETYPES 4798                
-POS_DOWNLOADS 4903                
-POS_OS 4951                
-POS_BROWSER 5195                
-POS_SCREENSIZE 5883                
-POS_UNKNOWNREFERER 5957                
-POS_UNKNOWNREFERERBROWSER 6154                
-POS_ORIGIN 6271                
-POS_SEREFERRALS 6409                
-POS_PAGEREFS 6575                
-POS_SEARCHWORDS 6816                
-POS_KEYWORDS 6968                
-POS_MISC 2314                
-POS_ERRORS 7027                
-POS_CLUSTER 3581                
-POS_SIDER_404 7138                
+POS_GENERAL 2017                
+POS_TIME 2697                
+POS_VISITOR 11118               
+POS_DAY 13393               
+POS_DOMAIN 3446                
+POS_LOGIN 3771                
+POS_ROBOT 3926                
+POS_WORMS 4435                
+POS_EMAILSENDER 4566                
+POS_EMAILRECEIVER 4709                
+POS_SESSION 13903               
+POS_SIDER 14110               
+POS_FILETYPES 4844                
+POS_DOWNLOADS 4949                
+POS_OS 4997                
+POS_BROWSER 5241                
+POS_SCREENSIZE 5929                
+POS_UNKNOWNREFERER 6003                
+POS_UNKNOWNREFERERBROWSER 6200                
+POS_ORIGIN 6317                
+POS_SEREFERRALS 6455                
+POS_PAGEREFS 6621                
+POS_SEARCHWORDS 6862                
+POS_KEYWORDS 7014                
+POS_MISC 2360                
+POS_ERRORS 7073                
+POS_CLUSTER 3627                
+POS_SIDER_404 7184                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20180720053713 79 18421 12169910290964
+LastLine 20180807183228 42 10064 13147291806580
 FirstTime 20180701023228
 LastTime 20180719180612
-LastUpdate 20180720064713 79 0 79 0 0
+LastUpdate 20180807183318 42 0 0 0 41
 TotalVisits 114                 
 TotalUnique 56                  
 MonthHostsKnown 0                   
@@ -58,16 +58,16 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 52 0
-FlashSupport 0 0 0
 JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
 DirectorSupport 0 0 0
-QuickTimeSupport 0 0 0
-RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
 PDFSupport 0 0 0
+AddToFavourites 0 52 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
 TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -104,8 +104,8 @@ BEGIN_DOMAIN 8
 ru 565 565 10166183
 us 32 32 291364
 md 8 8 51812
-ip 5 5 81771
 de 5 5 44182
+ip 5 5 81771
 ua 3 3 26499
 pl 2 2 17666
 gb 2 2 12441
@@ -126,12 +126,12 @@ BEGIN_ROBOT 10
 yandex 148 1920946 20180720053713 0
 libwww 42 257646 20180707212053 0
 googlebot 26 205672 20180719203859 0
-mail\.ru 15 228154 20180716220342 0
 bot[\s_+:,\.\;\/\\-] 15 107830 20180718221920 0
+mail\.ru 15 228154 20180716220342 0
 [\s_+:,\.\;\/\\-]bot 10 64672 20180704045707 0
 crawl 4 35366 20180710084903 0
-no_user_agent 1 8833 20180711065128 0
 ^java\/[0-9] 1 8833 20180716213129 0
+no_user_agent 1 8833 20180711065128 0
 favicon 1 8331 20180703103719 0
 END_ROBOT
 
@@ -152,8 +152,8 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 2
-html 133 1166933 0 0
 php 489 9524985 0 0
+html 133 1166933 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -162,57 +162,57 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 14
-macosx11 2 2
-win7 8 8
-winnt 11 11
-macosx 16 16
-linuxandroid 9 9
-linux 187 187
-macosx10 3 3
-win10 290 290
 winxp 3 3
+macosx11 2 2
+win2003 5 5
 win8.1 68 68
 Unknown 18 18
-win2003 5 5
+macosx10 3 3
+win7 8 8
 winlong 1 1
+macosx 16 16
+linux 187 187
+winnt 11 11
+linuxandroid 9 9
+win10 290 290
 win2000 1 1
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 33
-opera10.01 2 2
-chrome60.0.3112.90 1 1
-mozilla 1 1
-firefox32.1 1 1
-firefox33.1 1 1
-chrome66.0.3359.158 1 1
-opera53.0.2907.99 5 5
-firefox59.0 1 1
-chrome39.0.2171.65 5 5
-firefox43.0 1 1
-firefox44.1 8 8
-firefox56.0 3 3
-chrome53.0.2785.143 2 2
-chrome49.0.2623.112 1 1
-chrome61.0.3163.100 18 18
-firefox45.0 1 1
-chrome67.0.3396.87 7 7
-chrome64.0.3282.186 2 2
-chrome62.0.3202.94 8 8
-firefox57.0 1 1
-firefox30.0 1 1
-firefox33.0 7 7
-chrome67.0.3396.99 84 84
-chrome63.0.3239.132 1 1
-chrome58.0.3029.83 1 1
-firefox37.0 1 1
-firefox31.0 1 1
-chrome65.0.3325.181 9 9
-firefox37.1 1 1
 firefox60.0 265 265
-firefox35.0 1 1
+chrome65.0.3325.181 9 9
 firefox61.0 163 163
+firefox33.0 7 7
+mozilla 1 1
 Unknown 17 17
+opera53.0.2907.99 5 5
+chrome67.0.3396.99 84 84
+chrome64.0.3282.186 2 2
+chrome61.0.3163.100 18 18
+chrome58.0.3029.83 1 1
+firefox56.0 3 3
+chrome39.0.2171.65 5 5
+firefox44.1 8 8
+chrome53.0.2785.143 2 2
+chrome60.0.3112.90 1 1
+chrome63.0.3239.132 1 1
+firefox33.1 1 1
+firefox43.0 1 1
+chrome67.0.3396.87 7 7
+firefox31.0 1 1
+firefox37.1 1 1
+firefox45.0 1 1
+chrome62.0.3202.94 8 8
+chrome49.0.2623.112 1 1
+firefox37.0 1 1
+firefox30.0 1 1
+opera10.01 2 2
+firefox35.0 1 1
+firefox59.0 1 1
+firefox32.1 1 1
+firefox57.0 1 1
+chrome66.0.3359.158 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -242,8 +242,8 @@ END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
 BEGIN_SEREFERRALS 2
-google 2 2
 yandex 1 1
+google 2 2
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
@@ -265,77 +265,77 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
-404 1123 244981
 500 3 0
 206 1 5633
+404 1123 244981
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 64
-/gameimg/wow/honor_7_3.jpeg 17 http://defyourtime.ru/gameselect.php
-/defyourtime.ru.zip 1 -
-/admin 3 http://defyourtime.ru/admin
-/gameimg/wow/Tovar/dange/dang3.png 3 http://defyourtime.ru/gameselect.php
-/gameimg/wow/oplot_7_2.png 18 http://defyourtime.ru/gameselect.php
+/img/selectgame/apx.png 540 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/dang/1.png 1 http://defyourtime.ru/gameselect.php
+/jquery-ui.min.css 60 http://defyourtime.ru/price.php
+/contacts 1 -
+/gameimg/wow/armdeadleg.png 17 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/pak1 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/koshmarosoz.jpeg 17 http://defyourtime.ru/gameselect.php
 /adminzone 2 http://defyourtime.ru/adminzone
-/box 1 -
-/cms/ 2 http://defyourtime.ru/cms/
+/gameimg/wow/artefact.png 21 http://defyourtime.ru/gameselect.php
+/img/baner.png 3 http://www.defyourtime.ru/infosite.php
+/static/cartreminder.js 2 http://defyourtime.ru/static/cartreminder.js
+/.well-known/assetlinks.json 5 -
 /users/sign_in 2 http://defyourtime.ru/users/sign_in
 /gameimg/wow/flyinleg.jpeg 22 http://defyourtime.ru/gameselect.php
-/gameimg/wow/demono.jpeg 17 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/dang/2.png 1 http://defyourtime.ru/gameselect.php
-/gameimg/wow/koshmarosoz.jpeg 17 http://defyourtime.ru/gameselect.php
+/gameimg/wow/argunit.png 17 http://defyourtime.ru/gameselect.php
 /gameimg/wow/Tovar/pak3 1 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/pvp/1 2 http://defyourtime.ru/gameselect.php
-/gameimg/wow/maunt_1.png 18 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/dang/1.png 1 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/dange/3.png 1 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/dange/Dang1.png 1 http://defyourtime.ru/gameselect.php
-/gameimg/wow/price/mountspvp/1.png 2 http://defyourtime.ru/price.php
-/gameimg/wow/Tovar/equip1.png 2 http://defyourtime.ru/gameselect.php
-/netcat/ 2 http://defyourtime.ru/netcat/
-/cmd.php 1 -
-/gameimg/wow/Tovar/pvp/4 2 http://defyourtime.ru/gameselect.php
-/gameimg/wow/companiinarg.png 17 http://defyourtime.ru/gameselect.php
-/gameimg/wow/honor_7_2.png 17 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/pak2 1 http://defyourtime.ru/gameselect.php
-/admin.php 2 http://defyourtime.ru/admin.php
-/gameimg/wow/Tovar/pak1 1 http://defyourtime.ru/gameselect.php
-/arena 2 http://defyourtime.ru/gameselect.php
-/contacts 1 -
-/gameimg/wow/hromi.png 19 http://defyourtime.ru/gameselect.php
-/wp-login.php 9 http://DEFYOURTIME.RU/wp-login.php
 /cms/admin/ 2 http://defyourtime.ru/cms/admin/
-/gameimg/wow/Tovar/dange/dang2.png 3 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/dange/Dang2.png 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/dange/3.png 1 http://defyourtime.ru/gameselect.php
 /gameimg/wow/Tovar/dange/Dang3.png 1 http://defyourtime.ru/gameselect.php
-/static/cartreminder.js 2 http://defyourtime.ru/static/cartreminder.js
-/begunok.css 60 http://defyourtime.ru/price.php
+/infosite.phpinfomode=faq 2 -
+/administrator/index.php 1 http://DEFYOURTIME.RU/administrator/index.php
+/gameimg/wow/Tovar/pvp/4 2 http://defyourtime.ru/gameselect.php
+/img/key.png 5 http://defyourtime.ru/price.php
+/gameimg/wow/Tovar/pak2 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/maunt_1.png 18 http://defyourtime.ru/gameselect.php
+/defyourtime.ru.zip 1 -
+/gameimg/wow/race.jpeg 23 http://defyourtime.ru/gameselect.php
+/manager 2 http://defyourtime.ru/manager
 /gameimg/wow/Tovar/dang/3.png 1 http://defyourtime.ru/gameselect.php
 /gameimg/wow/Tovar/dange/2.png 1 http://defyourtime.ru/gameselect.php
-/img/baner.png 3 http://www.defyourtime.ru/infosite.php
-/mscms/ 2 http://defyourtime.ru/mscms/
-/gameimg/wow/armdeadleg.png 17 http://defyourtime.ru/gameselect.php
-/jquery-ui.min.css 60 http://defyourtime.ru/price.php
-/administrator 4 http://defyourtime.ru/administrator
-/infosite.phpinfomode=faq 2 -
-/static/common.css 2 http://defyourtime.ru/static/common.css
-/gameimg/wow/Tovar/dange/1.png 1 http://defyourtime.ru/gameselect.php
-/.well-known/assetlinks.json 5 -
-/administrator/index.php 1 http://DEFYOURTIME.RU/administrator/index.php
-/gameimg/wow/Tovar/dange/Dang2.png 1 http://defyourtime.ru/gameselect.php
-/img/selectgame/apx.png 540 http://defyourtime.ru/gameselect.php
-/gameimg/wow/argunit.png 17 http://defyourtime.ru/gameselect.php
-/gameimg/wow/Tovar/dange/dang1.png 3 http://defyourtime.ru/gameselect.php
-/img/key.png 5 http://defyourtime.ru/price.php
-/prokachka.js 2 http://defyourtime.ru/price.php
-/admin/login.php 2 http://defyourtime.ru/admin/login.php
-/gameimg/wow/maunt_2.png 18 http://defyourtime.ru/gameselect.php
-/gameimg/wow/race.jpeg 23 http://defyourtime.ru/gameselect.php
-/administrator.php 2 http://defyourtime.ru/administrator.php
 /gameimg/wow/Tovar/pvp/2 2 http://defyourtime.ru/gameselect.php
-/gameimg/wow/artefact.png 21 http://defyourtime.ru/gameselect.php
-/manager 2 http://defyourtime.ru/manager
+/gameimg/wow/Tovar/dang/2.png 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/pvp/1 2 http://defyourtime.ru/gameselect.php
+/begunok.css 60 http://defyourtime.ru/price.php
+/wp-login.php 9 http://DEFYOURTIME.RU/wp-login.php
+/cms/ 2 http://defyourtime.ru/cms/
+/gameimg/wow/hromi.png 19 http://defyourtime.ru/gameselect.php
+/gameimg/wow/maunt_2.png 18 http://defyourtime.ru/gameselect.php
+/gameimg/wow/honor_7_2.png 17 http://defyourtime.ru/gameselect.php
+/admin 3 http://defyourtime.ru/admin
+/gameimg/wow/Tovar/dange/1.png 1 http://defyourtime.ru/gameselect.php
+/gameimg/wow/honor_7_3.jpeg 17 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/dange/Dang1.png 1 http://defyourtime.ru/gameselect.php
+/arena 2 http://defyourtime.ru/gameselect.php
+/mscms/ 2 http://defyourtime.ru/mscms/
+/gameimg/wow/Tovar/dange/dang2.png 3 http://defyourtime.ru/gameselect.php
+/gameimg/wow/companiinarg.png 17 http://defyourtime.ru/gameselect.php
+/admin.php 2 http://defyourtime.ru/admin.php
+/prokachka.js 2 http://defyourtime.ru/price.php
+/gameimg/wow/demono.jpeg 17 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/equip1.png 2 http://defyourtime.ru/gameselect.php
+/admin/login.php 2 http://defyourtime.ru/admin/login.php
+/static/common.css 2 http://defyourtime.ru/static/common.css
+/box 1 -
+/gameimg/wow/price/mountspvp/1.png 2 http://defyourtime.ru/price.php
+/administrator 4 http://defyourtime.ru/administrator
 /robots.txt 110 -
+/gameimg/wow/oplot_7_2.png 18 http://defyourtime.ru/gameselect.php
+/gameimg/wow/Tovar/dange/dang1.png 3 http://defyourtime.ru/gameselect.php
+/netcat/ 2 http://defyourtime.ru/netcat/
+/cmd.php 1 -
+/gameimg/wow/Tovar/dange/dang3.png 3 http://defyourtime.ru/gameselect.php
+/administrator.php 2 http://defyourtime.ru/administrator.php
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
@@ -349,55 +349,55 @@ BEGIN_VISITOR 56
 82.151.123.1 59 59 1015691 20180714184027
 46.241.70.97 21 21 263173 20180719131151
 95.29.132.66 10 10 146464 20180718145512
-178.175.132.165 8 8 51812 20180705222707
 52.53.201.78 8 8 69677 20180718201605
 95.25.11.133 8 8 51744 20180714191632
-66.102.9.56 2 2 26312 20180716135746
-62.109.24.115 1 1 8850 20180706180552
-91.79.20.123 1 1 8833 20180712040005
-66.102.9.58 3 3 21775 20180716140221
-93.80.129.106 1 1 8833 20180719121343
-178.62.4.246 1 1 8833 20180715124700
-88.99.203.210 2 2 12441 20180702232706
-82.208.113.179 1 1 8833 20180719135740
-66.102.9.6 1 1 16078 20180716172429
-89.109.49.84 1 1 8833 20180719180612
-37.144.112.37 4 4 61270 20180707134323
-91.79.16.52 1 1 8850 20180707091650
-185.158.115.13 2 2 17666 20180716105911
-94.130.168.232 3 3 26499 20180717161252
-91.79.23.153 5 5 41655 20180703222005
-37.46.133.249 1 1 8833 20180710221735
-37.46.128.186 2 2 17683 20180709192043
-195.211.23.206 1 1 8833 20180716140221
-213.202.254.136 2 2 17683 20180716174333
-34.229.116.87 6 6 52998 20180716213129
-158.255.134.52 1 1 8833 20180710081425
-185.158.153.212 1 1 8833 20180719095000
-92.63.99.123 1 1 8331 20180703161446
-82.146.58.176 3 3 25997 20180717000856
-212.20.37.250 2 2 24911 20180716153035
-82.146.58.161 1 1 8850 20180704162735
-95.29.148.155 6 6 126549 20180702104912
-62.109.27.164 2 2 17666 20180714225536
-95.27.108.194 4 4 82578 20180707115133
-64.246.161.190 1 1 8331 20180702171027
-46.41.149.4 2 2 17666 20180707212049
-213.159.215.102 3 3 26014 20180718014741
-92.63.99.19 2 2 17164 20180715230007
-66.102.9.54 2 2 17666 20180714172603
+178.175.132.165 8 8 51812 20180705222707
 95.29.146.227 7 7 232363 20180719180530
-82.146.57.90 1 1 8833 20180714034539
-173.249.24.45 2 2 17181 20180706051407
+91.79.16.52 1 1 8850 20180707091650
+212.20.37.250 2 2 24911 20180716153035
+62.109.24.115 1 1 8850 20180706180552
+158.255.134.52 1 1 8833 20180710081425
+93.80.129.106 1 1 8833 20180719121343
+213.159.215.102 3 3 26014 20180718014741
 13.57.233.99 7 7 61346 20180719084702
+64.246.161.190 1 1 8331 20180702171027
+185.158.115.13 2 2 17666 20180716105911
+37.144.112.37 4 4 61270 20180707134323
+95.29.148.155 6 6 126549 20180702104912
+213.202.254.136 2 2 17683 20180716174333
 5.35.69.214 1 1 8551 20180704001616
+89.109.49.84 1 1 8833 20180719180612
+92.63.99.123 1 1 8331 20180703161446
+82.151.125.181 3 3 43580 20180710195439
+91.79.20.123 1 1 8833 20180712040005
+2001:67c:2660:425:92e2:baff:fe91:1cb8 5 5 81771 20180708195813
+178.62.4.246 1 1 8833 20180715124700
+34.229.116.87 6 6 52998 20180716213129
+82.208.113.179 1 1 8833 20180719135740
+62.109.27.164 2 2 17666 20180714225536
+92.63.99.19 2 2 17164 20180715230007
+88.99.203.210 2 2 12441 20180702232706
+66.102.9.58 3 3 21775 20180716140221
+46.41.149.4 2 2 17666 20180707212049
 91.77.19.190 1 1 8833 20180708141751
 88.135.50.148 1 1 8833 20180712142134
-2001:67c:2660:425:92e2:baff:fe91:1cb8 5 5 81771 20180708195813
+91.79.23.153 5 5 41655 20180703222005
+66.102.9.6 1 1 16078 20180716172429
+195.211.23.206 1 1 8833 20180716140221
+94.130.168.232 3 3 26499 20180717161252
+82.146.57.90 1 1 8833 20180714034539
+95.27.108.194 4 4 82578 20180707115133
+37.46.128.186 2 2 17683 20180709192043
+82.146.58.176 3 3 25997 20180717000856
+66.102.9.56 2 2 26312 20180716135746
+37.46.133.249 1 1 8833 20180710221735
+185.158.153.212 1 1 8833 20180719095000
 79.126.62.208 1 1 8833 20180712014419
-91.79.25.81 5 5 41655 20180702143657
-82.151.125.181 3 3 43580 20180710195439
+82.146.58.161 1 1 8850 20180704162735
+173.249.24.45 2 2 17181 20180706051407
 95.37.140.193 1 1 8833 20180713095408
+91.79.25.81 5 5 41655 20180702143657
+66.102.9.54 2 2 17666 20180714172603
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
@@ -425,13 +425,13 @@ END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 7
-1h+ 4
-2mn-5mn 3
 5mn-15mn 8
-30s-2mn 13
-15mn-30mn 4
-30mn-1h 5
+2mn-5mn 3
 0s-30s 77
+15mn-30mn 4
+30s-2mn 13
+30mn-1h 5
+1h+ 4
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit

@@ -1,0 +1,483 @@
+AWSTATS DATA FILE 7.4 (build 20150714)
+# If you remove this file, all statistics for date 201808 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1971                
+POS_TIME 2652                
+POS_VISITOR 16454               
+POS_DAY 17924               
+POS_DOMAIN 3365                
+POS_LOGIN 3697                
+POS_ROBOT 3852                
+POS_WORMS 4270                
+POS_EMAILSENDER 4401                
+POS_EMAILRECEIVER 4544                
+POS_SESSION 18110               
+POS_SIDER 18317               
+POS_FILETYPES 4679                
+POS_DOWNLOADS 4818                
+POS_OS 4866                
+POS_BROWSER 5054                
+POS_SCREENSIZE 5594                
+POS_UNKNOWNREFERER 5668                
+POS_UNKNOWNREFERERBROWSER 5830                
+POS_ORIGIN 5912                
+POS_SEREFERRALS 6052                
+POS_PAGEREFS 6209                
+POS_SEARCHWORDS 6513                
+POS_KEYWORDS 6665                
+POS_MISC 2314                
+POS_ERRORS 6724                
+POS_CLUSTER 3553                
+POS_SIDER_404 6875                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180811053926 425 108160 22817345362276
+FirstTime 20180807183252
+LastTime 20180811053926
+LastUpdate 20180811070828 1 0 1 0 0
+TotalVisits 64                  
+TotalUnique 33                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+AddToFavourites 0 121 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 12540 2 6 9060
+1 2 2 7289 1 2 12098
+2 4 4 32829 0 0 0
+3 2 2 16598 0 0 0
+4 0 0 0 0 2 419
+5 2 2 181739 1 1 381
+6 23 23 595453 2 121 31615
+7 4 4 32525 0 0 0
+8 0 0 0 0 0 0
+9 12 12 64721 6 7 3893
+10 22 22 316562 4 18 32410
+11 78 78 836313 10 121 116583
+12 129 129 3775199 33 698 240913
+13 101 101 649025 35 121 133612
+14 76 76 566390 18 97 75757
+15 135 135 1836453 20 182 84756
+16 85 85 1204503 18 27 28811
+17 45 45 1039982 0 54 26321
+18 100 100 1773710 13 137 172861
+19 40 40 584420 4 31 35716
+20 20 20 220439 2 7 8811
+21 11 11 112138 1 7 1288
+22 7 7 65809 0 4 4537
+23 0 0 0 1 1 8205
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+ru 762 762 12625607
+ip 50 50 259157
+cz 45 45 660354
+us 27 27 210119
+de 11 11 128962
+nl 3 3 24025
+zz 1 1 8205
+cn 1 1 8208
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+adsbot-google 8 112310 20180810191401 0
+googlebot 7 44570 20180809161542 0
+bot[\s_+:,\.\;\/\\-] 6 40485 20180810182027 0
+ips\-agent 3 16359 20180808124138 0
+no_user_agent 2 16410 20180809134756 0
+curl 2 0 20180810103035 0
+crawl 1 8208 20180808002756 0
+grapeshot 1 8205 20180809125752 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+htc 1 40673 0 0
+html 186 4613819 0 0
+pl 30 1801860 0 0
+php 683 7468285 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linux 250 250
+win7 65 65
+winlong 1 1
+ios_iphone 2 2
+macosx10 2 2
+linuxandroid 3 3
+win8.1 133 133
+Unknown 2 2
+win10 442 442
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+chrome40.0.2214.85 1 1
+firefox61.0 389 389
+chrome67.0.3396.87 7 7
+chrome67.0.3396.99 176 176
+mozilla 2 2
+netscape5.0 2 2
+chrome31.0.1650.57 3 3
+chrome15.0.874.120 1 1
+chrome68.0.3440.106 46 46
+chrome54.0.2840.99 9 9
+chrome59.0.3071.125 1 1
+opera54.0.2952.71 209 209
+opera54.0.2952.64 30 30
+chrome40.0.2214.93 2 2
+chrome21.0.1180.89 1 1
+firefox55.0 1 1
+chrome60.0.3112.101 1 1
+chrome11.0.696.71 2 2
+chrome68.0.3440.84 11 11
+msie11.0 2 2
+safari11.0 2 2
+firefox3.1 1 1
+chrome68.0.3440.70 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20180810132957
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 110 110
+From1 0 0
+From2 11 11
+From3 4 4
+From4 775 775
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 11 11
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://trustpilot.my.salesforce.com 1 1
+https://ru.defyourtime.com/index.php 1 1
+https://away.vk.com/away.php 1 1
+https://us.defyourtime.com/index.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+301 3 719
+403 3 706
+404 1376 305329
+500 9 0
+401 5 1905
+307 5 1788
+302 92 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 139
+/admin/gameimg/wow/price/achiv/9.png 6 http://defyourtime.com/admin/
+/admin/calc.js 10 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/achiv/2.png 6 http://defyourtime.com/admin/
+/img/discounts/0.png 16 http://defyourtime.com/lk.php
+/admin/gameimg/wow/price/mounts/29.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/36.png 6 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/20 1 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mounts/27.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/30.png 6 http://defyourtime.com/admin/
+/gameimg/wow/race.jpeg 10 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/achiv/13.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/10.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/9.png 6 http://defyourtime.com/admin/
+/admin/img/key.png 6 http://defyourtime.com/admin/
+/img/selectgame/apx.png 128 http://www.defyourtime.com/price.php
+/gameimg/wow/Tovar/mountsBFA/10 3 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/achiv/7.png 6 http://defyourtime.com/admin/
+/admin/prokachka.js 7 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/19 1 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mountspvp/3.png 6 http://defyourtime.com/admin/
+/gameimg/wow/argunit.png 7 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/achiv/6.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/24.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/38.png 6 http://defyourtime.com/admin/
+/admin/opt.js 9 http://defyourtime.com/admin/
+/admin/img/wow.png 12 http://defyourtime.com/admin/
+/gameimg/wow/demono.jpeg 7 http://defyourtime.com/gameselect.php
+/.well-known/assetlinks.json 1 -
+/admin/gameimg/wow/price/mounts/10.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/pvp/4.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/27.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/32.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/4.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/18.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/28.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/20.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/prof/2.png 6 http://defyourtime.com/admin/
+/gameimg/wow/koshmarosoz.jpeg 8 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mountspvp/15.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/achiv/3.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/8.png 6 http://defyourtime.com/admin/
+/begunok.css 133 http://www.defyourtime.com/price.php
+/admin/gameimg/wow/price/pvp/1.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/1.png 6 http://defyourtime.com/admin/
+/admin/img/wot.png 12 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/21.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/23.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/19.png 6 http://defyourtime.com/admin/
+/admin/img/cs.png 12 http://defyourtime.com/admin/
+/img/baner.png 137 http://defyourtime.com/reg.php
+/admin/gameimg/wow/price/mounts/21.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/34.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/achiv/10.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/9.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/31.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/22.png 6 http://defyourtime.com/admin/
+/gameimg/wow/honor_7_2.png 8 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mounts/16.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/16.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/5.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/7.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/13.png 6 http://defyourtime.com/admin/
+/admin/ 6 http://defyourtime.com/admin/
+/admin/alltrubls.js 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/15.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/2.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/29.png 6 http://defyourtime.com/admin/
+/gameimg/wow/armdeadleg.png 7 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/aprice.png 6 http://defyourtime.com/admin/
+/begunok.js 2 http://defyourtime.com/price.php
+/admin/gameimg/wow/price/mounts/28.png 6 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/14 1 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mounts/11.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/23.png 6 http://defyourtime.com/admin/
+/jquery-ui.min.css 139 http://www.defyourtime.com/price.php
+/gameimg/wow/companiinarg.png 9 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mountspvp/39.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/3.png 6 http://defyourtime.com/admin/
+/gameimg/wow/flyinleg.jpeg 10 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mountspvp/18.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/12.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/19.png 6 http://defyourtime.com/admin/
+/gameimg/wow/artefact.png 10 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mountspvp/20.png 6 http://defyourtime.com/admin/
+/admin/img/d3.png 12 http://defyourtime.com/admin/
+/gameimg/wow/hromi.png 10 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/goldprice.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/dange/3.png 6 http://defyourtime.com/admin/
+/admin/img/dota2.png 12 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/achiv/5.png 1 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/9 3 http://www.defyourtime.com/gameselect.php
+/gameimg/wow/oplot_7_2.png 10 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/dange/1.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/33.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/37.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/30.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/8.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/dange/2.png 7 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/17.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/24.png 6 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/13 1 http://www.defyourtime.com/gameselect.php
+/admin/calcfarm.js 6 http://defyourtime.com/admin/
+/box 1 -
+/admin/gameimg/wow/price/mounts/14.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/prof/3.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/1.png 6 http://defyourtime.com/admin/
+/admin/begunok.js 9 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/achiv/8.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/6.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/7.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/6.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/14.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/4.png 6 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/18 1 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/prof/1.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/26.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/22.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/2.png 6 http://defyourtime.com/admin/
+/admin/jquery-ui.min.js 7 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/26.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/13.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/pvp/5.png 6 http://defyourtime.com/admin/
+/robots.txt 13 -
+/admin/texttolite 1 -
+/admin/gameimg/wow/price/mountspvp/35.png 6 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/8 3 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mountspvp/11.png 6 http://defyourtime.com/admin/
+/gameimg/wow/Tovar/mountsBFA/15 1 http://www.defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/mounts/17.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/12.png 6 http://defyourtime.com/admin/
+/img/key.png 5 http://defyourtime.com/price.php
+/gameimg/wow/honor_7_3.jpeg 8 http://defyourtime.com/gameselect.php
+/jquery-ui.min.js 2 http://defyourtime.com/price.php
+/admin/gameimg/wow/price/mountspvp/5.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mountspvp/25.png 6 http://defyourtime.com/admin/
+/gameimg/wow/maunt_1.png 10 http://defyourtime.com/gameselect.php
+/gameimg/wow/maunt_2.png 7 http://defyourtime.com/gameselect.php
+/admin/gameimg/wow/price/pvp/2.png 6 http://defyourtime.com/admin/
+/admin/gameimg/wow/price/mounts/25.png 6 http://defyourtime.com/admin/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+37.144.99.71 408 408 6045537 20180810135824
+82.151.125.40 133 133 1748418 20180810220043
+46.181.168.73 130 130 3329294 20180811053926 20180811053925 /awstats/awstats.pl
+46.241.70.97 52 52 1261339 20180810155509
+2001:67c:2660:425:92e2:baff:fe1d:4b30 47 47 249085 20180808123920
+31.148.62.116 25 25 391380 20180809182059
+95.158.217.21 20 20 108669 20180809002711
+95.158.214.58 17 17 115940 20180810221954
+95.47.206.244 10 10 147415 20180808185727
+95.47.206.31 10 10 121559 20180810155615
+66.102.8.219 1 1 8548 20180810192102
+2001:4ca0:108:42::5 1 1 0 20180810220937
+167.114.35.8 1 1 8208 20180808061843
+52.114.77.26 1 1 8299 20180810200410
+27.151.73.80 1 1 8208 20180808022616
+185.180.12.135 2 2 27016 20180810185006
+144.208.209.4 1 1 19507 20180810184944
+13.57.193.175 1 1 8208 20180808101426
+185.180.12.134 2 2 33015 20180810185018
+148.62.14.156 2 2 16410 20180809075140
+185.180.12.132 1 1 19507 20180810184953
+52.53.229.82 1 1 7910 20180810060216
+52.114.75.71 1 1 8299 20180810200412
+95.211.186.180 3 3 24025 20180810002452
+84.59.203.17 6 6 49424 20180811035508
+104.160.15.176 1 1 8205 20180809025112
+52.16.33.189 3 3 24615 20180808161151
+54.184.152.172 1 1 7910 20180810074828
+149.6.136.114 7 7 34770 20180808113413
+52.48.53.137 6 6 49230 20180808110515
+2001:67c:2660:425:21b:21ff:fead:a664 2 2 10072 20180808124359
+158.69.229.134 1 1 8205 20180809071939
+195.211.23.206 2 2 16410 20180810132957
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20180807 17 17 553256 2
+20180808 252 252 2002653 19
+20180809 407 407 8404631 17
+20180810 220 220 2765760 24
+20180811 4 4 198337 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+15mn-30mn 4
+2mn-5mn 2
+30s-2mn 4
+30mn-1h 5
+0s-30s 34
+5mn-15mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/gameselect.php 223 3897080 3 7
+/index.php 118 958290 9 10
+/price.php 110 1563822 7 9
+/admin/ 102 3952337 0 1
+/ 82 659514 30 19
+/orders.php 50 229626 0 1
+/login.php 50 228737 7 6
+/lk.php 41 217328 2 1
+/infosite.php 33 120412 1 2
+/awstats/awstats.pl 30 1801860 4 4
+/Reviews.php 6 22596 0 1
+/change_password.php 24 111276 0 1
+/reg.php 10 45074 0 0
+/success_registration.php 13 53443 0 1
+/restore_password.php 5 20601 0 0
+/awstats/ 2 1968 1 0
+/PIE.htc 1 40673 0 0
+END_SIDER

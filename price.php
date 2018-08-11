@@ -3,6 +3,875 @@ $price_wow = $_GET['price_wow'];
 $cart_wow = '';
 $info_wow = '';
 switch ($price_wow) {
+  case 'LVLUP-LQ':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/12.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='180' data-title='Выполнение' data-price='150' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Выполненией</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>150</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Локальные квесты</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Локальные квесты.</li>
+      <li>Требование к аккаунту: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Вы получите:</h3>
+    <ul class="ulinfosite">
+      <li>Выполнение 4 заданий одной из шести фракции, которая в данный момент имеет дейлик</li>
+      <li>В награду получаете 1500 репутации с данной фракцией и сундук в котором может содержаться легендарный предмет/ресурсы оплота/золото.</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-I':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/13.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='179' data-title='Избранный' data-price='0' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Избранный</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>0</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Избранный</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения:  7-14 дней.</li>
+      <li>Требования к аккаунту:  110 уровень и 885 уровень предметов.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Выполнение всех обязательных условий для получения достижения <a href="http://ru.wowhead.com/achievement=11387/%D0%B8%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9">Избранный</a></li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-BS':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/10.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='178' data-title='Баланс сил' data-price='4900' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Баланс сил</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>4 900</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Баланс сил</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения:  4-8 недель.</li>
+      <li>Требования к аккаунту:  110 уровень и 885 уровень предметов.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Выполнение всех обязательных условий для получения достижения <b>Баланс сил</b></li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-KO':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/9.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='177' data-title='Кампания оплота' data-price='1300' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Кампания оплота</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>1 300</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Услуга Кампания оплота</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения - 7-14 дней.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+      <li>Продолжение кампании классового оплота Легиона, вышедшее в обновлении 7.2. Открывает доступ к классовому маунту!</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга Кампания оплота 7.2  включает:</h3>
+    <ul class="ulinfosite">
+      <li>Прохождение всех новых цепочек кампании.</b></li>
+      <li>Доступ к рейду <b>Гробница Саргероса.</b></li>
+      <li>Доступ к уникальному классовому маунту.</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-D':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/8.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='176' data-title='Демонобоец' data-price='2000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Демонобоец</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>2 000</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Полеты в Легионе</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения - 7-14 дней.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+      <li>Для получения титула требуется истребить 5000 демонов на Аргусе. </li>
+    </ul>
+    <br>
+    <h3 class="main-text">Вы получаете:</h3>
+    <ul class="ulinfosite">
+      <li>Титул <b>Демонобоец</b></li>
+      <li>Маунт <a href="http://ru.wowhead.com/spell=254260/%D0%B1%D0%B5%D0%BB%D0%BE%D0%BD%D0%BE%D0%B3%D0%B8%D0%B9-%D0%B0%D1%80%D0%B3%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BA%D0%B8%D1%82%D0%B0%D0%BB%D0%B5%D1%86">Белоногий аргусский скиталец</a></li>
+      <li>Достижение <a href="http://ru.wowhead.com/achievement=12104/%D0%B8-%D1%83-%D0%BD%D0%B0%D1%81-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D1%87%D0%B8%D0%BB%D0%B8%D1%81%D1%8C-%D0%B1%D1%83%D0%BB%D0%BE%D1%87%D0%BA%D0%B8-%D0%B8%D0%B7-%D0%BC%D0%B0%D0%BD%D1%8B">И у нас закончились булочки из маны...</a></li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-SH':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/7.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='175' data-title='Смерти Хроми' data-price='2200' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Добрый Сурамаритянин</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>2 200</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Полеты в Легионе</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения:  1-2 суток</li>
+      <li>Требования: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает прохождение сценария.</h3><br><br>
+    <h3 class="main-text">Награды, которые вы получите за прохождение сценария:</h3>
+    <ul class="ulinfosite">
+      <li>1 из 4 уникальных трансмог сетов: Комплект снаряжения: <a href="http://ru.wowhead.com/item=151693/%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82-%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B-%D1%80%D0%B2%D0%B0%D0%BD%D0%BE%D0%B3%D0%BE-%D1%88%D1%80%D0%B0%D0%BC%D0%B0">одежды рваного шрама</a>, <a href="http://ru.wowhead.com/item=151695/%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82-%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BB%D0%B0%D1%82%D1%8B-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8F-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8">Комплект снаряжения: латы хранителя времени</a>,<a href="http://ru.wowhead.com/item=151692/%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82-%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D1%83%D0%B1%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE-%D1%85%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B0%D0%B3%D0%B0">Комплект снаряжения: убранство хрономага</a>,<a href="http://ru.wowhead.com/item=151692/%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82-%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D1%83%D0%B1%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE-%D1%85%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B0%D0%B3%D0%B0">Комплект снаряжения: кольчужные доспехи стража времен</a></li>
+      <li>Титул <b>Повелитель времени</b></li>
+      <li>2 боевых питомца: <a href="http://ru.wowhead.com/item=151829/%D0%B1%D1%80%D0%BE%D0%BD%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D1%87%D0%B8%D0%BA">Бронзовый протодракончики</a> <a href="http://ru.wowhead.com/item=151828/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D1%80%D0%B5%D1%8E%D1%89%D0%B8%D0%B9-%D0%B1%D1%80%D0%BE%D0%BD%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD">Нестареющий бронзовый дракон</a></li>
+      <li><b>Искаженные временем знаки</b> и золото. </li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-DS':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/2.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='174' data-title='Добрый Сурамаритянин' data-price='6000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Добрый Сурамаритянин</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>6 000</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Полеты в Легионе</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает прохождение всех цепочек заданий для получения достижения <b>Добрый сурамаритянин.</b></h3>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-PVL':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/2.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='173' data-title='Следопыт Расколотых островов, часть 1' data-price='4500' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Следопыт Расколотых островов, часть 1</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>4 500</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='172' data-title='Первопроходец Расколотых островов, часть 2' data-price='1500' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Первопроходец Расколотых островов, часть 2</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>1 500</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+    $info_wow = '<h1 class="main-text">Полеты в Легионе</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Опция Следопыт Расколотых островов, часть 1 включает в себя:</h3>
+    <ul class="ulinfosite">
+      <li><a href="http://ru.wowhead.com/achievement=11188/%D1%80%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%B5-%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B0">Расколотые острова</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=11157/%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C-%D0%BC%D1%83%D0%B4%D1%80%D0%BE%D1%81%D1%82%D0%B8-legion">Хранитель мудрости Legion</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=11189/%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5-%D0%B2%D0%BE%D1%82-%D1%87%D1%82%D0%BE-%D0%BF%D1%80%D0%B8%D0%B4%D0%B0%D0%B5%D1%82-%D0%B2%D0%BA%D1%83%D1%81-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8">Разнообразие – вот что придает вкус жизни</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=10672/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%D1%82-%D1%80%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D1%85-%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%BE%D0%B2">Дипломат Расколотых островов</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=10994/%D1%81%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F">Славная кампания</a></li>
+    </ul>
+    <h3 class="main-text">Опция Первопроходец Расколотых островов – часть 2 включает в себя:</h3>
+    <ul class="ulinfosite">
+      <li><a href="http://ru.wowhead.com/achievement=11546/%D0%BF%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%83">Проникновение в Гробницу</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=11543/%D1%80%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%B9-%D0%B1%D0%B5%D1%80%D0%B5%D0%B3">Расколотый берег</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=11544/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA-%D1%80%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D1%85-%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%BE%D0%B2">Защитник Расколотых островов</a></li>
+      <li><a href="http://ru.wowhead.com/achievement=11545/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%D1%80-%D0%B0%D1%80%D0%BC%D0%B8%D0%B8-%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D0%B5%D0%BB%D0%B8-%D0%BB%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD%D0%B0">Командир Армии погибели Легиона</a></li>
+    </ul>
+    <p>Все эти достижения необходимы для получения  <b>Первопроходец Расколотых островов, часть 2,</b> после получения данного достижения Вам будут доступны полеты на <b>Расколотые острова.</b></p><br>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-VP':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/prof/3.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='171' data-title='Рыбная ловля' data-price='2500' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Рыбная ловля</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>2 500</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='170' data-title='Первая помощь' data-price='2500' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Первая помощь</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>2 500</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='169' data-title='Кулинария' data-price='8000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Кулинария</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>8 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='168' data-title='Археология' data-price='3000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Археология</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Второстепенные профессии</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Прокачать навык  1 по 800 .</li>
+      <li>Выполнение квест лайна до рейдового контента.</li>
+    </ul>
+    <p>В легионе много разных крутых плюшек добавили в профессии, с подробным описанием Вы можете ознакомиться внутри товара представленных в данном каталоге.</p>
+    <p>Ранги профессий в WOW Легионе<br> Все рецепты Легиона имеют 3 уровня (ранга):<br>Собирательные профессии имеют несколько бонусных рангов на сбор дополнительных материалов.<br>Для крафтовых профессий более высокие ранги позволяют создавать предметы эффективнее: для одних рецептов уменьшают количество требуемых для крафта материалов, для других – увеличивают количество создаваемых вещей.</p><br>
+    <p><b>Кровь саргераса</b></p><br>
+    <p>Это новый предмет, необходимый для создания крутых вещей в профессиях и повышения уровня предметов. Персональный при поднятии.
+    <ul class="ulinfosite">
+      <li>2 шт. <b>Крови Саргераса</b> нужно для повышения уровня предмета с помощью Аннигилята.</li>
+      <li>Игроки с собирательными профессиями 2 ранга с некоторой вероятностью могут получить <b>Кровь Саргераса</b> во время поиска цветов / копания жил / снятия шкур.</li>
+      <li>Другие пути получить Кровь Саргераса:</li>
+        <ul class="ulinfosite">
+          <li>Локальные задания</li>
+          <li>Дроп в подземельях</li>
+          <li>Распыление</li>
+          <li>Дроп с наложенными на плечи чарами <a href="http://ru.wowhead.com/item=140219/%D0%B4%D0%B0%D1%80-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0">Дар кровавого охотника</a></li>
+        </ul>
+      <li>Сменить профессию можно за 1000 золотых. Что сильно упрощает их смену.</li>
+    </ul>
+    <h3 class="main-text">Анигилят</h3>
+    <p>Большую роль в профессиях Легиона играет так называемый Аннигилят. Аннигилят – это новый предмет, который в дополнении World of Warcraft Legion позволит игрокам повышать уровень предметов на 5. Улучшение можно применить несколько раз – повысив таким образом уровень крафтовых предметов с 815 до 850. Ненужные предметы можно уничтожить у специальной печи в Даларане (Горн Аннигиляции), чтобы получить Аннигилят услуга включает в себя прокачивание любой крафтовой профессии (профессия, используемая для изготовления предметов) с 1 до 700 навыка. Defyourtime.ru готов помочь в прокачке любой профессии. Мы возьмем на себя все реагенты, а также ежедневные задания. Работать можем в удобное Вам время</p>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-KP':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/prof/3.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='167' data-title='Кузнечное дело' data-price='5000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Кузнечное дело</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>5 000</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='166' data-title='Ювелирноедело' data-price='5000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Ювелирноедело</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>5 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='165' data-title='Портняжное дело' data-price='4000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Портняжное дело</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='164' data-title='Инженерное дело ' data-price='4000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Травничество</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='163' data-title='Наложение чар' data-price='4000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Наложение чар</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='162' data-title='Кожевничество' data-price='4000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Кожевничество</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='161' data-title='Начертание' data-price='4000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Начертание</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='160' data-title='Алхимия' data-price='4000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Алхимия</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Крафтовые профессии</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Прокачать навык  1 по 800.</li>
+      <li>Выполнение квест лайна до рейдового контента.</li>
+    </ul>
+    <p>В легионе много разных крутых плюшек добавили в профессии, с подробным описанием Вы можете ознакомиться внутри товара представленных в данном каталоге.</p>
+    <p>Ранги профессий в WOW Легионе<br> Все рецепты Легиона имеют 3 уровня (ранга):<br>Собирательные профессии имеют несколько бонусных рангов на сбор дополнительных материалов.<br>Для крафтовых профессий более высокие ранги позволяют создавать предметы эффективнее: для одних рецептов уменьшают количество требуемых для крафта материалов, для других – увеличивают количество создаваемых вещей.</p><br>
+    <p><b>Кровь саргераса</b></p><br>
+    <p>Это новый предмет, необходимый для создания крутых вещей в профессиях и повышения уровня предметов. Персональный при поднятии.
+    <ul class="ulinfosite">
+      <li>2 шт. <b>Крови Саргераса</b> нужно для повышения уровня предмета с помощью Аннигилята.</li>
+      <li>Игроки с собирательными профессиями 2 ранга с некоторой вероятностью могут получить <b>Кровь Саргераса</b> во время поиска цветов / копания жил / снятия шкур.</li>
+      <li>Другие пути получить Кровь Саргераса:</li>
+        <ul class="ulinfosite">
+          <li>Локальные задания</li>
+          <li>Дроп в подземельях</li>
+          <li>Распыление</li>
+          <li>Дроп с наложенными на плечи чарами <a href="http://ru.wowhead.com/item=140219/%D0%B4%D0%B0%D1%80-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0">Дар кровавого охотника</a></li>
+        </ul>
+      <li>Сменить профессию можно за 1000 золотых. Что сильно упрощает их смену.</li>
+    </ul><br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-SP':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/prof/2.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='159' data-title='Горное дело' data-price='3000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Горное дело</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='158' data-title='Снятие шкур' data-price='2500' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Снятие шкур</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>2 500</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='157' data-title='Травничество' data-price='3000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Травничество</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Собирательные профессии</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Прокачать навык  1 по 800 .</li>
+      <li>Выполнение квест лайна до рейдового контента.</li>
+    </ul>
+    <p>В легионе много разных крутых плюшек добавили в профессии, с подробным описанием Вы можете ознакомиться внутри товара представленных в данном каталоге.</p>
+    <p>Ранги профессий в WOW Легионе<br> Все рецепты Легиона имеют 3 уровня (ранга):<br>Собирательные профессии имеют несколько бонусных рангов на сбор дополнительных материалов.<br>Для крафтовых профессий более высокие ранги позволяют создавать предметы эффективнее: для одних рецептов уменьшают количество требуемых для крафта материалов, для других – увеличивают количество создаваемых вещей.</p><br>
+    <p><b>Кровь саргераса</b></p><br>
+    <p>Это новый предмет, необходимый для создания крутых вещей в профессиях и повышения уровня предметов. Персональный при поднятии.
+    <ul class="ulinfosite">
+      <li>2 шт. <b>Крови Саргераса</b> нужно для повышения уровня предмета с помощью Аннигилята.</li>
+      <li>Игроки с собирательными профессиями 2 ранга с некоторой вероятностью могут получить <b>Кровь Саргераса</b> во время поиска цветов / копания жил / снятия шкур.</li>
+      <li>Другие пути получить Кровь Саргераса:</li>
+        <ul class="ulinfosite">
+          <li>Локальные задания</li>
+          <li>Дроп в подземельях</li>
+          <li>Распыление</li>
+          <li>Дроп с наложенными на плечи чарами <a href="http://ru.wowhead.com/item=140219/%D0%B4%D0%B0%D1%80-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0">Дар кровавого охотника</a></li>
+        </ul>
+      <li>Сменить профессию можно за 1000 золотых. Что сильно упрощает их смену.</li>
+    </ul>
+    <h3 class="main-text">Анигилят</h3>
+    <p>Большую роль в профессиях Легиона играет так называемый Аннигилят. Аннигилят – это новый предмет, который в дополнении World of Warcraft Legion позволит игрокам повышать уровень предметов на 5. Улучшение можно применить несколько раз – повысив таким образом уровень крафтовых предметов с 815 до 850. Ненужные предметы можно уничтожить у специальной печи в Даларане (Горн Аннигиляции), чтобы получить Аннигилят услуга включает в себя прокачивание любой крафтовой профессии (профессия, используемая для изготовления предметов) с 1 до 700 навыка. Defyourtime.ru готов помочь в прокачке любой профессии. Мы возьмем на себя все реагенты, а также ежедневные задания. Работать можем в удобное Вам время</p>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-VQP':
+    $cart_wow ="<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/prof/1.png' alt=''>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='156' data-title='Прокачать 100 - 110 уровень' data-price='1400' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Прокачать 100 - 110 уровень</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>1 400</span> Рублей</p>
+        </div>
+      </div>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='155' data-title='Выполнение квест лайна' data-price='2000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Выполнение квест лайна</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>2 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Выполнение квест лайна любой профессии до рейдового контента</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: 110 уровень персонажа.</li>
+      <li>Наличие профессии (уровень навыка 700+).</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Важно!</h3>
+    <ul class="ulinfosite">
+      <li>Для крафтовой профессии крайне желательно наличие добывающей парной профессии.</li>
+      <li>Прохождение цепочек заданий, во время которых открываются рецепты на крафт большинства вещей данной профессии.</li>
+      <li>Не включено прохождение последних квестов в рейдах, т.к. туда не будет доступа больше месяца.</li>
+    </ul>
+    <h3 class="main-text">Нововведением в легионе для профессий стало:</h3>
+    <ul class="ulinfosite">
+      <li>Появления 3 рангов для рецептов в профессиях, позволяющих создавать предметы более высокого уровня.</li>
+      <li>Для собирательных профессий - бонусные ранги.</li>
+      <li>Изменился интерфейс самих профессий.</li>
+      <li>Сменить профессию можно за 1000 золотых. Что сильно упрощает их смену.</li>
+    </ul><br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'LVLUP-PA':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/pvp/4.png' alt=''>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='154' data-title='С героических подземелий' data-price='7000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>С героических подземелий</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>7 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='153' data-title='С нормал рейда' data-price='25000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>С нормал рейда</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>25 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='152' data-title='С героического рейда' data-price='45000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>С героического рейда</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>45 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Пакеты экипировки</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+    </ul>
+    <br>
+    <h3 class="main-text">Быстрый и без лишних заморочек способ приодеть персонажа, предлагаем различные варианты:</h3>
+    <ul class="ulinfosite">
+      <li>Одеть персонажа в полный комплект экипировки с героических подземелий.</li>
+      <li>Одеть персонажа в полный комплект экпипировки с нормал рейда.</li>
+      <li>Одеть персонажа в полный комплект экпипировки с героического рейда.</li>
+    </ul><br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'PVP-RBG-PRPB':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/pvp/4.png' alt=''>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='151' data-title='Уровень престижа PVP' data-price='0' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Победа на РБГ</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>0</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+    $info_wow = '<h1 class="main-text">Прокачка Рейтинга Поля Боя</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <br>
+    <h3 class="main-text">Доступные опции к заказу через сайт:</h3>
+    <ul class="ulinfosite">
+      <li>1800/1900/2000/2100/2200/2300/2400.</li>
+      <li>Герой Альянса.</li>
+    </ul>
+    <h3 class="main-text">Описание опций:</h3>
+    <ul class="ulinfosite">
+      <li>Допустим вы выбрали опцию 2200 рейтинг , значит ваш рейтинг должен быть ниже этой отметки к примеру 1600. По завершению заказа у вашего персонажа будет 2200 рейтинг на РПБ.</li>
+    </ul>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'PVP_RBG-WIN':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/pvp/2.png' alt=''>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='150' data-title='Уровень престижа PVP' data-price='0' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Победа на РБГ</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>0</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Победа на РБГ</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок: Договорной</li>
+      <li>Требования: 110 уровень</li>
+    </ul>
+    <p>Поможем Вам набить необходимое количество побед на РБГ. 100% побед не гарантируем, так что услуга не подойдет для поддержания рейтинга. Играем честно, без переливов и других махинаций, для защиты аккаунта от последствий. Услуга является оптимальным решением для отбития накопившего капа очков завоевания и многих других вещей:</p>
+    <ul class="ulinfosite">
+      <li>Идеальное решение для получения многих званий и маунтов, таких как:</li>
+      <li>75 побед - Ветеран орды/альянса</li>
+      <li>150 побед  - Ветеран орды / альянс ll</li>
+      <li>300 побед  - Вестник битв орды / альянса</li>
+    </ul>
+    <p>Награда:  <a href="http://ru.wowhead.com/item=70910/%D1%80%D0%BE%D0%B3-%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B2%D0%BE%D0%BB%D0%BA%D0%B0">Рог яростного боевого волка</a> для орды, и <a href="http://ru.wowhead.com/item=70909/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%BD%D1%8F">Поводья яростного боевого коня</a> для альянса.</p>
+    <br><br>
+    <h3 class="main-text">Седла ярости, которые позволит получить Вам следующих маунтов:</h3>
+    <ul class="ulinfosite">
+      <li><a href="http://ru.wowhead.com/item=142437/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%81%D0%BA%D0%BE%D1%80%D0%BF%D0%B8%D0%BE%D0%BD">Яростный боевой скорпион</a></li>
+      <li><a href="http://ru.wowhead.com/item=142237/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BB%D0%B5%D0%B2">Яростный боевой лев</a></li>
+      <li><a href="http://ru.wowhead.com/item=142235/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C">Яростный боевой медведь</a></li>
+      <li><a href="http://ru.wowhead.com/item=143649/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D0%B0%D1%8F-%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F-%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0">Яростная боевая черепаха</a></li>
+    </ul>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
   case 'LVLUP-AFGA':
     $cart_wow = "<div class='backtoprice'>
   <div id='wrapper_tovar'>
@@ -16,7 +885,7 @@ switch ($price_wow) {
       <!-- Бкол товара -->
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='148' data-title='Иду сам' data-price='30000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='149' data-title='Иду сам' data-price='30000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Иду сам</h3>
@@ -24,13 +893,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>30 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='147' data-title='Бис гир' data-price='70000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='148' data-title='Бис гир' data-price='70000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Бис гир</h3>
@@ -38,13 +904,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>70 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='146' data-title='Оффспек' data-price='30000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='147' data-title='Оффспек' data-price='30000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 900+</h3>
@@ -52,22 +915,16 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>30 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Прохождение' data-price='6500' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='146' data-title='Прохождение' data-price='6500' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 890+</h3>
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>65 000</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       </div>
@@ -82,13 +939,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>5 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Бис гир' data-price='10000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='144' data-title='Бис гир' data-price='10000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Бис гир</h3>
@@ -96,13 +950,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>10 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Оффспек' data-price='4000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='143' data-title='Оффспек' data-price='4000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Оффспек</h3>
@@ -110,13 +961,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Прохождение' data-price='6000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='142' data-title='Прохождение' data-price='6000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прохождение</h3>
@@ -124,26 +972,20 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>6 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       </div>
       <div id='normal' style='display: none;'>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Иду сам' data-price='1' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='141' data-title='Иду сам' data-price='1' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Иду сам</h3>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Бис гир' data-price='3000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='140' data-title='Бис гир' data-price='3000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Бис гир</h3>
@@ -151,13 +993,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Офф спек' data-price='4000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='139' data-title='Офф спек' data-price='4000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Офф спек</h3>
@@ -165,13 +1004,10 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Прохождение' data-price='6000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='138' data-title='Прохождение' data-price='6000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 890+</h3>
@@ -179,20 +1015,45 @@ switch ($price_wow) {
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>6 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       </div>
       <script src='alltrubls.js'></script>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div>";
-  $info_wow = '';
+  $info_wow = '<h1 class="main-text">Анторус Фулл Гир все сложности</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения: договорной.</li>
+      <li>Требования: персонаж 110 уровня.</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Фарм вещей необходимого Вам уровня в мифик+ данжах. Дополнительно Вы получаете Силу Артефакта.</li>
+      <li>Мы будем проходить рейды до тех пор, пока Вашему персонажу не выпадет вещь из рейда в каждый слот.</li>
+    </ul>
+    <h3 class="main-text">Доступные опции: </h3>
+    <ul class="ulinfosite">
+      <li>960-970 илвл фулл гир с Анторус, Пылающий Трон Мифик.</li>
+      <li>Иду сам — Вы будете учавствовать в рейде лично.</li>
+      <li>Бис Гир — лучшие вещи для определенного спека Вашего персонажа.</li>
+      <li>Оффспек — все вещи для дополнительной специализации.</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
     break;
   case 'LVLUP-FAP':
     $cart_wow = '<div class="backtoprice">
   <div id="wrapper_tovar">
+    <img style="border-radius: 10px 10px 0 0" src="gameimg/wow/price/achiv/6.png" alt="">
     <div class="item_box">
       <div class="calc">
         <div class="price-block">
@@ -209,7 +1070,7 @@ switch ($price_wow) {
           <div class="total">
             <span class="text-option">Всего:</span>
             <input value="0" type="text" disabled class="total-count" id="total-value">
-            <input type="checkbox" class="add_item box_input" data-id="149" data-title="Золото" data-price="" data-img="gameimg/info.png"><span class="text-option">В корзину</span></button>
+            <input type="checkbox" class="add_item box_input" data-id="137" data-title="Золото" data-price="" data-img="gameimg/info.png"><span class="text-option">В корзину</span></button>
           </div>
         </div>
       </div>
@@ -218,7 +1079,37 @@ switch ($price_wow) {
     <div class="label-place"></div><!-- Элемент, где будет расположен ярлык корзины --> 
   </div>
 </div>';
-$info_wow = '';
+$info_wow = '<h1 class="main-text">Фарм силы артефакта Обновлено под 7.3</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <ul class="ulinfosite">
+      <li>Срок выполнения:  Зависит от количества заказанных вами часов фарма.</li>
+      <li>Требования:  110 уровень персонажа.</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Вы получите: </h3>
+    <ul class="ulinfosite">
+      <li>Наш драйвер будет фармить нон стопом силу артефакта.</li>
+      <li>Чем Выше уровень - тем более сильное оружие имеет Ваш персонаж.</li>
+      <li>Значительное усиление возможностей Вашего персонажа, в том числе и скрытые бафы к персонажу.</li>
+      <li>Артефактное оружие можно использовать везде и без ограничений.</li>
+    </ul>
+    <h3 class="main-text">Что такое Сила Артефакта?</h3>
+    <ul class="ulinfosite">
+      <li>Одна из самых важных новинок дополнения Legion.</li>
+      <li>Сила артефакта необходима на улучшение вашего артефактного оружия - удобный <a href="http://ru.wowhead.com/artifact-calc/warrior/fury/A_ZiMjAA">калькулятор Силы Артефакта</a>.</li>
+      <li>Каждый уровень артефакта существенно увеличивает вашу выживаемость/наносимый урон/исходящее исцеление.</li>
+      <li>Чем выше уровень знаний артефакта, тем больше можно получить силы, за тот же промежуток времени.</li>
+      <li>Параллельно с получением силы артефакта вы будете качать репутации, получать кровь саргераса и даже вещи достаточно высокого итемлвла!</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
     break;
   case 'LVLUP-IABM':
     $cart_wow = "<div class='backtoprice'>
@@ -227,7 +1118,7 @@ $info_wow = '';
       <!-- Бкол товара -->
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='148' data-title='Мой ilvl 930+' data-price='450' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='136' data-title='Мой ilvl 930+' data-price='450' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 930+</h3>
@@ -235,13 +1126,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 900</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='147' data-title='Мой ilvl 910+' data-price='700' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='135' data-title='Мой ilvl 910+' data-price='700' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 930+</h3>
@@ -249,13 +1137,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>700</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='146' data-title='Мой ilvl 900+' data-price='1000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='134' data-title='Мой ilvl 900+' data-price='1000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 900+</h3>
@@ -263,13 +1148,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='145' data-title='Мой ilvl 890+' data-price='1400' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='181' data-title='Мой ilvl 890+' data-price='1400' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Мой ilvl 890+</h3>
@@ -277,13 +1159,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 400</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
        <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='144' data-title='Cделать все преквесты' data-price='300' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='133' data-title='Cделать все преквесты' data-price='300' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Cделать все преквесты</h3>
@@ -291,18 +1170,15 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>300</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Испытание Артефакта - Башня Магов</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Испытание Артефакта - Башня Магов</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <p>Услуга включает прохождение испытания  Башни Магов на расколотом берегу для одной специализации. За прохождение испытания Вы получаете уникальный внешний вид артефакта и достижение <a href="http://ru.wowhead.com/achievement=11611/%D0%B8%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D0%B5">Испытанное оружие</a>. Каждая специализация имеет свой <a href="http://ru.wowhead.com/challenging-artifact-weapon-appearances">уникальный вид</a> артефакта, вы можете заказать испытание артфакта для каждой интересующей Вас специальности.</p>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -314,7 +1190,7 @@ $info_wow = '';
   case 'LVLUP-PP':
     $cart_wow = "<div class='backtoprice'>
   <div id='wrapper_tovar'>
-    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/1.png' alt=''>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/achiv/3.png' alt=''>
     <select name='option2' id='prokchka'>
       <option value='1'>prokchka100-110</option>
       <option value='2'>prokchka90-100</option>
@@ -324,7 +1200,7 @@ $info_wow = '';
       <!-- Бкол товара -->
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='143' data-title='Прокачать за 12 часов (100-110)' data-price='400' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='132' data-title='Прокачать за 12 часов (100-110)' data-price='400' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прокачать за 12 часов (100-110)</h3>
@@ -332,13 +1208,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>400</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='142' data-title='Прокачать с 1 по 100 уровень' data-price='2400' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='131' data-title='Прокачать с 1 по 100 уровень' data-price='2400' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прокачать с 1 по 100 уровень</h3>
@@ -346,13 +1219,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 400</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='141' data-title='Кампания Аргуса' data-price='1000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='130' data-title='Кампания Аргуса' data-price='1000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Кампания Аргуса</h3>
@@ -360,13 +1230,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='140' data-title='Кампания Расколотого берега' data-price='1600' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='129' data-title='Кампания Расколотого берега' data-price='1600' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Кампания Расколотого берега</h3>
@@ -374,13 +1241,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 200</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='139' data-title='Кампания классового оплота' data-price='1500' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='128' data-title='Кампания классового оплота' data-price='1500' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Кампания классового оплота</h3>
@@ -388,13 +1252,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 500</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='138' data-title='Анторус героик ПЛ со скидкой ' data-price='2000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='127' data-title='Анторус героик ПЛ со скидкой ' data-price='2000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Анторус героик ПЛ со скидкой</h3>
@@ -402,13 +1263,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 000</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='137' data-title='Прокачка' data-price='780' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='126' data-title='Прокачка' data-price='780' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Пройти 11 из 11 подземелий</h3>
@@ -416,15 +1274,12 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>780</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       </div>
       <div id='prokchka90-100' style='display: none;'>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='136' data-title='Прокачать за 9 часов (90-100)' data-price='300' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='125' data-title='Прокачать за 9 часов (90-100)' data-price='300' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Пройти 11 из 11 подземелий</h3>
@@ -432,13 +1287,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>300</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='135' data-title='Прокачать с 1 по 90 уровень' data-price='2300' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='124' data-title='Прокачать с 1 по 90 уровень' data-price='2300' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Пройти 11 из 11 подземелий</h3>
@@ -446,13 +1298,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 300</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='134' data-title='Прокачать с 100 по 110 уровень' data-price='1200' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='123' data-title='Прокачать с 100 по 110 уровень' data-price='1200' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прокачать с 100 по 110 уровень</h3>
@@ -460,13 +1309,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 200</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='133' data-title='Прокачка' data-price='700' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='122' data-title='Прокачка' data-price='700' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прокачка</h3>
@@ -474,15 +1320,12 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>700</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       </div>
       <div id='prokchka20-110' style='display: none;'>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='132' data-title='Прокачать за 4 дня' data-price='1500' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='121' data-title='Прокачать за 4 дня' data-price='1500' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прокачать за 4 дня</h3>
@@ -490,13 +1333,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 500</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='131' data-title='Прокачка' data-price='3300' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='120' data-title='Прокачка' data-price='3300' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Прокачать за 4 дня</h3>
@@ -504,23 +1344,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 300</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       </div>
       <script src='prokachka.js'></script>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Эпохальные ПЛЮС подземелья</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Прокачка персонажа</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок прокачки:  1-2 дня..</li>
       <li>Требования к аккаунту: минимум 100 уровень.</li>
     </ul><br>
-    <h3 style="color:#98FB98"><b>Прокачка персонажа осуществляется исключительно руками, никаких ботов и автоматизированных программ!.</b></h3><br>
-    <h3 style="color: #98FB98">Описание услуги:</h3>
+    <h3 class="main-text"><b>Прокачка персонажа осуществляется исключительно руками, никаких ботов и автоматизированных программ!.</b></h3><br>
+    <h3 class="main-text">Описание услуги:</h3>
     <p>При заказе прокачки до 110 уровня вы получите: Персонажа 110 уровня<br>
     Будет одет в  экипировку которую выдают за выполнение квестовых заданий в LEGION.<br>
     Предлагаем услугу для тех, кто не хочет тратить ни секунды, чтобы достичь 110-го уровня максимально быстро.<br>
@@ -529,7 +1366,100 @@ $info_wow = '';
     Желаемый метод прокачки Вы можете указать в комментарии.<br>
     Возможна прокачка и с других уровней, к примеру 103 - 110, 107 - 110 и другие. Цена будет ниже. Свяжитесь с оператором для уточнения деталей. Также, настоятельно рекомендуем уточнять способ прокачки артефакта при оформлении заказа во избежание разногласий после его выполнения. Также мы можем работать в удобное Вам время, что позволит Вам ходить в рейды, играть на РБГ и жить полноценной игровой жизнью. Однако, сроки прокачки могу увеличиться.</p>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'PVP-RBG-LVLUPHONOR':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/pvp/1.png' alt=''>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='119' data-title='Уровень престижа PVP' data-price='0' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Уровень престижа PVP</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>0</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+  $info_wow = '<h1 class="main-text">Уровень Престижа PvP</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
+    <br>
+    <h3 class="main-text"><b>Наша команда поможет Вам со взятием выбранного Вами рейтинга на Арене, или Полях Боя. Мы не несем отвественности за дальнейшие действия от разработчиков игры в Вашу сторону по отношению к пользовательскому соглашению.</b></h3><br>
+    <h3>Услуга включает на Ваш выбор следующие опции:</h3>
+    <ul class="ulinfosite_price">
+      <li>Прокачка уровня престижа до 1 уровня.</li>
+      <li>Прокачка уровня престижа до 2 уровня.</li>
+      <li>Прокачка уровня престижа до 3 уровня.</li>
+      <li>Прокачка уровня престижа до 4 уровня.</li>
+    </ul><br>
+    <h3 class="main-text">Что такое уровни Престижа?:</h3>
+    <ul class="ulinfosite">
+      <li>Необходимо прокачать <b>50 уровеней Чести</b.</li>
+      <li>По достижению <b>50 уровня Чести</b> она обнулится и Вам дадут 1 уровень престижа.</li>
+      <li>Вы получите разные <b>виды артефактов</b>, маунтов, питомцев и многое другое.</li>
+      <li>Маунты за Престиж - <a href="http://ru.wowhead.com/item=140228/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D1%80%D0%BE%D0%BD%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Прославленный бронзовый скакун</a>, <a href="http://ru.wowhead.com/item=140230/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Прославленный королевский скакун</a>, <a href="http://ru.wowhead.com/item=140232/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B5%D1%81%D0%BD%D0%BE%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Прославленный лесной скакун</a>, <a href="http://ru.wowhead.com/item=140233/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Прославленный белый скакун</a>, <a href="http://ru.wowhead.com/item=140407/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Прославленный полночный скакун</a>, <a href="http://ru.wowhead.com/item=140408/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B0%D0%B7%D1%83%D1%80%D0%BD%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Прославленный лазурный скакун</a>.</li>
+      <li>Питомцы за Престиж - <a href="http://ru.wowhead.com/item=139775/%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82-%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%B0">Энтузиаст Альянса</a>, <a href="http://ru.wowhead.com/item=139775/%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82-%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%B0">Фанатик Орды</a>.</li>
+    </ul>
+    <br><br>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <div class="fancy"><h3>Скриншоты и видео</h3>
+      <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/cs.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/d3.png" class="image-new" alt=""/>
+      <img width="120" height="90" src="img/dota2.png" class="image-new" alt=""/>
+    </div>';
+    break;
+  case 'PVP-ARENA-GLAD':
+    $cart_wow = "<div class='backtoprice'>
+  <div id='wrapper_tovar'>
+    <img style='border-radius: 10px 10px 0 0' src='gameimg/wow/price/pvp/5.png' alt=''>
+      <!-- Бкол товара -->
+      <div class='item_box'>
+        <div class='price_tovar_main'>
+          <input type='checkbox' class='add_item box_input' data-id='118' data-title='Гладиатор' data-price='500000' data-img='gameimg/info.png'>
+        </div>
+        <div class='price_tovar_main'>
+          <h3 class='item_title'>Гладиатор</h3>
+        </div>
+        <div class='price_tovar_main'>
+          <p class='box_cena'><span class='item_price'>500 000</span> Рублей</p>
+        </div>
+      </div>
+      <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
+    </div> 
+  </div><!-- Конец корзины -->";
+    $info_wow = '<h1>Гладиатор</h1><br><br>
+    <h3>Услуга включает:</h3>
+    <ul class="ulinfosite_price">
+      <li>Срок прокачки: в течении сезона.</li>
+      <li>Требование к персонажу: 110 уровень.</li>
+    </ul><br>
+    <h3><b>Наша команда поможет Вам со взятием выбранного Вами рейтинга на Арене, или Полях Боя. Мы не несем отвественности за дальнейшие действия от разработчиков игры в Вашу сторону по отношению к пользовательскому соглашению.</b></h3><br>
+    <h3>Оплачивая услугу Вы получите:</h3>
+    <ul class="ulinfosite_price">
+      <li>Рейтинг необходимый для получения <a href="http://ru.wowhead.com/achievement=2091/%D0%B3%D0%BB%D0%B0%D0%B4%D0%B8%D0%B0%D1%82%D0%BE%D1%80">Гладиатор</a> по окончанию сезона.</li>
+      <li>Возможность получить Уникального маунта.</li>
+      <li>Множество достижений на арене, без доплат.</li>
+      <li>Восхищение и зависть своих знакомых по игре, а также случайных игроков.</li>
+    </ul><br>
+    <h3>Как мы это сделаем?</h3>
+    <p>Наши гладиаторы прокачают вашего персонажа в брекете 3х3 до уровня достаточного для вхождения в 0,5% строк рейтинговой таблицы. Также мы будем плотно играть в концовке сезона, что бы подогнать команду под нужные параметры. Самым ярым любителям PVP и редких достижений мы также представляем помощь в получении уникального достижения  - Топ 1 гладиатор. Услуга включает получение первой строчки в таблице pvp команд, даёт уникальный титул, великий подвиг - <Название сезона> гладиатор. Такого рода званий в игре крайне мало - ведь они доставались только игрокам, которые занимали первые места в одном из сезонов.</p>
+    <br><br>
+    <h3>Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -545,7 +1475,7 @@ $info_wow = '';
       <!-- Бкол товара -->
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='130' data-title='Пройти 8 из 11 подземелий' data-price='1900' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='117' data-title='Пройти 8 из 11 подземелий' data-price='1900' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Пройти 8 из 11 подземелий</h3>
@@ -553,13 +1483,10 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 900</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='129' data-title='Пройти 10 из 11 подземелий' data-price='2700' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='116' data-title='Пройти 10 из 11 подземелий' data-price='2700' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Пройти 10 из 11 подземелий</h3>
@@ -567,22 +1494,16 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 700</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='128' data-title='Пройти 11 из 11 подземелий' data-price='3200' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='115' data-title='Пройти 11 из 11 подземелий' data-price='3200' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Пройти 11 из 11 подземелий</h3>
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 200</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
@@ -603,7 +1524,7 @@ $info_wow = '';
       <!-- Бкол товара -->
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='127' data-title='2-3 уровень ключа' data-price='300' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='114' data-title='2-3 уровень ключа' data-price='300' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>2-3 уровень ключа</h3>
@@ -614,7 +1535,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='126' data-title='4-6 уровень ключа' data-price='400' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='113' data-title='4-6 уровень ключа' data-price='400' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>4-6 уровень ключа</h3>
@@ -625,7 +1546,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='125' data-title='7 уровень' data-price='500' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='112' data-title='7 уровень' data-price='500' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>7 уровень<br> подземелий</h3>
@@ -636,7 +1557,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='124' data-title='8 уровень' data-price='600' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='111' data-title='8 уровень' data-price='600' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>8 уровень</h3>
@@ -647,7 +1568,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='123' data-title='9 уровень ключа' data-price='700' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='110' data-title='9 уровень ключа' data-price='700' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>9 уровень ключа</h3>
@@ -658,7 +1579,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='122' data-title='10 уровень ключа' data-price='750' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='109' data-title='10 уровень ключа' data-price='750' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>10 уровень ключа</h3>
@@ -669,7 +1590,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='121' data-title='11 уровень ключа' data-price='850' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='108' data-title='11 уровень ключа' data-price='850' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>11 уровень ключа</h3>
@@ -680,7 +1601,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='120' data-title='12 уровень ключа' data-price='1000' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='107' data-title='12 уровень ключа' data-price='1000' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>12 уровень ключа</h3>
@@ -691,7 +1612,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='119' data-title='13 уровень ключа' data-price='1200' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='106' data-title='13 уровень ключа' data-price='1200' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>13 уровень ключа</h3>
@@ -702,7 +1623,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='118' data-title='14 уровень ключа' data-price='1300' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='105' data-title='14 уровень ключа' data-price='1300' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>14 уровень ключа</h3>
@@ -713,7 +1634,7 @@ $info_wow = '';
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='117' data-title='15 уровень ключа' data-price='1400' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='181' data-title='15 уровень ключа' data-price='1400' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>15 уровень ключа</h3>
@@ -722,156 +1643,24 @@ $info_wow = '';
           <p class='box_cena'><span class='item_price'>1 400</span> Рублей</p>
         </div>
       </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='116' data-title='16 уровень ключа' data-price='1700' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>16 уровень ключа</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>1 700</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='115' data-title='17 уровень ключа' data-price='2000' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>Пройти 11 из 11<br> подземелий</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>2 000</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='114' data-title='18 уровень ключа' data-price='2400' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>18 уровень ключа</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>2 400</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='113' data-title='19 уровень ключа' data-price='2700' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>19 уровень ключа</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>2700</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='112' data-title='20 уровень ключа' data-price='3000' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>Пройти 11 из 11<br> подземелий</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>3 000</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='111' data-title='21 уровень ключа' data-price='4000' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>21 уровень ключа</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='110' data-title='22 уровень ключа' data-price='5000' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>Пройти 11 из 11<br> подземелий</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>5 000</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='109' data-title='23 уровень ключа' data-price='7000' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>23 уровень ключа</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>7 000</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='108' data-title='24 уровень ключа' data-price='8500' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>24 уровень ключа</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>8 500</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='107' data-title='25 уровень ключа' data-price='10000' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>Пройти 11 из 11<br> подземелий</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>10 000</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='106' data-title='Сделать в таймер' data-price='650' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>Пройти 11 из 11<br> подземелий</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>650</span> Рублей</p>
-        </div>
-      </div>
-      <div class='item_box'>
-        <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='105' data-title='Иду сам (для ключей 20+ уровень)' data-price='1500' data-img='gameimg/info.png'>
-        </div>
-        <div class='price_tovar_main'>
-          <h3 class='item_title'>Иду сам (для ключей 20+ уровень)</h3>
-        </div>
-        <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>1 500</span> Рублей</p>
-        </div>
-      </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-    $info_wow = '<h1 style="color: #CD5C5C">Эпохальные ПЛЮС подземелья</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+    $info_wow = '<h1 class="main-text">Эпохальные ПЛЮС подземелья</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: от 2 часов.</li>
       <li>Требование к персонажу: 110 уровень.</li>
       <li>При заказе ключа +10 и выше требуется 900+ уровень экипировки!</li>
     </ul><br>
-    <h3 style="color:#98FB98"><b>Это очень быстрый и эффективный способ приодеться. Весь лут 940+ уровня и другой,  выпавший в процессе прохождения, на персонажа останутся в сумке.</b></h3><br>
-    <h3 style="color: #98FB98">Описание услуги:</h3>
+    <h3 class="main-text"><b>Это очень быстрый и эффективный способ приодеться. Весь лут 940+ уровня и другой,  выпавший в процессе прохождения, на персонажа останутся в сумке.</b></h3><br>
+    <h3 class="main-text">Описание услуги:</h3>
     <ul class="ulinfosite_price">
       <li>Прохождение одного эпохального+ подземелья по Вашему ключу. Возможны варианты прохождения нескольких подземелий подряд по выгодной цене, обратитесь к оператору для оформления персонального заказа.</li>
       <li>Вы получите лут из всех подземелий, которые мы пройдём, пока достигнем заказанного уровня, + сундук в оплоте в конце недели.</li>
       <li>Это самый быстрый и эффективный способ приодеться.</li>
     </ul><br>
-    <h3 style="color:#98FB98">Что это вообще такое?</h3>
+    <h3>Что это вообще такое?</h3>
     <p>Дополнение Legion принесло в игру новый тип контента - Эпохальные+ подземелья с ключами. На самом деле это те же самые подземелья эпохальной сложности, но имеющие следующие особенности:</p>
     <ul class="ulinfosite_price">
       <li>Ограничение времени на прохождение;</li>
@@ -879,21 +1668,21 @@ $info_wow = '';
       <li>Дополнительные способности противников и окружающего мира.</li>
     </ul>
     <br><br>
-    <h3 style="color: #98FB98">Эпохальные ключи имеют всего 2 характеристики:</h3>
+    <h3 class="main-text">Эпохальные ключи имеют всего 2 характеристики:</h3>
     <ul class="ulinfosite_price">
       <li>Уровень;</li>
       <li>Набор модификаторов.</li>
       <li><img src="img/key.png"></li>
     </ul>
-    <h3 style="color:#98FB98">Эпохальный ключ 6 уровня</h3>
-    <h3 style="color:#98FB98">Источники ключей:</h3>
+    <h3>Эпохальный ключ 6 уровня</h3>
+    <h3>Источники ключей:</h3>
     <ul class="ulinfosite">
       <li>Вы можете получить ключ 2 уровня из добычи с последнего босса эпохального подземелья без ключа;</li>
       <li>Вы можете получить ключ в конце эпохального подземелья с ключом; Уровень ключа будет примерно на 30% ниже уровня пройденного подземелья.</li>
       <li>Вы можете получить ключ <a href="https://www.noob-club.ru/index.php?topic=41879.0#weekly">с сундука в оплоте</a>. Уровень ключа будет примерно на 30% ниже максимального уровня, пройденного вами на прошлой неделе.</li>
     </ul>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -917,9 +1706,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 900</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -930,9 +1716,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 700</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -945,21 +1728,18 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 200</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Эпохальные Подземелья</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Эпохальные Подземелья</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: от 2 часов</li>
       <li>Требование к персонажу: 110 уровень.</li>
     </ul><br>
-    <h3 style="color:#98FB98"><b>Это очень быстрый и эффективный способ приодеться. Весь лут 840+ уровня и другой,  выпавший в процессе прохождения, на персонажа останутся в сумке.</b></h3><br>
-    <h3 style="color: #98FB98">Ваш персонаж в составе нашей группы пройдет следующие подземелья:</h3>
+    <h3><b>Это очень быстрый и эффективный способ приодеться. Весь лут 840+ уровня и другой,  выпавший в процессе прохождения, на персонажа останутся в сумке.</b></h3><br>
+    <h3 class="main-text">Ваш персонаж в составе нашей группы пройдет следующие подземелья:</h3>
     <ul class="ulinfosite_price">
       <li>Крепость Черной Ладьи.</li>
       <li>Квартал Звезд.</li>
@@ -973,19 +1753,19 @@ $info_wow = '';
       <li>Штурм Аметистовой крепости.</li>
       <li>Собор Вечной Ночи.</li>
     </ul><br>
-    <h3 style="color:#98FB98">Доступно две услуги Прохождения Эпохальный Подземелий:</h3>
+    <h3 class="main-text">Доступно две услуги Прохождения Эпохальный Подземелий:</h3>
     <ul class="ulinfosite_price">
       <li>Прохождение 8/11 подземелий.</li>
       <li>Прохождение 10/11 подземелий.</li>
       <li>Прохождение 11/11 подземелий.</li>
     </ul>
     <br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Стрим (трансляция). Вы сможете наблюдать за процессом прохождения подземелий Вашим персонажем. Мы предоставим ссылку для просмотра в браузере.</li>
       <li>Иду сам.  Говорит за себя, можете поучаствовать в группе лично.</li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1015,9 +1795,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>17 499</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1028,9 +1805,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>17 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1043,9 +1817,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>9 100</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1056,9 +1827,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>18 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1071,9 +1839,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>12 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1084,9 +1849,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>19 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1099,9 +1861,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>17 499</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1112,9 +1871,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>27 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1127,9 +1883,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>31 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1140,9 +1893,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>34 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1155,9 +1905,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>42 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1169,9 +1916,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>59 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1182,9 +1926,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       </div>
@@ -1199,9 +1940,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>17 499</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1212,9 +1950,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>17 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1227,9 +1962,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>18 499</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1240,9 +1972,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>18 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1255,9 +1984,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>19 499</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1268,9 +1994,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>19 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1283,9 +2006,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>23 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1296,9 +2016,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>27 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1311,9 +2028,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>34 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='item_box'>
         <div class='price_tovar_main'>
@@ -1324,9 +2038,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>42 999</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='item_box'>
@@ -1339,27 +2050,24 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       </div>
       <script src='opt.js'></script>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div>
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Эпохальные+ Подземелья Score</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Эпохальные+ Подземелья Score</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: от 30 минут до 48 часов.</li>
       <li>Требование к персонажу: 110 уровень, 930+ уровень предметов.</li>
     </ul><br><br><br>
-    <h3>Доступные опции:</h3>
+    <h3 class="main-text">Доступные опции:</h3>
     <ul class="ulinfosite_price">
       <li>Мы повысим ваш Эпохальные+ WoWProgress Score от 1800 до 2900 очков.</li>
       <li>Мы повысим ваш Эпохальные+ Raider.io Score от 2100 до 3800 очков.</li>
     </ul><br><br>
-    <h3 style="color:#98FB98">ВНИМАНИЕ! Перед тем, как оплачивать услугу, узнайте у оператора подходит ли ваш персонаж для выбраной опции Score.</h3>
+    <h3 class="main-text">ВНИМАНИЕ! Перед тем, как оплачивать услугу, узнайте у оператора подходит ли ваш персонаж для выбраной опции Score.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1383,23 +2091,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья черного боевого маханодолгонога</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья черного боевого маханодолгонога</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29465/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D0%BD%D0%BE%D0%B3">Поводья черного боевого маханодолгонога.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1423,23 +2128,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого коня-скелета</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого коня-скелета</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=102533/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%BD%D1%8F-%D1%81%D0%BA%D0%B5%D0%BB%D0%B5%D1%82%D0%B0">Поводья яростного боевого коня-скелета.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1463,23 +2165,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья пеплошкурого дикого мушана</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья пеплошкурого дикого мушана</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=103638/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BF%D0%B5%D0%BF%D0%BB%D0%BE%D1%88%D0%BA%D1%83%D1%80%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BC%D1%83%D1%88%D0%B0%D0%BD%D0%B0">Поводья пеплошкурого дикого мушана.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1503,23 +2202,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья вороного боевого скакуна</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья вороного боевого скакуна</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29468/%D1%83%D0%B7%D0%B4%D0%B0-%D0%B2%D0%BE%D1%80%D0%BE%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD%D0%B0">Поводья вороного боевого скакуна.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1543,23 +2239,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого лиса</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого лиса</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=152870/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BB%D0%B8%D1%81">Поводья яростного боевого лиса.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1583,23 +2276,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья прославленного полуночного скакуна</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья прославленного полуночного скакуна</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140407/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Поводья прославленного поулчного скакуна.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1623,23 +2313,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья прославленного бронзового скакуна</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья прославленного бронзового скакуна</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140228/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D1%80%D0%BE%D0%BD%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Поводья прославленного бронзового скакуна.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1663,23 +2350,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого волка</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого волка</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/spell=100333/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B2%D0%BE%D0%BB%D0%BA">Поводья яростного боевого волка.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1703,23 +2387,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья прославленного лазурного скакуна</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья прославленного лазурного скакуна</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140408/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B0%D0%B7%D1%83%D1%80%D0%BD%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Поводья прославленного лазурного скакуна.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1743,23 +2424,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья прославленного белого скакуна</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья прославленного белого скакуна</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140233/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Поводья прославленного белого скакуна.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1783,23 +2461,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья прославленного королевского скакуна</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья прославленного королевского скакуна</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140230/%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD">Поводья прославленного королевского скакуна.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1823,23 +2498,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевоевого медведя</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевоевого медведя</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=142234/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C">Поводья яростного боевоевого медведя.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1863,23 +2535,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростной боевой черепахи</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростной боевой черепахи</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=142369/%D0%BF%D0%B0%D0%BB%D0%B5%D0%B2%D1%8B%D0%B9-%D0%BA%D1%80%D1%8B%D0%BB%D0%BE%D0%B1%D0%B5%D0%B3">Поводья яростной боевой черепахи.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1903,23 +2572,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья палевого крылобега</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья палевого крылобега</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=142369/%D0%BF%D0%B0%D0%BB%D0%B5%D0%B2%D1%8B%D0%B9-%D0%BA%D1%80%D1%8B%D0%BB%D0%BE%D0%B1%D0%B5%D0%B3">Поводья палевого крылобега.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1943,23 +2609,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья прославленного боевого волка</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья прославленного боевого волка</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=143864/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B2%D0%BE%D0%BB%D0%BA%D0%B0">Поводья прославленного боевого волка.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -1983,23 +2646,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого саблезуба</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого саблезуба</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/spell=146615/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%81%D0%B0%D0%B1%D0%BB%D0%B5%D0%B7%D1%83%D0%B1">Поводья яростного боевого саблезуба.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2023,23 +2683,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья прославленного боевого коня</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья прославленного боевого коня</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=129280/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%BD%D1%8F">Поводья прославленного боевого коня.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2063,23 +2720,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого гилнеасского коня</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого гилнеасского коня</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140353/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B3%D0%B8%D0%BB%D0%BD%D0%B5%D0%B0%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BD%D1%8C">Поводья яростного боевого гилнеасского коня.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2103,23 +2757,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного крылобега</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного крылобега</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140348/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%BA%D1%80%D1%8B%D0%BB%D0%BE%D0%B1%D0%B5%D0%B3">Поводья яростного крылобега.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2143,23 +2794,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого трицикла</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого трицикла</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=140354/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%82%D1%80%D0%B8%D1%86%D0%B8%D0%BA%D0%BB">Поводья яростного боевого трицикла.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2183,23 +2831,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья яростного боевого элика</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья яростного боевого элика</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/spell=223578/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BB%D0%B5%D0%BA%D0%BA">Поводья яростного боевого элика.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2215,31 +2860,28 @@ $info_wow = '';
       <!-- Бкол товара -->
       <div class='item_box'>
         <div class='price_tovar_main'>
-          <input type='checkbox' class='add_item box_input' data-id='54' data-title='Черный боевой баран' data-price='1199' data-img='gameimg/info.png'>
+          <input type='checkbox' class='add_item box_input' data-id='54' data-title='Черный боевой баран' data-price='1200' data-img='gameimg/info.png'>
         </div>
         <div class='price_tovar_main'>
           <h3 class='item_title'>Черный боевой баран</h3>
         </div>
         <div class='price_tovar_main'>
-          <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
+          <p class='box_cena'><span class='item_price'>1 200</span> Рублей</p>
         </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья черного боевого барана</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья черного боевого барана</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29467/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B1%D0%B0%D1%80%D0%B0%D0%BD">Поводья черного боевого барана.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2263,23 +2905,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого механодолгонога</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого механодолгонога</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=124089/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D0%BD%D0%BE%D0%B3">Поводья яростного боевого механодолгонога.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2303,23 +2942,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого кодо</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого кодо</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=124540/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BA%D0%BE%D0%B4%D0%BE">Поводья яростного боевого кодо.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2343,23 +2979,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья яростного боевого ящера</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья яростного боевого ящера</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=116778/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8F%D1%89%D0%B5%D1%80">Поводья яростного боевого ящера.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2383,23 +3016,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья яростного боевого барана</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья яростного боевого барана</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=116777/%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B1%D0%B0%D1%80%D0%B0%D0%BD">Поводья яростного боевого барана.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2423,23 +3053,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья черного боевого талбука</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья черного боевого талбука</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29228/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D1%82%D0%B0%D0%BB%D0%B1%D1%83%D0%BA%D0%B0">Поводья черного боевого талбука.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2463,23 +3090,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья боевого скакуна грозовой вершины</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья боевого скакуна грозовой вершины</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=19030/%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%81%D0%BA%D0%B0%D0%BA%D1%83%D0%BD-%D0%B3%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B">Поводья боевого скакуна грозовой вершины.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2503,23 +3127,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья черного боевого кодо</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья черного боевого кодо</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29466/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BA%D0%BE%D0%B4%D0%BE">Поводья черного боевого кодо.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2543,23 +3164,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья яростного боевого коня</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья яростного боевого коня</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=70909/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%BD%D1%8F">Поводья яростного боевого коня.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2583,23 +3201,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-    $info_wow ='<h1 style="color: #CD5C5C">Поводья стремительного боевого крылобега</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+    $info_wow ='<h1 class="main-text">Поводья стремительного боевого крылобега</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=34129/%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BA%D1%80%D1%8B%D0%BB%D0%BE%D0%B1%D0%B5%D0%B3">Поводья стремительного боевого крылобега.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2623,23 +3238,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья черного боевого ящера</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья черного боевого ящера</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29472/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8F%D1%89%D0%B5%D1%80">Поводья черного боевого ящера.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2663,23 +3275,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья красного боевого коня</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья красного боевого коня</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29470/%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%8C-%D1%81%D0%BA%D0%B5%D0%BB%D0%B5%D1%82">Поводья красного боевого коня.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2703,23 +3312,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья черного боевого волка</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья черного боевого волка</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29469/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D0%B2%D0%BE%D0%BB%D0%BA">Поводья черного боевого волка.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2743,23 +3349,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья черного боевого мамонта</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья черного боевого мамонта</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=44077/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B0%D0%BC%D0%BE%D0%BD%D1%82%D0%B0">Поводья черного боевого маммонта.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2783,23 +3386,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья черного боевого медведя</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья черного боевого медведя</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=44223/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F">Поводья черного боевого медведя.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2823,23 +3423,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья черного боевого саблезуба</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья черного боевого саблезуба</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29471/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D1%81%D0%B0%D0%B1%D0%BB%D0%B5%D0%B7%D1%83%D0%B1%D0%B0">Поводья черного боевого саблезуба.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2863,23 +3460,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Поводья черного боевого элекка</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Поводья черного боевого элекка</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=35906/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BB%D0%B5%D0%BA%D0%BA">Поводья черного боевого элекка.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2903,23 +3497,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 199</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья черного боевого талбука</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья черного боевого талбука</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 4 - 8 часов.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=29228/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D1%82%D0%B0%D0%BB%D0%B1%D1%83%D0%BA%D0%B0#screenshots">Поводья черного боевого талбука.</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2943,23 +3534,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>1 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Янтарный доисторический дикорог</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Янтарный доисторический дикорог</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=94230/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%8F%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%BA%D0%BE%D1%80%D0%BE%D0%B3%D0%B0#screenshots">Поводья янтарного доисторического дикорога</a></li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -2983,9 +3571,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>4 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3007,27 +3592,24 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Солнечный ястреб пиков</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Солнечный ястреб пиков</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: договорной</li>
       <li>Требования к аккаунту:  Персонаж 100 уровня.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Вы получите <a href="http://ru.wowhead.com/item=116771/%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D1%8F%D1%81%D1%82%D1%80%D0%B5%D0%B1-%D0%BF%D0%B8%D0%BA%D0%BE%D0%B2">Солнечный ястреб пиков</a></li>
       <li><a href="http://ru.wowhead.com/npc=87493/%D1%80%D1%83%D1%85%D0%BC%D0%B0%D1%80">Рухмар</a> - новый ворлд босс, с которого с низким шансом могут упасть поводья ite_price">
       <li>Defyourtime.ru готовы взять на себя поиск, ожидание и убийство Рухмар на себя, Вам остаётся только раслабиться и ждать заказаного маунта.</li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3051,32 +3633,29 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>4 999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Солнечношкурый малый гронн</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Солнечношкурый малый гронн</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
       <li>Требования к аккаунту:  Персонаж 100 уровня.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Маунт <a href="http://ru.wowhead.com/item=116792/%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D1%88%D0%BA%D1%83%D1%80%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BB%D1%8B%D0%B9-%D0%B3%D1%80%D0%BE%D0%BD%D0%BD">Солнечношкурый малый гронн</a> Падает с редкого существа <a href="http://ru.wowhead.com/npc=50985/%D0%BF%D1%83%D0%B4%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BA%D1%83%D0%BB%D0%B0%D0%BA">ПУДОВЫЙ КУЛАК!</a></li>
       <li>Время респауна: примерно 24 - 28 часов.</li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
-    <h3 sryle="color: #98FB98">Для получения маунта есть 2 пути:</h3>
+    <h3 class="main-text">Для получения маунта есть 2 пути:</h3>
     <ul class="ulinfosite_price">
     <li>Караулить маунта самому, что может занять очень много времени. Помимо этого, придеться выиграть конкурентную борьбу у десятков других игроков и убить маунта первым. Это способ труден и требует удачного стечения обстоятельств, что, как известно, просиходит далеко не всегда.</li>
     <li><b>Обратиться в Defyourtime.ru ! Мы сделаем всё за Вас, а Вам останется только наслаждаться от поездок на своём новом маунте!</b></li>
     </ul>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3100,25 +3679,22 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Сланцевый доисторический дикорог</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Сланцевый доисторический дикорог</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=94229/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D1%81%D0%BB%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%BA%D0%BE%D1%80%D0%BE%D0%B3%D0%B0">Поводья сланцевого доисторического дикорога.</a></li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3142,9 +3718,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3165,9 +3738,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 995</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
@@ -3190,9 +3760,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3214,25 +3781,22 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Сапфировое речное чудище</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Сапфировое речное чудище</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
       <li>Требования к аккаунту:  Персонаж 100 уровня.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>С <a href="http://ru.wowhead.com/npc=51015/%D1%81%D0%B8%D0%BB%D1%8C%D1%84%D0%B8%D0%B4%D0%B0">Сильфида</a> Вы можете получить <a href="http://ru.wowhead.com/item=116767/%D1%81%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D0%B5-%D1%80%D0%B5%D1%87%D0%BD%D0%BE%D0%B5-%D1%87%D1%83%D0%B4%D0%B8%D1%89%D0%B5">Сапфировое речное чудище</a> c вероятностью в 100%!</li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
-    <h3 sryle="color: #98FB98">Для получения маунта есть 2 пути:</h3>
+    <h3 class="main-text">Для получения маунта есть 2 пути:</h3>
     <ul class="ulinfosite_price">
     <li>Караулить маунта самому, что может занять очень много времени. Помимо этого, придеться выиграть конкурентную борьбу у десятков других игроков и убить маунта первым. Это способ труден и требует удачного стечения обстоятельств, что, как известно, просиходит далеко не всегда.</li>
     <li><b>Обратиться в Defyourtime.ru ! Мы сделаем всё за Вас, а Вам останется только наслаждаться от поездок на своём новом маунте!</b></li>
@@ -3240,7 +3804,7 @@ $info_wow = '';
     <br>
     <p>Сам маунт оригинален, особо выделяется толстые пластины, которые защищают голову и шею питомца, а также часть спины. Низкий силует и хищная морда, большие клыки с пастью и средних размеров хвост делают это животное крайне опасным в дикой природе Дренора и красивым средством передвижения для игроков. Присоединяйтесь!</p>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3264,32 +3828,29 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Самец-кровокопыт</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Самец-кровокопыт</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
       <li>Требования к аккаунту:  Персонаж 100 уровня.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Маунт <a href="http://ru.wowhead.com/item=116659/%D1%81%D0%B0%D0%BC%D0%B5%D1%86-%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%BA%D0%BE%D0%BF%D1%8B%D1%82">Самец-кровокопыт падает</a> с редкого существа <a href="http://ru.wowhead.com/npc=50990/%D0%BD%D0%B0%D0%BA%D0%BA-%D0%B3%D1%80%D0%BE%D0%BC%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D1%8B%D0%B9">Накк Громогласный.</a></li>
       <li>Время респауна: примерно 24 - 28 часов.</li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
-    <h3 sryle="color: #98FB98">Для получения маунта есть 2 пути:</h3>
+    <h3 class="main-text">Для получения маунта есть 2 пути:</h3>
     <ul class="ulinfosite_price">
     <li>Караулить маунта самому, что может занять очень много времени. Помимо этого, придеться выиграть конкурентную борьбу у десятков других игроков и убить маунта первым. Это способ труден и требует удачного стечения обстоятельств, что, как известно, просиходит далеко не всегда.</li>
     <li><b>Обратиться в Defyourtime.ru ! Мы сделаем всё за Вас, а Вам останется только наслаждаться от поездок на своём новом маунте!</b></li>
     </ul>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3313,31 +3874,28 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow ='<h1 style="color: #CD5C5C">Пятнистый лугопотам</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow ='<h1 class="main-text">Пятнистый лугопотам</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 5 дней.</li>
       <li>Требования к аккаунту:  Персонаж 100 уровня.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Маунт <a href="http://ru.wowhead.com/item=116661/%D0%BF%D1%8F%D1%82%D0%BD%D0%B8%D1%81%D1%82%D1%8B%D0%B9-%D0%BB%D1%83%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%B0%D0%BC">Пятнистый лугопотам</a>  Падает с редкого существа <a href="http://ru.wowhead.com/npc=50981/%D0%BB%D1%83%D0%BA%D1%85%D0%BE%D0%BA">Лук\'хок.</a></li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
-    <h3 sryle="color: #98FB98">Для получения маунта есть 2 пути:</h3>
+    <h3 class="main-text">Для получения маунта есть 2 пути:</h3>
     <ul class="ulinfosite_price">
     <li>Караулить маунта самому, что может занять очень много времени. Помимо этого, придеться выиграть конкурентную борьбу у десятков других игроков и убить маунта первым. Это способ труден и требует удачного стечения обстоятельств, что, как известно, просиходит далеко не всегда.</li>
     <li><b>Обратиться в Defyourtime.ru ! Мы сделаем всё за Вас, а Вам останется только наслаждаться от поездок на своём новом маунте!</b></li>
     </ul>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3361,25 +3919,22 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>10 900</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья посейдуса</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья посейдуса</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 5 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Получение маунта - <a href="http://ru.wowhead.com/item=67151/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BF%D0%BE%D1%81%D0%B5%D0%B9%D0%B4%D1%83%D1%81%D0%B0#screenshots">Поводья Посейдуса</a></li>
       <li>Помните, что код можно активировать только для одного сервера и одного игрока. Поэтому будьте внимательны при выборе сервера и персонажа, которым вы хотите играть и активировать код. </li>
     </ul><br><br>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3403,32 +3958,29 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Огромный сероклык</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Огромный сероклык</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
       <li>Требования к аккаунту:  Персонаж 100 уровня.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Описание:</h3>
+    <h3 class="main-text">Описание:</h3>
     <ul class="ulinfosite_price">
       <li>Маунт <a href="http://ru.wowhead.com/item=116674/%D0%BE%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9-%D1%81%D0%B5%D1%80%D0%BE%D0%BA%D0%BB%D1%8B%D0%BA">Огромный сероклык</a>  падает с редкого существа <a href="http://ru.wowhead.com/npc=50992/%D0%B3%D0%BE%D1%80%D0%BE%D0%BA">Горок.</a></li>
       <li>Время респауна: примерно 8 часов.</li>
       <li>Маунт уникальный и редкий, владеют и будут владеть им очень небольшой круг игроков, и Вы можете стать одним из них!</li>
     </ul><br><br>
-    <h3 sryle="color: #98FB98">Для получения маунта есть 2 пути:</h3>
+    <h3 class="main-text">Для получения маунта есть 2 пути:</h3>
     <ul class="ulinfosite_price">
     <li>Караулить маунта самому, что может занять очень много времени. Помимо этого, придеться выиграть конкурентную борьбу у десятков других игроков и убить маунта первым. Это способ труден и требует удачного стечения обстоятельств, что, как известно, просиходит далеко не всегда.</li>
     <li><b>Обратиться в Defyourtime.ru ! Мы сделаем всё за Вас, а Вам останется только наслаждаться от поездок на своём новом маунте!</b></li>
     </ul>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3452,9 +4004,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3476,24 +4025,21 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Нефритовый доисторический дикорог</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Нефритовый доисторический дикорог</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Вы получите маунта</h3>
+    <h3 class="main-text">Вы получите маунта</h3>
     <ul class="ulinfosite_price">
       <li><Получение маунта - <a href="http://ru.wowhead.com/item=94231/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BD%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%BA%D0%BE%D1%80%D0%BE%D0%B3%D0%B0">Поводья нефритового доисторического дикорога</a></li>
     </ul><br><br>
     <br><br>
-    <h3 style="color:#98FB98">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
+    <h3 class="main-text">Свяжитесь с нашим оператором в правом нижнем углу для уточнения всех деталей или специальных условий.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3517,23 +4063,20 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>39 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья небесного ониксового облачного змея</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья небесного ониксового облачного змея</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 50 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Вы получите маунта</h3>
+    <h3 class="main-text">Вы получите маунта</h3>
     <ul class="ulinfosite_price">
       <li><a hfer="http://ru.wowhead.com/item=87771/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BD%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%BD%D0%B8%D0%BA%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B7%D0%BC%D0%B5%D1%8F#screenshots">Поводья небесного ониксового облачного змея</a></li>
     </ul><br><br>
-    <h3 style="color: #98FB98">Схема добычи маунта:</h3>
+    <h3 class="main-text">Схема добычи маунта:</h3>
     <ul class="ulinfosite_price">
       <li>Вы создаете новую учетную запись в Battle.net (детали у оператора).</li>
       <li>Сообщаете нам детали по новой записи.</li>
@@ -3543,7 +4086,7 @@ $info_wow = '';
       <li>Прокатитесь на нём и получайте удовольствие!</li>
     </ul>
     <br><br>
-    <h3 style="color:#98FB98">Такая схема полностью исключает риск для Вашего основного аккаунта, а вероятность бана равна 0, так как все основные действия происходят на аккаунте дублере. Мы можем достать для Вас как доступных маунтов, так и более недоступных в игре. Без багов, без читов, без последствий и бана - все действия абсолютно легальны и не нарушают правила игры.</h3>
+    <h3 class="main-text">Такая схема полностью исключает риск для Вашего основного аккаунта, а вероятность бана равна 0, так как все основные действия происходят на аккаунте дублере. Мы можем достать для Вас как доступных маунтов, так и более недоступных в игре. Без багов, без читов, без последствий и бана - все действия абсолютно легальны и не нарушают правила игры.</h3>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3567,9 +4110,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3590,9 +4130,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
@@ -3615,9 +4152,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3639,19 +4173,16 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>2 750</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Поводья нефритового доисторического дикорога</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Поводья нефритового доисторического дикорога</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 7 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>получение маунта — <a href="http://ru.wowhead.com/item=94231/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%BD%D0%B5%D1%84%D1%80%D0%B8%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B4%D0%B8%D0%BA%D0%BE%D1%80%D0%BE%D0%B3%D0%B0">Поводья нефритового доисторического дикорога</a></li>
       <li></li>
@@ -3682,27 +4213,24 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Кислотный изрыгатель</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Кислотный изрыгатель</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li><Срок выполнения: 1-2 недели./li>
       <li>Требования к персонажу: 110 уровень.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Кислотный изрыгатель включает:</h3>
+    <h3 class="main-text">Кислотный изрыгатель включает:</h3>
     <ul class="ulinfosite_price">
       <li>получение маунта — <a href="http://ru.wowhead.com/item=152904/%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%B7%D1%80%D1%8B%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">Кислотный изрыгатель"</a></li>
       <li></li>
     </ul><br><br>
     <p>Наши бустеры будут фармить босса <a href="http://ru.wowhead.com/npc=126912/%D1%81%D0%BA%D1%80%D0%B8%D0%B8%D0%B3-%D0%BF%D0%BE%D0%B6%D0%B8%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">Скрииг Пожиратель</a> до тех пор, пока Вам не выпадет желанный маунт. Шанс выпадения очень маленький - 3%, но мы готовы выбить его Вам в кратчайшие сроки.</p><br><br>
     <div class="fancy"><h3>Скриншоты и видео</h3>
-    <p><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - Свяжитесь с нашим оператором в правом нижнем углу для уточнения деталей,  а также ответов на все Ваши вопросы.</p><br><br>
+    <p class="main-text"><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - Свяжитесь с нашим оператором в правом нижнем углу для уточнения деталей,  а также ответов на все Ваши вопросы.</p><br><br>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
       <img width="120" height="90" src="img/wot.png" class="image-new" alt=""/>
@@ -3726,9 +4254,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3749,9 +4274,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
@@ -3774,9 +4296,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3797,9 +4316,6 @@ $info_wow = '';
         </div>
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>4 699</span> Рублей</p>
-        </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
         </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
@@ -3822,9 +4338,6 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
@@ -3845,24 +4358,21 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>39 995</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Грозовой кобальтовый облачный змей</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Грозовой кобальтовый облачный змей</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1 - 50 дней.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Вы получите:</h3>
+    <h3 class="main-text">Вы получите:</h3>
     <ul class="ulinfosite_price">
       <li><a href="http://ru.wowhead.com/item=95057/%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%8C%D1%8F-%D0%B3%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B7%D0%BC%D0%B5%D1%8F#screenshots">Поводья грозового кобальтового облачного змея</a></li>
       <li>Время респауна примерно (12 часов).</li>
     </ul><br><br>
-    <h3 style="color: #98FB98">Схема добычи маунта:</h3>
+    <h3 class="main-text">Схема добычи маунта:</h3>
     <ul class="ulinfosite_price">
       <li>Вы создаете новую учетную запись в Battle.net (детали у оператора).</li>
       <li>Сообщаете нам детали по новой записи.</li>
@@ -3894,25 +4404,22 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>3 495</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Быстрый ветробег</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Быстрый ветробег</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1-2 недели.</li>
       <li>Требования к персонажу: 100 уровень.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Вы получите:</h3>
+    <h3 class="main-text">Вы получите:</h3>
     <ul class="ulinfosite_price">
       <li>Маунт <a href="http://ru.wowhead.com/item=116773/%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D0%B1%D0%B5%D0%B3">Быстрый ветробег</a> падает с редкого существа <a hfer="http://ru.wowhead.com/npc=50883/%D1%82%D0%BE%D1%80%D0%BE%D0%BF%D1%83%D0%BD">Торопун.</a></li>
       <li>Время респауна примерно (12 часов).</li>
     </ul><br><br>
-    <h3 style="color: #98FB98">Для получения маунта есть 2 пути:</h3>
+    <h3 class="main-text">Для получения маунта есть 2 пути:</h3>
     <ul class="ulinfosite_price">
       <li>Караулить маунта самому, что может занять очень много времени. Помимо этого, придеться выиграть конкурентную борьбу у десятков других игроков и убить маунта первым. Это способ труден и требует удачного стечения обстоятельств, что, как известно, просиходит далеко не всегда.</li>
       <li>Обратиться в Defyourtime.ru! Мы сделаем всё за Вас, а Вам останется только наслаждаться от поездок на своём новом маунте!</li>
@@ -3940,25 +4447,22 @@ $info_wow = '';
         <div class='price_tovar_main'>
           <p class='box_cena'><span class='item_price'>6999</span> Рублей</p>
         </div>
-        <div class='price_tovar_main_info'>
-          <a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-        </div>
       </div>
       <div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
     </div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Бронированный шипастый кабан</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Бронированный шипастый кабан</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1-2 недели.</li>
       <li>Требования к персонажу: 110 уровень.</li>
       <li>Срок выполнения - договорной.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Вы получите:</h3>
+    <h3 class="main-text">Вы получите:</h3>
     <ul class="ulinfosite_price">
       <li><a href="http://ru.wowhead.com/item=116669/%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D1%88%D0%B8%D0%BF%D0%B0%D1%81%D1%82%D1%8B%D0%B9-%D0%BA%D0%B0%D0%B1%D0%B0%D0%BD#screenshots:id=471978">Бронированный шипастый кабан</a></li>
     </ul><br><br>
-    <p><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - После согласования даты и времени рейда возврат средств не осуществляется<br>
+    <p class="main-text"><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - После согласования даты и времени рейда возврат средств не осуществляется<br>
     Свяжитесь с нашим оператором в правом нижнем углу для уточнения деталей,  а также ответов на все Ваши вопросы.</p><br><br>
     <div class="fancy"><h3>Скриншоты и видео</h3>
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
@@ -3983,25 +4487,22 @@ $info_wow = '';
   			<div class='price_tovar_main'>
   				<p class='box_cena'><span class='item_price'>6 750</span> Рублей</p>
   			</div>
-  			<div class='price_tovar_main_info'>
-  				<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-  			</div>
   		</div>
   		<div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
   	</div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Багровый рабоглот</h1><br><br>
-    <h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Багровый рабоглот</h1><br><br>
+    <h3 class="main-text">Услуга включает:</h3>
     <ul class="ulinfosite_price">
       <li>Срок выполнения: 1-2 недели.</li>
       <li>Требования к персонажу: 110 уровень.</li>
     </ul><br><br><br>
-    <h3 style="color: #98FB98">Кислотный изрыгатель включает:</h3>
+    <h3 class="main-text">Кислотный изрыгатель включает:</h3>
     <ul class="ulinfosite_price">
       <li>получение маунта — <a style="color: #FFF" href="http://ru.wowhead.com/item=152905/%D0%B1%D0%B0%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D0%B3%D0%BB%D0%BE%D1%82">Багровый рабоглот"</a></li>
       <li>Наши бустеры будут фармить босса <a style="color: #FFF" href="http://ru.wowhead.com/npc=122958/%D1%8F%D0%B7%D0%B2%D0%BE%D0%B3%D0%BB%D0%BE%D1%82">Язвоглот</a> до тех пор, пока Вам не выпадет желанный маунт. Шанс выпадения очень маленький - 3%, но мы готовы выбить его Вам в кратчайшие сроки.</li>
     </ul><br><br>
-    <p><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - После согласования даты и времени рейда возврат средств не осуществляется<br>
+    <p class="main-text"><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - После согласования даты и времени рейда возврат средств не осуществляется<br>
     Свяжитесь с нашим оператором в правом нижнем углу для уточнения деталей,  а также ответов на все Ваши вопросы.</p><br><br>
     <div class="fancy">
       <img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
@@ -4014,6 +4515,7 @@ $info_wow = '';
 	case 'gold':
 		$cart_wow = '<div class="backtoprice">
 	<div id="wrapper_tovar">
+  <img style="border-radius: 10px 10px 0 0" src="gameimg/wow/price/goldprice.png" alt="">
 		<div class="item_box">
 			<div class="calc">
 				<div class="price-block">
@@ -4044,24 +4546,26 @@ $info_wow = '';
 			</div>
 			<script src="calc.js"></script>
 		</div>
-		<div class="label-place"></div><!-- Элемент, где будет расположен ярлык корзины -->	
+    <br>
+		<div class="label-place"></div><!-- Элемент, где будет расположен ярлык корзины -->
+    <br>
 	</div>
 </div>';
-		$info_wow = '<h1 style="color: #CD5C5C">Калькулятор золота World of Warcraft</h1><br><br>
-		<h3 style="color: #98FB98">Услуга включает:</h3>
+		$info_wow = '<h1 class="main-text">Калькулятор золота World of Warcraft</h1><br><br>
+		<h3 class="main-text">Услуга включает:</h3>
 		<ul class="ulinfosite_price">
 			<li>Срок доставки: от 5 минут до 48 часов.</li>
 			<li>Среднее время доставки в рабочее время - 10 минут.  Работаем с 10 00 до 04 00 по Москве.</li>
 			<li>Достижение <a href="http://ru.wowhead.com/achievement=12111">На кромке лезвия</a> </li>
 		</ul><br><br><br>
-		<h3 style="color: #98FB98">Способы доставки золота:</h3>
+		<h3 class="main-text">Способы доставки золота:</h3>
 		<ul class="ulinfosite_price">
 			<li>Передача в руки в центре одной из столиц. Оргриммар для Орды и Штормград для Альянса. Золото передают Вам в руки, в обмен кладёте любой хлам для маскировки сделки под торговую операцию, что сделает её невидимой для ГМ.</li>
 			<li>Игровая почта. Мы отсылаем золото почтой на имя Вашего персонажа. Удобно в случаях, если Вы покупаете золото, без возможности сразу же его получить. А также в ночное время суток.</li>
 			<li> Доставка через аукцион: Вы выставляете лоты на аукционе, а мы их выкупаем. Детали уточняйте у оператора. Это наиболее безопасный способ доставки, но требующий дополнительных усилий.</li>
 			<li>Иду сам - Вы можете поучаствовать в рейде лично. Передача аккаунта не требуется. Стоимость выше из-за возрастающих рисков для рейда.</li>
 		</ul><br><br>
-		<p><span style="color: #FF0000">Порядок сделки:</span></p>
+		<p class="main-text"><span style="color: #FF0000">Порядок сделки:</span></p>
 		<ul class= "ulinfosite_price">
 		<li>Купите золото, указав ник, сервер и фракцию персонажа (указываются при оформлении заказа)</li>
 		<li>Узнайте номер заказа, проверив почту. Номер шестизначный, к примеру 123456.</li>
@@ -4086,12 +4590,9 @@ $info_wow = '';
   			<div class='price_tovar_main'>
   				<p class='box_cena'><span class='item_price'>14 000</span> Рублей</p>
   			</div>
-  			<div class='price_tovar_main_info'>
-  				<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-  			</div>
   		</div>
  		  <!-- Бкол товара -->
- 		 <div class='item_box'>
+ 		<div class='item_box'>
  		 	<div class='price_tovar'>
  		 		<input type='checkbox' class='add_item box_input' id='unhide' data-id='2' data-title='Мастрер лут' data-price='11000' data-img='gameimg/info.png'>
  		 	</div>
@@ -4100,11 +4601,8 @@ $info_wow = '';
  		 	</div>
  		 	<div class='price_tovar'>
  		 		<p class='box_cena'><span class='item_price'>11 000</span> Рублей</p>
- 		 	</div>
- 		 	<div class='price_tovar_info'>
- 		 		<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
  		 	</div>		  	
-  		</div>
+  	</div>
   		<!-- Бкол товара -->
   		<div class='item_box'>
   			<div class='price_tovar'>
@@ -4116,38 +4614,17 @@ $info_wow = '';
  		 	<div class='price_tovar'>
  		 		<p class='box_cena'><span class='item_price'>10 000</span> Рублей</p>
  		 	</div>
- 		 	<div class='price_tovar_info'>
- 		 		<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
- 		 	</div>
   		</div>
   		<div class='item_box'>
-  			<div class='price_tovar'>
- 		 		<input type='checkbox' class='add_item box_input' data-id='5' data-title='Приоритет на релик' data-price='7 000' data-img='gameimg/info.png'>
- 		 	</div>
- 		 	<div class='price_tovar'>
- 		 		<h3 class='item_title'>Приоритет на релик</h3>
- 		 	</div>
- 		 	<div class='price_tovar'>
- 		 		<p class='box_cena'><span class='item_price'>7 000</span> Рублей</p>
- 		 	</div>
- 		 	<div class='price_tovar_info'>
- 		 		<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
- 		 	</div>
-  		</div>
-  		<div class='item_box'>
-  			<div class='price_tovar'>
- 		 		<input type='checkbox' class='add_item box_input' data-id='6' data-title='Оф сет приорити' data-price='15 000' data-img='gameimg/info.png'>
- 		 	</div>
- 		 	<div class='price_tovar'>
- 		 		<h3 class='item_title'>Оф сет приорити</h3>
- 		 	</div>
- 		 	<div class='price_tovar'>
- 		 		<p class='box_cena'><span class='item_price'>15 000</span> Рублей</p>
- 		 	</div>
- 		 	<div class='price_tovar_info'>
- 		 		<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
- 		 	</div>
-  		</div>
+      <div class='price_tovar'>
+        <input type='checkbox' class='add_item box_input' id='unhide' data-id='2' data-title='Оф сет приорити' data-price='15000' data-img='gameimg/info.png'>
+      </div>
+      <div class='price_tovar'>
+        <h3 class='item_title'>Оф сет приорити</h3>
+      </div>
+      <div class='price_tovar'>
+        <p class='box_cena'><span class='item_price'>15 000</span> Рублей</p>
+      </div>
   		</div>
   		 <!-- Бкол товара -->
   		<div class='item_box'>
@@ -4160,28 +4637,27 @@ $info_wow = '';
   			<div class='price_tovar'>
   				<p class='box_cena'><span class='item_price'>4 000</span> Рублей</p>
   			</div>
-  			<div class='price_tovar_info'>
-  				<a class='tooltip box_info' href=''><img src='gameimg/info.png' alt=''><span class='tooltip-content'><span class='tooltip-text'><span class='tooltip-inner'>Aenean eu lobortis nisi, id aliquam nisi.<br> Pellentesque quis mi hendrerit, luctus mi vel, commodo dui. Etiam pretium sed lorem ut lacinia.</span></span></span></a>
-  			</div> 
   		</div>
+      <br>
+      <br>
   		<div class='label-place'></div><!-- Элемент, где будет расположен ярлык корзины -->
   	</div> 
   </div><!-- Конец корзины -->";
-  $info_wow = '<h1 style="color: #CD5C5C">Ульдир</h1><br><br>
-		<h3 style="color: #98FB98">Услуга включает:</h3>
+  $info_wow = '<h1 class="main-text">Ульдир</h1><br><br>
+		<h3 class="main-text">Услуга включает:</h3><br>
 		<ul class="ulinfosite_price">
 			<li>Убийство 11 боссов  на эпохальном уровне сложности с  мастер лутом лута гарантируем минимум 9 вещей.</li>
 			<li>Так же вы можете выбрать опции личного присутствия. </li>
 			<li>Достижение <a style="color: #000" href="http://ru.wowhead.com/achievement=12111">На кромке лезвия</a> </li>
 		</ul><br><br><br>
-		<h3 style="color: #98FB98">Описание опций:</h3>
+		<h3 class="main-text">Описание опций:</h3><br>
 		<ul class="ulinfosite_price">
 			<li>Приоритет на реликвии для артефакта - При стандартном мастерлуте не гарантируем получение<br> реликвий для артефакта, они разыгрываются между Вашим персонажем и еще 1-2 покупателями; но за небольшую доплату все реликвии достанутся Вам;</li>
 			<li>Приоритет на бижутерию и плащ - При стандартном мастерлуте не гарантируем получение колец, ожерелья и плаща, они разыгрываются между Вами персонажем и еще 1-2 покупателями; но за небольшую доплату вся бижутерия достанется Вам;</li>
 			<li>Приоритет на сетовые токены - При стандартном мастерлуте не гарантируем получение сетовых токенов, они разыгрываются между Вами персонажем и еще 1-2 покупателями; но за небольшую доплату все сетовые токены достанутся Вам;</li>
 			<li>Иду сам - Вы можете поучаствовать в рейде лично. Передача аккаунта не требуется. Стоимость выше из-за возрастающих рисков для рейда.</li>
 		</ul><br><br>
-		<p><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - После согласования даты и времени рейда возврат средств не осуществляется<br>
+		<p class="main-text"><span style="color: #FF0000">!!ВНИМАНИЕ!!</span> - После согласования даты и времени рейда возврат средств не осуществляется<br>
 		Свяжитесь с нашим оператором в правом нижнем углу для уточнения деталей,  а также ответов на все Ваши вопросы.</p><br><br>
 		<div class="fancy"><h3>Скриншоты и видео</h3>
 			<img width="120" height="90" src="img/wow.png" class="image-new" alt=""/>
@@ -4310,77 +4786,17 @@ $info_wow = '';
   		<div id="next"></div>
   	</div>	
 </div>
-<div class="game2">
-  <div class="selectwrapper">
-    <div class="select ">
-      <a class="icon" href="gameselect.php?game_wow=raids"><img class="active-img" src="img/gameico/wow.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#CS"><img class="none-active-img" src="img/gameico/CS.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#D3"><img class="none-active-img" src="img/gameico/D3.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#DE"><img class="none-active-img" src="img/gameico/DE.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#dota"><img class="none-active-img" src="img/gameico/dota.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#HS"><img class="none-active-img" src="img/gameico/HS.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#OVW"><img class="none-active-img" src="img/gameico/OVW.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#wot"><img class="none-active-img" src="img/gameico/wot.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#AA"><img class="none-active-img" src="img/gameico/hots.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#AA"><img class="none-active-img" src="img/gameico/rev.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#AA"><img class="none-active-img" src="img/gameico/stc2.png" alt=""></a>
-    </div>
-    <div class="select">
-      <a href="#AA"><img class="none-active-img" src="img/gameico/lol.png" alt=""></a>
-    </div>
-  </div>
-</div>
 <div class="game-opt">
-  <div class="game3">
-    <a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a>
-  </div>
-  <div class="game3">
-    <a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a>
-  </div>
-  <div class="game3">
-    <a class="menu_style_raid" href="gameselect.php?game_wow=raids">ПВЕ услуги</a>
-  </div>
-  <div class="game3">
-    <a class="menu_style_raid" href="gameselect.php?game_wow=dungeons"> ПВП услуги</a>
-  </div>
-  <div class="game3">
-    <a class="menu_style_raid" href="gameselect.php?game_wow=leveling" >Прокачка</a>
-  </div>
-  <div class="game3">
-  		<a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a>
-  </div>
-  <div class="game3">
-  		<a class="menu_style_prochie" href="">Ресурсы</a>
-  </div>
-  <div class="game3">
-      <a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Средства предвижения</a>
-  </div>
-  <div class="game3">
-      <a class="menu_style_prochie" href="">Питомцы</a>
-  </div>
-  <div class="game3">
-      <a class="menu_style_raid" href="">Прочее</a>
-  </div>
+  <div class="game3"><a class="menu_style_gold" href="price.php?price_wow=gold">Золото в WoW</a></div>
+  <div class="game3"><a class="menu_style_pach" href="gameselect.php?game_wow=pach">Патч</a></div>
+  <div class="game3"><a class="menu_style_raid" href="gameselect.php?game_wow=raids">PVE услуги</a></div>
+  <div class="game3"><a class="menu_style_raid" href="gameselect.php?game_wow=dungeons">PVP услуги</a></div>
+  <div class="game3"><a class="menu_style_raid" href="gameselect.php?game_wow=leveling">Прокачка</a></div>
+  <div class="game3"><a class="menu_style_uslugi" href="gameselect.php?game_wow=achivement">Достижения</a></div>
+  <div class="game3"><a class="menu_style_prochie" href="">Ресурсы</a></div>
+  <div class="game3"><a class="menu_style_prochie" href="gameselect.php?game_wow=maunts">Маунты</a></div>
+  <div class="game3"><a class="menu_style_prochie" href="">Питомцы</a></div>
+  <div class="game3"><a class="menu_style_raid" href="">Прочее</a></div>
 </div>
 <div class="priceblock">
 	<div class="infotovar">

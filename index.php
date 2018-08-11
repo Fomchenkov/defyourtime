@@ -12,18 +12,19 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="shortcut icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 <div class="main_menu">
 	<div class="location">
-		<a href="#RU" class="lang" id="selectid"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a>
+		<a href="https://defyourtime.com/index.php" class="lang" id="selectid"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a>
 		<div id="box" style="display: none; position: absolute;">
-			<div class="minimenu"><a class="lang" href="#EUR"><img class="langi" src="img/flag1.png" alt=""><p class="langt">EUROPE</p></a></div>
-			<div class="minimenu"><a class="lang" href="#USA"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>						
+			<div class="minimenu"><a class="lang" href="https://ru.defyourtime.com/index.php"><img class="langi" src="img/ru.png" alt=""><p class="langtru">RU</p></a></div>
+			<div class="minimenu"><a class="lang" href="https://us.defyourtime.com/index.php"><img class="langi" src="img/us.png" alt=""><p class="langtna">USA</p></a></div>			
 		</div>
 	</div>
 	<div class="ula">
-		<a class="line" href="infosite.php">Гарантии</a>
+		<a class="line" href="infosite.php">Guarantees</a>
 		<a class="line" href="infosite.php?infomode=discountsAndCoupons">Скидки и купоны</a>
 		<a class="line" href="infosite.php?infomode=paymentForServices">Оплата услуг</a>
 		<a class="line" href="Reviews.php">Отзывы</a>
@@ -31,29 +32,18 @@
 	<div class="lk">
 		<img style="float: left; padding-right: 15px;" src="img/lk.png" alt=""><a href="lk.php"><p style="margin-top: 14px; float: left;">Личный кабинет</p></a>
 	</div>
-	<div class="popup reg_form">
-		<a class="close" href="#">Close</a>
-		<h2 class="text">Войти в личный кабинет</h2>
-		<form method="post" action="">
-			<label for="login">Введите логин:</label>
-			<input type="text" name="login" />
-			<label for="password">Введите пароль:</label>
-			<input type="password" name="password" />
-			<input type="submit" value="" />	
-		</form>
-	</div>
 </div>
 <div class="callme">
 	<ul style="list-style-type: none; margin-right: 0px;">
-		<li class="s1"><a href="" ></a></li>
-		<li class="s2"><a href="" ></a></li>
-		<li class="s3"><a href="" ></a></li>
-		<li class="s4"><a href="" ></a></li>
-		<li class="s5"><a href="" ></a></li>
-		<li class="s6"><a href="" ></a></li>
-		<li class="s7"><a href="" ></a></li>
-		<li class="s8"><a href="" ></a></li>
-		<li class="s9"><a href="" ></a></li>
+		<a href="skype:defyourtime@gmail.com?chat"><li class="s1"></li></a>
+		<a href="https://discordapp.com/channels/400717982449532929/400717982449532931"><li class="s2"></li></a>
+		<a href="https://t.me/joinchat/AAAAAFJhc9hs8G2RmuOzsg"><li class="s3"></li></a>
+		<a href="https://chat.whatsapp.com/3sYbeaCoVi6Dya4LCxNxdh"><li class="s4"></li></a>
+		<a href="https://www.facebook.com/defyourtime.defyourtime"><li class="s5"></li></a>
+		<a href="https://vk.com/defyourtime"><li class="s6"></li></a>
+		<a href="https://www.youtube.com/channel/UC8KRTXWDf_JKEm8vp3ed9eA/featured?view_as=public"><li class="s7"></li></a>
+		<a href="https://www.instagram.com/defyourtime/"><li class="s8"></li></a>
+		<a href="https://twitter.com/defyourtime"><li class="s9"></li></a>
 	</ul>
 </div>
 <div class="logo">
@@ -94,7 +84,7 @@
 		<div class="container">
 			<div class="game"><a  href="gameselect.php?game_wow=raids"><img class="shadowimg" src="img/wow.png" alt=""></a></div>
 			<div class="game"><a style="cursor: not-allowed" href="#WOT"><img class="shadowimg" style="opacity: .5;" src="img/wot.png" alt=""></a></div>
-			<div class="game"><a style="cursor: not-allowed"  href="#DOTA2"><img class="shadowimg" style="opacity: .5" src="img/dota2.png" alt=""></a></div>
+			<div class="game"><a style="cursor: not-allowed" href="#DOTA2"><img class="shadowimg" style="opacity: .5" src="img/dota2.png" alt=""></a></div>
 			<div class="game"><a style="cursor: not-allowed" href="#HS"><img class="shadowimg" style="opacity: .5" src="img/Hart.png" alt=""></a></div>
 			<div class="game"><a style="cursor: not-allowed" href="#OW"><img class="shadowimg" style="opacity: .5" src="img/Ower.png" alt=""></a></div>
 			<div class="game"><a style="cursor: not-allowed" href="#DES2"><img class="shadowimg" style="opacity: .5" src="img/Destini.png" alt=""></a></div>
@@ -110,40 +100,40 @@
 </center>
 <div class="howme">
 	<center><img style="margin-right: 14%;" src="img/np.png" alt=""></center>
-	<div class="mew"><center><img src="img/wma.png" alt=""></center><h2 style="text-align: center;">Свой личный аккаунт</h2>
+	<div class="mew"><center><img src="img/wma.png" alt=""></center><h2 style="text-align: center;">Your personal account</h2>
 		<ul style="list-style: none; text-align: center;">
-			<li><b>&#8226;</b> Накопительная система скидки</li>
-			<li><b>&#8226;</b> Детали заказа со скриншотами.</li>
-			<li><b>&#8226;</b> Партнерская программа.</li>
-			<li><b>&#8226;</b> Онлайн трансляция.</li>
-			<li><b>&#8226;</b> История заказов.</li>
+			<li><b>&#8226;</b> Accumulating discount system.</li>
+			<li><b>&#8226;</b> Order details with screenshots.</li>
+			<li><b>&#8226;</b> Affiliate program.</li>
+			<li><b>&#8226;</b> On-line translation.</li>
+			<li><b>&#8226;</b> History of orders.</li>
 		</ul>
 	</div>
-	<div class="mew"><center><img src="img/wwf.png" alt=""></center><h2 style="text-align: center;">Поддержка 24/7</h2>
+	<div class="mew"><center><img src="img/wwf.png" alt=""></center><h2 style="text-align: center;">24/7 Support</h2>
 		<ul style="list-style: none; text-align: center;">
-			<li><b>&#8226;</b> Отзывчивые операторы ответят<br> в любой момент.</li>
-			<li><b>&#8226;</b> Отслеживания вашего заказа.</li>
-			<li><b>&#8226;</b> Качественная консультация.</li>
-			<li><b>&#8226;</b> Учтем все ваши пожелания.</li>
+			<li><b>&#8226;</b> Responsive operators will answer<br>you any time.</li>
+			<li><b>&#8226;</b> Tracking your order.</li>
+			<li><b>&#8226;</b> Qualitative consultation.</li>
+			<li><b>&#8226;</b> We consider all your wishes.</li>
 		</ul></div>
-	<div class="mew"><center><img src="img/43.png" alt=""></center><h2 style="text-align: center;">Гарантированное качество</h2>
+	<div class="mew"><center><img src="img/43.png" alt=""></center><h2 style="text-align: center;">Guaranteed quality</h2>
 		<ul style="list-style: none; text-align: center;">
-			<li><b>&#8226;</b> Работают профессионалы своего дела.</li>
-			<li><b>&#8226;</b> Честные и эффективные способы достижения результатов.</li>
+			<li><b>&#8226;</b> Work professionals.</li>
+			<li><b>&#8226;</b> Honest and effective ways to achieve results.</li>
 		</ul></div>
-	<div class="mew"><center><img src="img/slide.png" alt=""></center><h2 style="text-align: center;">Конфидециально</h2>
+	<div class="mew"><center><img src="img/slide.png" alt=""></center><h2 style="text-align: center;">Confidential</h2>
 		<ul style="list-style: none; text-align: center;">
-			<li><b>&#8226;</b> VPN и протоколы шифрования для маскировки работ и защиты Ваших персональных данных.</li>
-			<li><b>&#8226;</b> Хранение и использование информации исключительно для выполнения заказов.</li>
-			<li><b>&#8226;</b> Защита персональной информации.</li>
+			<li><b>&#8226;</b> VPN and encryption protocols for disguising work and protecting your personal data.</li>
+			<li><b>&#8226;</b> Storage and use of information solely for the performance of orders.</li>
+			<li><b>&#8226;</b> Protection of personal information.</li>
 		</ul></div>
 </div>
 <div class="footer">
 	<div class="top">
-		<a href="" class="footer-top" style="margin-left: 20%;"><b>Партнерская система</b></a>
-		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Работать с нами</b></a>
-		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Пользовательское соглашение</b></a>
-		<a href="infosite.php?infomode=konf" class="footer-top"><b>Конфиденциальность</b></a>
+		<a href="" class="footer-top" style="margin-left: 20%;"><b>Referal System</b></a>
+		<a href="infosite.php?infomode=Workwithus" class="footer-top"><b>Work with us</b></a>
+		<a href="infosite.php?infomode=CustomEngraving" class="footer-top"><b>Term of service</b></a>
+		<a href="infosite.php?infomode=konf" class="footer-top"><b>Privacy Policy</b></a>
 	</div>
 </div>
 </body>

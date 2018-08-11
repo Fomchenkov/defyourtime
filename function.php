@@ -64,6 +64,20 @@ class Order {
     }
 }
 
+class Link {
+    public $id;
+    public $nickname;
+    public $twitch;
+    public $pic_url;
+
+    function __construct($id, $nickname, $twitch, $pic_url) {
+        $this->id = $id;
+        $this->nickname = $nickname;
+        $this->twitch = $twitch;
+        $this->pic_url = $pic_url;
+    }
+}
+
 /**
  * Проверить есть ли в базе данных пользователь
  * с такими логином и паролем
@@ -282,4 +296,49 @@ function get_user_orders($login) {
     }
     $conn->close();
     return $orders;
+}
+
+
+/**
+ * Получить ссылки пользователя
+ */
+function get_user_links($login) {
+    global $mysql_host;
+    global $mysql_user;
+    global $mysql_password;
+    global $mysql_db;
+
+    $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+    $sql = "SELECT * FROM links WHERE nickname='$login'";
+    $links = [];
+    if ($result = $conn->query($sql)) {
+        while ($row = $result->fetch_assoc()) {
+            $new_link = new Link(
+                $row['id'], 
+                $row['nickname'], 
+                $row['twitch'], 
+                $row['pic_url']
+            );
+            array_push($links, $new_link);
+        }
+        $result->free();
+    }
+    $conn->close();
+    return $links;
+}
+
+
+/**
+ * Добавить новую ссылку в базу данных
+ */
+function add_new_link($nickname, $twitch, $pic) {
+    global $mysql_host;
+    global $mysql_user;
+    global $mysql_password;
+    global $mysql_db;
+
+    $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_db);
+    $sql = "INSERT INTO links (nickname, twitch, pic_url) VALUES ('$nickname', '$twitch', '$pic')";
+    $conn->query($sql);
+    $conn->close();
 }
